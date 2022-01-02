@@ -7,12 +7,14 @@ import App from './App';
 import Header from './include/Header'
 import Footer from './include/Footer'
 import Section01 from './pages/Section01';
+import Section02 from './pages/Section02';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
       <Section01 />
+      <Section02 />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
