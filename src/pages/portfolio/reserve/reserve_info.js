@@ -1,9 +1,9 @@
 import React from "react";
 
-function reserve_info() {
+function reserve_info(){
     return (
         <>
-            <div className="page_tit">스타벅스 리저브</div>
+            <div>스벅 리저브</div>
         </>
     )
 }

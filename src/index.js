@@ -1,23 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './resource/css/common.css';
-import './resource/css/style.css'
 import App from './App';
-import Header from './include/Header'
-import Footer from './include/Footer'
-import Section01 from './pages/Section01';
-import Section02 from './pages/Section02';
-import Section03 from './pages/Section03';
+
 import reportWebVitals from './reportWebVitals';
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-      <Section01 />
-      <Section02 />
-      <Section03 />
-    <Footer />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
