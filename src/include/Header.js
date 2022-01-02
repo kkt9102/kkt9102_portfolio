@@ -10,7 +10,7 @@ function Header() {
             <header>
                 <nav className="flex flex_jc_sb">
                     <ul className="logo flex flex_ai_c">
-                        <li className=""><a><img src={Logo}></img></a></li>
+                        <li className=""><img src={Logo}></img></li>
                     </ul>
                     <ul className="header_menu_box flex flex_jc_sb">
                         <li className="flex flex_jc_c flex_ai_c"><a><span>Home</span></a></li>
