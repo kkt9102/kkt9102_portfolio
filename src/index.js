@@ -8,6 +8,7 @@ import Header from './include/Header'
 import Footer from './include/Footer'
 import Section01 from './pages/Section01';
 import Section02 from './pages/Section02';
+import Section03 from './pages/Section03';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Header />
       <Section01 />
       <Section02 />
+      <Section03 />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
