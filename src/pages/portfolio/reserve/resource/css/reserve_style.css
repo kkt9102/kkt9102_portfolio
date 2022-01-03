@@ -6,9 +6,24 @@
 .reserve .header_menu {z-index: 9999 !important; height: 10rem; width: 100vw;}
 .reserve .header_menu ul,.header_menu ul li {height: inherit; font-weight: 700; font-size:2rem; cursor: pointer;}
 /* section_01 */
-.reserve #section_01 .background img {position:absolute; top:0; left:0; z-index: -1; max-width: 100%;}
+/* .reserve #section_01 .background {position:relative;}
+.reserve #section_01 .background::after {content:''; position: absolute; width:100%; height: 100%; background-image: url(../img/section_back_img_1.jpg);}
+.reserve #section_01 .background img {position:absolute; top:0; left:0; z-index: -1; max-width: 100%;} */
 
 .reserve #section_01 .main_logo {display:flex; justify-content: center; height: 37rem; margin-top:31rem; margin-bottom:7.8rem;}
 .reserve #section_01 .main_logo img {max-width: 30rem; height: inherit;}
 .reserve #section_01 .main_sub_tit {font-size:2.5rem; font-weight: 500;}
 .reserve #section_01 .main_tit {font-size:4.5rem; font-weight: 900; margin-top:1rem;}
+
+/* section_02 */
+.reserve #section_02 .sc_tit_img {margin-top:13rem; margin-bottom: 7rem;}
+.reserve #section_02 .main_sub_tit {font-size:2.5rem; font-weight: 500;}
+.reserve #section_02 .main_tit {font-size:3.5rem; font-weight: 900;}
+.reserve #section_02 .main_sub_txt {line-height: 4.5rem; margin-top:6rem;}
+.reserve #section_02 .main_sub_txt li {font-size:2.1rem; letter-spacing: -0.25rem; font-weight: 500;}
+.reserve #section_02 .img_box {position: absolute; width: 100%; bottom:0;}
+.reserve #section_02 .img_box img {width: 100%;}
+
+/* section_03 */
+.reserve #section_03 .sc_tit {display: flex; margin-top:13rem; font-size:4.5rem; letter-spacing: 0.5rem; align-items: center; justify-content: center;}  
+.reserve #section_03 .sc_tit img {height: 4.3rem; margin-right:1rem;}
