@@ -1,4 +1,5 @@
 import React from "react";
+import Style from './style'
 import Header from "./Header";
 import Section01 from "../pages/Section01";
 import Section02 from "../pages/Section02";
@@ -9,6 +10,7 @@ import Footer from "./Footer";
 function main(){
     return (
         <>   
+        <Style />
         <Header />
             <Section01 />
             <Section02 />

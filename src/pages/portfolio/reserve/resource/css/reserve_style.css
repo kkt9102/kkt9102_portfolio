@@ -1,0 +1,14 @@
+.reserve section {position: relative; background-color: rgba(34,34,34,0.8); width: 100vw; height: 100vh; max-width: 100%; overflow: hidden;}
+.reserve * {background-color: transparent; color:#976d3f; letter-spacing: -0.1rem;}
+.reserve .font_w {color:#ffffff;}
+
+/* Header */
+.reserve .header_menu {z-index: 9999 !important; height: 10rem; width: 100vw;}
+.reserve .header_menu ul,.header_menu ul li {height: inherit; font-weight: 700; font-size:2rem; cursor: pointer;}
+/* section_01 */
+.reserve #section_01 .background img {position:absolute; top:0; left:0; z-index: -1; max-width: 100%;}
+
+.reserve #section_01 .main_logo {display:flex; justify-content: center; height: 37rem; margin-top:31rem; margin-bottom:7.8rem;}
+.reserve #section_01 .main_logo img {max-width: 30rem; height: inherit;}
+.reserve #section_01 .main_sub_tit {font-size:2.5rem; font-weight: 500;}
+.reserve #section_01 .main_tit {font-size:4.5rem; font-weight: 900; margin-top:1rem;}

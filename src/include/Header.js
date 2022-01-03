@@ -1,12 +1,12 @@
 import React from "react";
 import Logo from '../resource/img/logo_w.png';
-import Style from './style'
+
 
 
 function Header() {
     return (
         <>
-            <Style />
+            
             <header>
                 <nav className="flex flex_jc_sb">
                     <ul className="logo flex flex_ai_c">
