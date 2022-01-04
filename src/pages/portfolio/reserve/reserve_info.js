@@ -15,7 +15,7 @@ function reserve_info(){
                     <li>프리미엄 커피로 소개하고 있지만 홈페이지 자체는 기본적인 스타벅스 홈페이지에서 별도의 홈페이지와 같은 느낌을 준다.</li>
                 </ul>
             </div>
-            <Link to="/Reserve">
+            <Link to="/Reserve" target={Reserve}>
                 코딩 화면 이동
             </Link>
         </>
