@@ -5,9 +5,9 @@ import sc_4_tit from '../resource/img/sc_4_tit.png';
 function Section04() {
     return (
         <>
-            <section id="section_04">
+            <section id={style.section_04}>
                 <div className={style.con}>
-                    <img src={sc_4_tit} className="sc_tit_img"></img>
+                    <img src={sc_4_tit} className={style.sc_tit_img}></img>
                 </div>
             </section>
         </>
