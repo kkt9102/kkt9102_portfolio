@@ -1,17 +1,19 @@
 import React from "react";
+import "../resource/css/common.css";
 import { Link } from 'react-router-dom';
+import style from "../resource/css/style.module.css";
 
 function Section03() {  
     const reserve = "/reserve_info";
     return (
         <>
-            <section className="section_03">
-                <div className="cont_box">
+            <section className={`${style.section_03} ${style.main_section}`}>
+                <div className={style.cont_box}>
                     <h3>PortFolio List</h3>
                     <ul>
                         <li>
                             <Link to={reserve}>
-                            <div className="item_box">
+                            <div className={style.item_box}>
                                 <div>되냐?</div>
                                 <div>된거야?</div>
                             </div>

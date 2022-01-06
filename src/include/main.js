@@ -1,5 +1,6 @@
 import React from "react";
-import Style from './style'
+import '../resource/css/common.css';
+import '../resource/css/style.module.css';
 import Header from "./Header";
 import Section01 from "../pages/Section01";
 import Section02 from "../pages/Section02";
@@ -10,10 +11,9 @@ import Footer from "./Footer";
 function main(){
     return (
         <>   
-        <Style />
         <Header />
             <Section01 />
-            <Section02 />
+            {/* <Section02 /> */}
             <Section03 />
         <Footer />
         </>
