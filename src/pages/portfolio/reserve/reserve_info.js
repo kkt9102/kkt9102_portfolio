@@ -1,5 +1,5 @@
 import React from "react";
-import Reserve from './pages/index';
+import Reserve from './pages/main';
 import { BrowserRouter, HashRouter, Link, Route, Routes } from "react-router-dom";
 
 

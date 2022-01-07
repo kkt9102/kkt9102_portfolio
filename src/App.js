@@ -1,6 +1,6 @@
 import Main from "./include/main";
 import Reserve_info from './pages/portfolio/reserve/reserve_info';
-import Reserve from './pages/portfolio/reserve/pages/index';
+import Reserve from './pages/portfolio/reserve/pages/main';
 
 
 import './App.css';
