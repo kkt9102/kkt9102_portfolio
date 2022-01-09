@@ -1,0 +1,10 @@
+#main_page {background:#222222; color:#ffffff;}
+
+/* Header */
+.main_header {width:100vw;}
+.main_header ul {height:8rem;}
+.main_header ul li {padding:1.5rem 2rem; margin-right:2rem;}
+.main_header ul li span {font-size:1.7rem;}
+
+/* section_01 */
+#section_01 {padding-top:8rem;}

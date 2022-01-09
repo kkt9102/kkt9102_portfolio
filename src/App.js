@@ -1,22 +1,21 @@
-import Main from "./include/main";
-import Reserve_info from './pages/portfolio/reserve/reserve_info';
-import Reserve from './pages/portfolio/reserve/pages/main';
 
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import Main from './pages/main/main';
+import Clean from './pages/portsolio/clean/clean';
+import Acrc from './pages/portsolio/acrc/acrc';
+import Reserve from './pages/portsolio/reserve/reserve';
 
 function App() {
   
   return (
     <div className="App">
       <BrowserRouter>
-        <Link to="/" exact={true}></Link>
-        {/* <Link to="/reserve_info">스타벅스 리저브</Link> */}
         <Routes>
-          <Route path="/" exact element={<Main/>} />
-          <Route path="/reserve_info" element={<Reserve_info/>} />
+          <Route path="/" element={<Main/>} />
           <Route path="/Reserve" element={<Reserve/>}/>
+          <Route path="/Clean" element={<Clean/>}/>
+          <Route path="/Acrc" element={<Acrc/>}/>
         </Routes>
       </BrowserRouter>
     </div>
