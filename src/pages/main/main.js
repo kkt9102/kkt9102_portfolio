@@ -6,7 +6,7 @@ import WebWork from "./web_work";
 
 
 function Main() {
-    const Alert = 'test';
+    const Scroll_move = 'test';
 
     return (
         <div id={style.main_page}>
@@ -20,8 +20,13 @@ function Main() {
                     </ul>
                 </nav>
             </header>
-            <section id={style.section_01}>
-                <div>테스트</div>
+            <section id={style.section_01} className={style.section}>
+                <div className={style.con}>
+                    <div className={style.main_deco}>
+                        <div className={style.main_tit}>kkt9102</div>
+                        <div className={style.main_sub_tit}>Portfolio</div>
+                    </div>
+                </div>
             </section>
             <Profil />
             <WebWork />

@@ -1,5 +1,6 @@
 #main_page {background:#222222; color:#ffffff;}
-
+.section {height:100vh;}
+.con {max-width:140rem; margin:0 auto;}
 /* Header */
 .main_header {width:100vw;}
 .main_header ul {height:8rem;}
@@ -8,3 +9,9 @@
 
 /* section_01 */
 #section_01 {padding-top:8rem;}
+#section_01 .main_deco > div {font-size:28rem;}
+
+/* section_02 */
+#section_02 .cont_box {justify-content:space-between;}
+#section_02 .cont_box .img_box img {width:40rem;}
+#section_02 .cont_box .txt_box.intro {}
