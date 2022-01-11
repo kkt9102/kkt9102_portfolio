@@ -4,7 +4,7 @@ function starbucksReserve() {
 
     return(
         <>
-            <div>새창띄우기</div>
+            <header></header>
         </>
     )
 }

@@ -35,7 +35,7 @@ function Acrc() {
 
                 <div className={style.cont_3}>
 
-                <a href="https://www.acrc.go.kr/acrc/index.do" target="_blank">국민권익위원회 홈페이지 바로가기</a>
+                <a href="https://www.acrc.go.kr/acrc/index.do" target="_blanknpm">국민권익위원회 홈페이지 바로가기</a>
                 </div>
             </div>
         </>

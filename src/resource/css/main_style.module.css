@@ -14,4 +14,7 @@
 /* section_02 */
 #section_02 .cont_box {justify-content:space-between;}
 #section_02 .cont_box .img_box img {width:40rem;}
-#section_02 .cont_box .txt_box.intro {}
+#section_02 .cont_box .txt_box.intro {display:flex; flex-direction: column; justify-content:flex-start; align-items: flex-start;}
+#section_02 .cont_box .txt_box.intro .sub_tit {font-size:2.5rem; padding-bottom:1.5rem;}
+#section_02 .cont_box .txt_box.intro ul {text-align: left;}
+#section_02 .cont_box .txt_box.intro ul li {font-size:1.7rem; line-height:2.2;}
