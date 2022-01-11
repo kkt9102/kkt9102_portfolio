@@ -18,3 +18,12 @@
 #section_02 .cont_box .txt_box.intro .sub_tit {font-size:2.5rem; padding-bottom:1.5rem;}
 #section_02 .cont_box .txt_box.intro ul {text-align: left;}
 #section_02 .cont_box .txt_box.intro ul li {font-size:1.7rem; line-height:2.2;}
+
+
+
+/* clean */
+.clean {background: rgb(0,95,202); background: linear-gradient(0deg, rgba(0,95,202,1) 35%, rgba(97,182,247,1) 66%, rgba(0,212,255,1) 100%);}
+.clean > .con > h2 {font-size:3rem;}
+.clean .cont_1 .sub_tit {font-size:2rem;}
+.clean .cont_2 {margin-top:2rem;}
+.clean .cont_2 .img_box img {width:45%; border:0.1rem solid #dddddd;}
