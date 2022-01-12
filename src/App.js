@@ -9,7 +9,7 @@ import Reserve from './pages/portsolio/reserve/reserve';
 function App() {
   
   return (
-    <div className="App">
+    <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main/>} />
@@ -18,7 +18,7 @@ function App() {
           <Route path="/Acrc" element={<Acrc/>}/>
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

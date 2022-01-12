@@ -4,7 +4,7 @@ function starbucksReserve() {
 
     return(
         <>
-            <header></header>
+            <header>제발좀</header>
         </>
     )
 }

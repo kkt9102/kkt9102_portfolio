@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import style from "../../../resource/css/main_style.module.css";
+import Home_MV from "../../../utils/home_move";
 
 // img
 import main_img from "../../../resource/img/clean/clean_main.png";
@@ -12,9 +13,7 @@ function Clean() {
 
     return(
         <>
-        <div className={style.go_home}>
-            <Link to="/">홈으로</Link>
-        </div>
+        <Home_MV />
         <div className={style.clean}>
             <div className={style.con}>
                 <h2>부패방지 종합정보시스템 구축3단계</h2>
@@ -39,22 +38,42 @@ function Clean() {
                             <li className={style.progress_bar}></li>
                         </ul>
                         <ul>
-                            <li><a href="https://www.clean.go.kr/" target="_blank" title="청렴포털 홈페이지 새창으로 바로가기">청렴포털 홈페이지 바로가기 (https://www.clean.go.kr)</a></li>
+                            <li className={style.target_move}><a href="https://www.clean.go.kr/" target="_blank" title="청렴포털 홈페이지 새창으로 바로가기">청렴포털 홈페이지 바로가기 (https://www.clean.go.kr)</a></li>
                         </ul>
                     </div>
                     <div className={style.img_box}>
                         <ul className={style.img_list}>
                             <li>
-                                <img src={main_img}></img>
+                                <div className={style.img_box}>
+                                    <img src={main_img}></img>
+                                </div>
+                                <div className={style.txt_box}>
+
+                                </div>
                             </li>
                             <li>
-                                <img src={main_board}></img>
+                                <div className={style.img_box}>
+                                    <img src={main_board}></img>
+                                </div>
+                                <div className={style.txt_box}>
+                                    
+                                </div>
                             </li>
                             <li>
-                                <img src={main_sub}></img>
+                                <div className={style.img_box}>
+                                    <img src={main_sub}></img>
+                                </div>
+                                <div className={style.txt_box}>
+                                    
+                                </div>    
                             </li>
                             <li>
-                                <img src={main_pop}></img>
+                                <div className={style.img_box}>
+                                    <img src={main_pop}></img>
+                                </div>
+                                <div className={style.txt_box}>
+                                    
+                                </div>
                             </li>
                         </ul>
                     </div>

@@ -8,15 +8,7 @@ function Reserve(){
         <>
             <Link to="/">홈으로</Link>
             
-            <button onClick={reserve}>리저브 코딩</button>
-
-            {/* <BrowserRouter>
-                <Link to="./reserve_main" target="_blank">스타벅스 리저브</Link>
-                <Routes>
-                    <Route path="./reserve_info" element={<reserve_info/>}/>
-                    <Route path="./starbucksReserve" element={<starbucksReserve/>}/>
-                </Routes>
-            </BrowserRouter> */}
+            <Link to={reserve} target="_blank">스타벅스 리저브 코딩 페이지</Link>
         </>
     )
 }
