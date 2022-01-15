@@ -10,7 +10,7 @@ function WebWork(){
             <div className={style.con}>
                 <ul>
                     <li>
-                    <Link to ="/Reserve">스타벅스 리저브 (Re:Design)</Link>
+                    <Link to ="/Reserve" target="_blank">스타벅스 리저브 (Re:Design)</Link>
                     </li>
                     <li>
                     <Link to ="/clean">부패방지 3단계</Link>

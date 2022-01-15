@@ -22,11 +22,25 @@
 #section_02 .cont_box .txt_box.intro ul li {font-size:1.7rem; line-height:2.2;}
 
 
-
+/* portfolio_info */
+.con .page_tit {margin-bottom:2rem; padding-top:5rem; font-size:3.5rem; font-weight:600;}
+.portfolio_info .con .cont_2 .txt_box ul {flex-wrap:wrap;}
+.portfolio_info .con .cont_2 .txt_box ul li:not('.target_move') {flex-basis:100%;}
+.portfolio_info .con .cont_2 .txt_box ul {flex-wrap:wrap;}
+.portfolio_info .link_box {display:flex; margin:1rem 0;}
+.portfolio_info .link_box .target_move {padding:1rem; border:0.1rem solid #dddddd; font-weight: 900;}
 /* clean */
 .clean {background: rgb(0,95,202); background: linear-gradient(0deg, rgba(0,95,202,1) 35%, rgba(97,182,247,1) 66%, rgba(0,212,255,1) 100%); font-family: 'Pretendard'; letter-spacing: -1px;}
-.clean > .con > h2 {margin-bottom:2rem; font-size:3.5rem; font-weight:600;}
 .clean .cont_1 .sub_tit {margin-bottom:1rem; font-size:2rem;}
 .clean .cont_1 .sub_txt {line-height: 1.5;}
 .clean .cont_2 {margin-top:2rem;}
 .clean .cont_2 .img_box img {width:45%; border:0.1rem solid #dddddd;}
+
+/* acrc */
+.acrc {background: rgb(0,95,202); background: linear-gradient(0deg, rgba(0,95,202,1) 35%, rgba(97,182,247,1) 66%, rgba(0,212,255,1) 100%); font-family: 'Pretendard'; letter-spacing: -1px;}
+.acrc .cont_1 .sub_tit {margin-bottom:1rem; font-size:2rem;}
+.acrc .cont_1 .sub_txt {line-height: 1.5;}
+
+/* reserve */
+.reserve {background:#222222;}
+.reserve * {color:#dddddd;}
