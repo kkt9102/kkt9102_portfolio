@@ -1,13 +1,17 @@
 import React from "react";
 import style from "./resource/css/Reserve.module.css";
 import R_Header from "./include/reserve_header";
-
+import R_Footer from "./include/reserve_footer";
 
 // img
 import Main_img from "./resource/img/section_back_img_1.jpg";
 import Main_logo from "./resource/img/main_logo.png";
 import S_2_tit from "./resource/img/section_2_tit.png";
 import S_2_bg from "./resource/img/section_back_img_2.png";
+import S_3_tit from "./resource/img/section_3_tit.png";
+import S_4_tit from "./resource/img/section_4_tit.png";
+import S_5_tit from "./resource/img/section_5_tit.png";
+
 
 function StarbucksReserve() {
 
@@ -46,9 +50,29 @@ function StarbucksReserve() {
 
                 <section id={style.section_3} className={style.section}>
                     <div className={style.con}>
-                        
+                        <div className={`${style.section_tit} flex flex_jc_c`}>
+                            <img src={S_3_tit}></img>
+                        </div>
                     </div>
                 </section>
+
+                <section id={style.section_4} className={style.section}>
+                    <div className={style.con}>
+                        <div className={`${style.section_tit} flex flex_jc_c`}>
+                            <img src={S_4_tit}></img>
+                        </div>
+                    </div>
+                </section>
+
+                <section id={style.section_5} className={style.section}>
+                    <div className={style.con}>
+                        <div className={`${style.section_tit} flex flex_jc_c`}>
+                            <img src={S_5_tit}></img>
+                        </div>
+                    </div>
+                </section>
+
+                <R_Footer/>
             </div>
         </>
     )
