@@ -1,5 +1,5 @@
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import $ from 'jquery';
 import './App.css';
 import Main from './pages/main/main';
 import Clean from './pages/portsolio/clean/clean';

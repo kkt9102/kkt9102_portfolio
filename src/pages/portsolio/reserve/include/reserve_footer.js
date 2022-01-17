@@ -31,7 +31,7 @@ function R_Footer() {
                         <div className={style.comp_tel}>TEL : 1522-3232</div>
                         <div className={style.prvt_responsive}>개인정보 책임자 : 하익성</div>
                     </div>
-                    <copyright>ⓒ 2022 Starbucks Coffee Company. All Rights Reserved.</copyright>
+                    <copyright className="flex flex_jc_c">ⓒ 2022 Starbucks Coffee Company. All Rights Reserved.</copyright>
                 </div>
             </footer>
         </>
