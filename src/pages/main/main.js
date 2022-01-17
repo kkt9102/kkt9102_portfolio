@@ -6,6 +6,9 @@ import WebWork from "./web_work";
 
 
 function Main() {
+    const [scroll_P, scroll_M] = useState(0);
+    const scrollY = (window.scrollY);
+
     // const [ScrollY, setScrollY] = useState(0);  // 스크롤값을 저장하기 위한 상태
     // const handleFollow = () => {
     //   setScrollY(window.pageYOffset); // window 스크롤 값을 ScrollY에 저장
