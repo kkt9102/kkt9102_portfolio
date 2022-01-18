@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Home_MV() {
+function HomeMV() {
     return (
         <>
             <div className="go_home">
@@ -13,4 +13,4 @@ function Home_MV() {
     )
 }
 
-export default Home_MV;
+export default HomeMV;

@@ -1,9 +1,8 @@
 import React from "react";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import {Link} from "react-router-dom";
 import style from "../../../resource/css/main_style.module.css";
-import StarbucksReserve from "./reserve_main";
 
-function Reserve_info(){
+function ReserveInfo(){
 
     return(
         <>
@@ -29,7 +28,7 @@ function Reserve_info(){
                                 <li></li>
                             </ul>
                             <ul className={style.link_box}>
-                                <li className={style.target_move}><a href="https://www.starbucks.co.kr/coffee/reserve_info.do" target="_blank" title="스타벅스 리저브 홈페이지 새창으로 바로가기">스타벅스 리저브 홈페이지 바로가기 (https://www.starbucks.co.kr/coffee/reserve_info.do)</a></li>
+                                <li className={style.target_move}><a href="https://www.starbucks.co.kr/coffee/reserve_info.do" target="_blank" title="스타벅스 리저브 홈페이지 새창으로 바로가기" rel="noreferrer">스타벅스 리저브 홈페이지 바로가기 (https://www.starbucks.co.kr/coffee/reserve_info.do)</a></li>
                             </ul>
                         </div>
                         <div className={style.img_box}>
@@ -56,4 +55,4 @@ function Reserve_info(){
     )
 }
 
-export default Reserve_info;
+export default ReserveInfo;

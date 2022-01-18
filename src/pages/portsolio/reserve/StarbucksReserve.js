@@ -6,10 +6,8 @@ import ExtrantionList from "./extraction";
 import "../../../resource/css/custom.css";
 
 // img
-import Main_img from "./resource/img/section_back_img_1.jpg";
 import Main_logo from "./resource/img/main_logo.png";
 import S_2_tit from "./resource/img/section_2_tit.png";
-import S_2_bg from "./resource/img/section_back_img_2.png";
 import S_3_tit from "./resource/img/section_3_tit.png";
 import S_4_tit from "./resource/img/section_4_tit.png";
 import S_5_tit from "./resource/img/section_5_tit.png";
@@ -77,7 +75,6 @@ function StarbucksReserve() {
                         </div>
                     </div>
                 </section>
-
                 <RFooter/>
             </div>
         </>

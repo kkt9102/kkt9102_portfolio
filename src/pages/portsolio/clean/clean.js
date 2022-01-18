@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import style from "../../../resource/css/main_style.module.css";
-import Home_MV from "../../../utils/home_move";
+import HomeMV from "../../../utils/home_move";
 
 // img
 import main_img from "../../../resource/img/clean/clean_main.png";
@@ -13,7 +13,7 @@ function Clean() {
 
     return(
         <>
-        <Home_MV />
+        <HomeMV />
         <div className={`${style.clean} ${style.portfolio_info}`}>
             <div className={style.con}>
                 <h2 className={style.page_tit}>부패방지 종합정보시스템 구축3단계</h2>

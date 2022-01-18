@@ -1,11 +1,11 @@
 import React from "react";
 import style from "../../../resource/css/main_style.module.css";
-import Home_MV from "../../../utils/home_move";
+import HomeMV from "../../../utils/home_move";
 
 function Acrc() {
     return(
         <>
-            <Home_MV />
+            <HomeMV />
             <div className={`${style.acrc} ${style.portfolio_info}`}>
                 <div className={style.con}>
                     <h2 className={style.page_tit}>국민권익위원회 홈페이지</h2>
@@ -38,7 +38,7 @@ function Acrc() {
                                 <li>업무포털 혁신게시판 (업무포털 내 별도의 홈페이지 개념) 퍼블리싱 진행 (100%)</li>
                             </ul>
                             <ul className={style.link_box}>
-                                <li className={style.target_move}><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 홈페이지 새창으로 바로가기">국민권익위원회 홈페이지 바로가기 (https://www.clean.go.kr)</a></li>
+                                <li className={style.target_move}><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 홈페이지 바로가기 (https://www.clean.go.kr)</a></li>
                             </ul>
                         </div>
                         <div className={style.img_box}>
