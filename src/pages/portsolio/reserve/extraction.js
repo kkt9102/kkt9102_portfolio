@@ -8,7 +8,7 @@ import poc_icon from "../reserve/resource/img/poc_icon.png";
 import chemex_icon from "../reserve/resource/img/chemex_icon.png";
 import c_b_icon from "../reserve/resource/img/cold_brew_icon.png";
 
-function Extrantion_list(){
+function ExtrantionList(){
     return (
         <>
             <nav className={style.extraction_list}>
@@ -16,7 +16,7 @@ function Extrantion_list(){
                     <li id={style.clover}className={style.border_b}>
                         <div className="flex flex_jc_c flex_wrap_wrap">
                             <div className={style.img_box}>
-                                <img src={clover_icon}></img>
+                                <img src={clover_icon} alt="CLOVER"></img>
                             </div>
                             <div className={`${style.txt_box} flex flex_jc_c flex_wrap_wrap`}>
                                 <div className={`${style.sub_tit} flex flex_jc_c`}>CLOVER</div>
@@ -27,7 +27,7 @@ function Extrantion_list(){
                     <li className={style.border_b}>
                         <div className="flex flex_jc_c flex_wrap_wrap">
                             <div className={style.img_box}>
-                                <img src={b_e_icon}></img>
+                                <img src={b_e_icon} alt="BLACK EAGLE"></img>
                             </div>
                             <div className={`${style.txt_box} flex flex_jc_c flex_wrap_wrap`}>
                                 <div className={`${style.sub_tit} flex flex_jc_c`}>BLACK-EAGLE</div>
@@ -38,7 +38,7 @@ function Extrantion_list(){
                     <li className={style.border_b}>
                         <div className="flex flex_jc_c flex_wrap_wrap">
                             <div className={style.img_box}>
-                                <img src={poc_icon}></img>
+                                <img src={poc_icon} alt="POUR OVER"></img>
                             </div>
                             <div className={`${style.txt_box} flex flex_jc_c flex_wrap_wrap`}>
                                 <div className={`${style.sub_tit} flex flex_jc_c`}>POUR OVER</div>
@@ -49,7 +49,7 @@ function Extrantion_list(){
                     <li className={style.border_b}>
                         <div className="flex flex_jc_c flex_wrap_wrap">
                             <div className={style.img_box}>
-                                <img src={chemex_icon}></img>
+                                <img src={chemex_icon} alt="CHEMEX"></img>
                             </div>
                             <div className={`${style.txt_box} flex flex_jc_c flex_wrap_wrap`}>
                             <div className={`${style.sub_tit} flex flex_jc_c`}>CHEMEX</div>
@@ -60,7 +60,7 @@ function Extrantion_list(){
                     <li className={style.border_b}>
                         <div className="flex flex_jc_c flex_wrap_wrap">
                             <div className={style.img_box}>
-                                <img src={c_b_icon}></img>
+                                <img src={c_b_icon} alt="COLD BREW"></img>
                             </div>
                             <div className={`${style.txt_box} flex flex_jc_c flex_wrap_wrap`}>
                                 <div className={`${style.sub_tit} flex flex_jc_c`}>COLD BREW</div>
@@ -74,4 +74,4 @@ function Extrantion_list(){
     )
 }
 
-export default Extrantion_list;
+export default ExtrantionList;

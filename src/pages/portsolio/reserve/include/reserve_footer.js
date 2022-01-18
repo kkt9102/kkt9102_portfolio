@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../resource/css/Reserve.module.css";
 
-function R_Footer() {
+function RFooter() {
     return(
         <>
             <footer id={`${style.reserve_footer}`}>
@@ -38,4 +38,4 @@ function R_Footer() {
     )
 }
 
-export default R_Footer;
+export default RFooter;

@@ -1,7 +1,7 @@
 import React,{useState, useEffect}  from "react";
 import style from "../resource/css/Reserve.module.css";
 
-function R_Header() {
+function RHeader() {
     const [scrollPosition, setScrollPosition] = useState(0);
     const updateScroll = () => {
         setScrollPosition(window.scrollY || document.documentElement.scrollTop);
@@ -26,4 +26,4 @@ function R_Header() {
     )
 }
 
-export default R_Header;
+export default RHeader;

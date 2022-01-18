@@ -33,11 +33,19 @@
 .reserve #section_3::after {content:''; position: absolute; background:url(../img/section_back_img_3.png); width:100%; height:40rem; bottom:0; left:0; background-size: cover; opacity: 0.3; z-index: -1;}
     /* extraction_list */
 .reserve #section_3 .extraction_list {margin-top:5rem;}
-.reserve #section_3 .extraction_list ul li {position:relative; display:flex; justify-content:center; flex-basis:15%; max-width:18rem; padding:1.5rem;}
-.reserve #section_3 .extraction_list ul li::after {content:''; position: absolute; width:100%; height: 0.5rem; top:50%; left:0; background: #976d3f;}
-.reserve #section_3 .extraction_list ul li img {height:7rem; margin-top:1.8rem; margin-bottom:0.8rem;}
-.reserve #section_3 .extraction_list ul li .txt_box .sub_tit {flex-basis:100%; font-size:2.2rem; font-weight:500; letter-spacing:0.1rem; color:#976d3f; white-space: nowrap;}
-.reserve #section_3 .extraction_list ul li .txt_box .sub_txt {font-size:1.3rem; word-break:keep-all; text-align: center;}
+.reserve #section_3 .extraction_list ul li {position:relative; display:flex; justify-content:center; flex-basis:15%; max-width:18rem; padding:1.5rem 1.5rem 3rem 1.5rem; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s;}
+.reserve #section_3 .extraction_list ul li * {transition: transform 0.1s;}
+.reserve #section_3 .extraction_list ul li .img_box {max-height: 7rem; margin-top:1.8rem; margin-bottom:0.8rem;}
+.reserve #section_3 .extraction_list ul li:hover,
+.reserve #section_3 .extraction_list ul li:active,
+.reserve #section_3 .extraction_list ul li:focus {transform: scale(0.98) translate(0.1rem ,0.1rem); box-shadow: -0.1rem -0.1rem 0.5rem #976d3f;}
+.reserve #section_3 .extraction_list ul li:hover *,
+.reserve #section_3 .extraction_list ul li:active *,
+.reserve #section_3 .extraction_list ul li:focus * {transform: scale(0.99);}
+.reserve #section_3 .extraction_list ul li::after {content:''; position: absolute; width:90%; height: 0.5rem; top:calc(50% - 1.4rem); left:5%; background: #976d3f;}
+.reserve #section_3 .extraction_list ul li img {height:7rem;}
+.reserve #section_3 .extraction_list ul li .txt_box .sub_tit {margin-bottom:1.5rem; flex-basis:100%; font-size:2.2rem; font-weight:500; letter-spacing:0.1rem; color:#976d3f; white-space: nowrap;}
+.reserve #section_3 .extraction_list ul li .txt_box .sub_txt {display:flex; align-items:center; height:4.5em; font-size:1.3rem; word-break:keep-all; text-align: center; line-height: 2rem;}
 
 /* Footer */
 #reserve_footer {border-top:0.1rem solid #976d3f;}
