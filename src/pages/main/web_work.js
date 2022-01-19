@@ -8,15 +8,27 @@ function WebWork(){
         <>
         <section id={style.section_03}>
             <div className={style.con}>
-                <ul>
+                <ul className={`${style.web_work} flex flex_wrap_wrap`}>
                     <li>
-                    <Link to ="/Reserve">스타벅스 리저브 (Re:Design)</Link>
+                    <Link to ="/Reserve">
+                        <div>
+                            스타벅스 리저브 (Re:Design)
+                        </div>
+                        </Link>
                     </li>
                     <li>
-                    <Link to ="/clean">부패방지 3단계</Link>
+                    <Link to ="/clean">
+                        <div>
+                            부패방지 3단계
+                        </div>
+                        </Link>
                     </li>
                     <li>
-                    <Link to ="/Acrc">국민권익위원회 홈페이지·업무포털 전면개편</Link>
+                    <Link to ="/Acrc">
+                        <div>
+                            국민권익위원회 홈페이지·업무포털 전면개편
+                        </div>
+                    </Link>
                     </li>
                 </ul>
             </div>

@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'ArchivoBlack';
+    src: url('../font/ArchivoBlack/ArchivoBlack-Regular.ttf') format('opentype'),
+        url('../font/ArchivoBlack/ArchivoBlack-Regular.woff') format('woff');
+}

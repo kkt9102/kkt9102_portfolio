@@ -33,8 +33,8 @@ function Clean() {
 
                 <div className={`${style.cont_box} ${style.cont_2}`}>
                     <div className={style.txt_box}>
-                        <ul className="flex">
-                            <li className="flex">프로젝트 참여 기간 : 2020.12 ~ 2021.02</li>
+                        <h2>프로젝트 참여 기간 : 2020.12 ~ 2021.02</h2>
+                    <ul className={`${style.percent}flex flex_wrap_wrap`}>
                             <li>사용자 홈페이지 내 민원신청 페이지 퍼블리싱 (10%)</li>
                             <li>사용자 홈페이지 내 게시판 페이지 퍼블리싱 (10%)</li>
                             <li>사용자 홈페이지 내 청렴마당 페이지 퍼블리싱 (20%)</li>
