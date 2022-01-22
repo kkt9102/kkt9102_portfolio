@@ -1,21 +1,20 @@
 import { useState, useEffect } from "react";
 import $ from "jquery";
 // import jquery from 'jquery';
-import style from "../reserve/resource/css/Reserve.module.css";
+import style from "../resource/css/Reserve.module.css";
 // img
-import clover_icon from "../reserve/resource/img/clover_icon.png";
-import b_e_icon from "../reserve/resource/img/black_eagle_icon.png";
-import poc_icon from "../reserve/resource/img/poc_icon.png";
-import chemex_icon from "../reserve/resource/img/chemex_icon.png";
-import c_b_icon from "../reserve/resource/img/cold_brew_icon.png";
+import clover_icon from "../resource/img/clover_icon.png";
+import b_e_icon from "../resource/img/black_eagle_icon.png";
+import poc_icon from "../resource/img/poc_icon.png";
+import chemex_icon from "../resource/img/chemex_icon.png";
+import c_b_icon from "../resource/img/cold_brew_icon.png";
 
 function popup(){
     $(document).ready(function(){
-        var $list = $('.extra_list > ul > li');
+        const $list = $('.extra_list > ul > li');
         
         $list.click(function(){
-            var $index = $(this).index();
-
+            const $index = $(this).index();
             $(this).addClass('active');
             console.log($index);
         });

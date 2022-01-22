@@ -1,36 +1,21 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, Component } from "react";
 import '../../resource/css/common.css';
+import $, { event } from "jquery";
+import { MousePosition } from "../../utils/mosuePosition";
 import style from '../../resource/css/main_style.module.css';
 import Profil from "./profil";
 import WebWork from "./web_work";
 
 
 function Main() {
-    const [scroll_P, scroll_M] = useState(0);
-    const scrollY = (window.scrollY);
-
-    // const [ScrollY, setScrollY] = useState(0);  // 스크롤값을 저장하기 위한 상태
-    // const handleFollow = () => {
-    //   setScrollY(window.pageYOffset); // window 스크롤 값을 ScrollY에 저장
-    // }
-  
-    // useEffect(() => {
-    //   console.log("ScrollY is ", ScrollY); // ScrollY가 변화할때마다 값을 콘솔에 출력
-    // }, [ScrollY])
-  
-    // useEffect(() => {
-    //   const watch = () => {
-    //     window.addEventListener('scroll', handleFollow);
-    //   }
-    //   watch(); // addEventListener 함수를 실행
-    //   return () => {
-    //     window.removeEventListener('scroll', handleFollow); // addEventListener 함수를 삭제
-    //   }
-    // })
-
-    // const moveToTop = () => (document.documentElement.scrollTop = 0);
-
+    const {x} = MousePosition();
+    const BgStyle = {
+        width: x,
+        transition: 0.1 + 's',
+        transitionDuration: 0.2 + 's'
+    }
     return (
+        
         <div id={style.main_page}>
             <header className={`${style.main_header} fixed`}>
                 <nav>
@@ -43,6 +28,8 @@ function Main() {
                 </nav>
             </header>
             <section id={style.section_01} className={style.section}>
+                <div className={`${style.sc_01_bg} absolute`} style={BgStyle}>
+                </div>
                 <div className={style.con}>
                     <div className={style.main_deco}>
                         <div className={style.main_tit}>kkt9102</div>

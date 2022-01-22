@@ -1,18 +1,20 @@
 import React from "react"
+import style from '../reserve/resource/css/Reserve.module.css';
 
-const ExtraModal = (props) => {
-    // 
-    const {open, close} = props;
-
+function ExtraModal() {
     return (
-        // 팝업이 열릴 때 openModal Class 부여
-        <div className={open ? "openModal modal" : "modal"}>
-            <div className="popup_header">
-                <div className="title"></div>
-                <div className="close" onClick={close}></div>
-            </div>
-        </div>
-    );
+        <>
+            <nav className={`${style.extra_modal} tests`}>
+                <ul>
+                    <li className="fixed"></li>
+                    <li className="fixed"></li>
+                    <li className="fixed"></li>
+                    <li className="fixed"></li>
+                    <li className="fixed"></li>
+                </ul>
+            </nav>
+        </>
+    )
 };
 
 export default ExtraModal;

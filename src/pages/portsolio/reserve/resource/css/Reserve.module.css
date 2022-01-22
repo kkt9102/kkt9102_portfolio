@@ -47,6 +47,7 @@
 .reserve #section_3 .extraction_list ul li .txt_box .sub_tit {margin-bottom:1.5rem; flex-basis:100%; font-size:2.2rem; font-weight:500; letter-spacing:0.1rem; color:#976d3f; white-space: nowrap;}
 .reserve #section_3 .extraction_list ul li .txt_box .sub_txt {display:flex; align-items:center; height:4.5em; font-size:1.3rem; word-break:keep-all; text-align: center; line-height: 2rem;}
 
+
 /* Footer */
 #reserve_footer {border-top:0.1rem solid #976d3f;}
 #reserve_footer .con {max-width:140rem; margin:0 auto; padding-top:2.5rem;}

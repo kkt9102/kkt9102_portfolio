@@ -6,7 +6,7 @@ import Main from './pages/main/main';
 import Clean from './pages/portsolio/clean/clean';
 import Acrc from './pages/portsolio/acrc/acrc';
 import Reserve from './pages/portsolio/reserve/reserve';
-import Modal from './utils/modal_pop';
+
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
 
