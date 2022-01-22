@@ -2,11 +2,11 @@ import React from "react";
 import style from '../../resource/css/main_style.module.css';
 import { BrowserRouter, Link } from "react-router-dom";
 
-function WebWork(){
+const WebWork = () => {
 
     return (
         <>
-        <section id={style.section_03}>
+        <section id={style.section_03} className={style.section}>
             <div className={style.con}>
                 <ul className={`${style.web_work} flex flex_wrap_wrap`}>
                     <li>

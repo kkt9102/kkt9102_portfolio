@@ -5,15 +5,17 @@
 .con {max-width:140rem; margin:0 auto;}
 
 /* Header */
-.main_header {width:100vw; mix-blend-mode: difference; z-index: 10;}
+/* .main_header {width:100vw; mix-blend-mode: difference; z-index: 10;} */
+.main_header {width:100vw; z-index: 10;}
 .main_header ul {height:8rem;}
 .main_header ul li {padding:1.5rem 2rem; margin-right:2rem; }
 .main_header ul li span {font-size:1.7rem; cursor:pointer;}
+.main_header .section_progress {height: 0.5rem; background:#eeeeee;}
 
 /* section_01 */
 #section_01 {padding-top:8rem; position: relative;}
 #section_01 .sc_01_bg {width:0; height:100%; top:0; left:0; background:#ffffff;}
-#section_01 .main_deco > div {font-size:28rem; font-family:'ArchivoBlack'; color:transparent; text-shadow:1px 0.1rem #ffffff, 0 0.1rem #ffffff, -0.1rem -0.1rem #ffffff, -0.1rem 0 #ffffff; mix-blend-mode: difference; cursor:default;}
+#section_01 .main_deco > div {font-size:20rem; font-family:'ArchivoBlack'; color:transparent; text-shadow:1px 0.1rem #ffffff, 0 0.1rem #ffffff, -0.1rem -0.1rem #ffffff, -0.1rem 0 #ffffff; mix-blend-mode: difference; cursor:default;}
 
 
 /* section_02 */
