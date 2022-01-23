@@ -8,7 +8,8 @@ const Profil = () => {
         <>
             <section id={style.section_02} className={`${style.section} relative`}>
                 <div className={style.con}>
-                    <div className={`${style.cont_box} flex`}>
+                    <div className={`${style.cont_box} flex flex_wrap_wrap`}>
+                        <div className={`${style.sc_tit} flex flex_jc_c`}>Profil</div>
                         <div className={`${style.img_box} fixed`}>
                             {/* <img src={profil} alt='profil_photo'></img> */}
                         </div>
