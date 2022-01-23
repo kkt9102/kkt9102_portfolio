@@ -7,9 +7,10 @@ import $, { event } from "jquery";
 import { useMousePosition } from "../../utils/mosuePosition";
 import { useScroll } from "../../utils/scrollMove";
 
-import Profil from "./profil";
-import WebWork from "./web_work";
-import Contect from "./contect";
+import Profil from "./components/profil";
+import WebWork from "./components/web_work";
+import Contect from "./components/contect";
+import Footer from "./components/footer";
 
 
 function Main() {
@@ -46,6 +47,7 @@ function Main() {
             <Profil />
             <WebWork />
             <Contect />
+            <Footer />
             {/* <button onClick={moveToTop}>상단으로</button> */}
         </div>
     )
