@@ -13,6 +13,7 @@ import Contect from "./components/contect";
 import Footer from "./components/footer";
 
 
+
 function Main() {
     const {x} = useMousePosition();
     const BgStyle = {

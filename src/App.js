@@ -24,7 +24,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main/>} />
-          <Route path="/Reserve" element={<Reserve/>}/>
+          <Route path="/Reserve/" element={<Reserve/>}/>
           <Route path="/Clean" element={<Clean/>}/>
           <Route path="/Acrc" element={<Acrc/>}/>
         </Routes>

@@ -1,13 +1,18 @@
 import React from "react";
-import HomeMV from "../../../utils/home_move";
+
 import StarbucksReserve from "./StarbucksReserve";
 import ReserveInfo from "./reserve_info";
+import { Route, Routes } from "react-router-dom";
 function Reserve(){
-    
+
+
     return(
         <>  
-            <HomeMV />
-            {/* <ReserveInfo/> */}
+        {/* <ReserveInfo/> */}
+            {/* <Routes>
+                <Route path="./reserve_info" element={<ReserveInfo/>}/>
+                <Route path="./StarbucksReserve" element={<StarbucksReserve/>} />
+            </Routes> */}
             <StarbucksReserve/>
         </>
     )

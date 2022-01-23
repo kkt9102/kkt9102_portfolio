@@ -7,7 +7,7 @@ import Main_logo from "../resource/img/main_logo.png";
 const ReserveSC1 = () => {
     return(
         <>
-            <section id={style.section_1} className={style.section}>
+            <section id={style.section_1} className={`${style.section} re_sc_1`}>
                 <div className={style.con}>
                     <div className={`${style.cont_1} flex flex_jc_c`}>
                         <img src={Main_logo} className={style.main_logo} alt="리저브 로고 RESERVE™ LOGO"></img>

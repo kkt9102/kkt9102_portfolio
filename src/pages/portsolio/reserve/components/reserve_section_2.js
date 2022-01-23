@@ -7,7 +7,7 @@ import S_2_tit from "../resource/img/section_2_tit.png";
 const ReserveSC2 = () => {
     return(
         <>
-            <section id={style.section_2} className={style.section}>
+            <section id={style.section_2} className={`${style.section} re_sc_2`}>
                 <div className={style.con}>
                     <div className={`${style.section_tit} flex flex_jc_c`}>
                         <img src={S_2_tit} alt="스타벅스 리저브 starbucks reserve"></img>

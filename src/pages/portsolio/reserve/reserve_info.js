@@ -1,11 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import HomeMV from "../../../utils/home_move";
 import style from "../../../resource/css/main_style.module.css";
 
 function ReserveInfo(){
 
     return(
         <>
+            <HomeMV />
             <div className={`${style.reserve} ${style.portfolio_info}`}>
                 <div className={style.con}>
                     <h2 className={style.page_tit}>스타벅스 리저브</h2>

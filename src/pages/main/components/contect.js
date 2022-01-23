@@ -12,8 +12,14 @@ const Contect = () => {
                             <form>
                                 <input type="hidden" value=""></input>
                                 <input type="hidden" value=""></input>
-                                <input type="text" name="email" id="email" placeholder="보내는분의 이메일을 입력해주세요."></input>
-                                <textarea placeholder="내용을 입력해주세요."></textarea>
+                                <div className={style.email_box}>
+                                    <div>E-Mail Address</div>
+                                    <input type="text" name="email" id="email" placeholder="보내는분의 이메일을 입력해주세요."></input>
+                                </div>
+                                <div className={style.email_contents_box}>
+                                    <div>E-Mail contents</div>
+                                    <textarea placeholder="내용을 입력해주세요."></textarea>
+                                </div>
                             </form>
                         </div>
                     </div>

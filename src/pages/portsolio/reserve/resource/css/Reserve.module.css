@@ -11,6 +11,7 @@
 .reserve .top_menu {z-index: 10; height: 6rem; width: 100%;}
 .reserve .top_menu * {height: inherit;}
 .reserve .top_menu ul {max-width: 80%; margin:0 auto;}
+.reserve .top_menu ul li {cursor: pointer;}
 .reserve .top_menu.origin_head {z-index: 10; height: 6rem; width: 100%; background:#222222;}
 .reserve .top_menu.change_head {z-index: 10; height: 6rem; width: 100%; background:#222222;}
 
