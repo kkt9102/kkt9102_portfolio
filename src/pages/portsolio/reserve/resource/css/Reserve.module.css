@@ -15,6 +15,10 @@
 .reserve .top_menu.origin_head {z-index: 10; height: 6rem; width: 100%; background:#222222;}
 .reserve .top_menu.change_head {z-index: 10; height: 6rem; width: 100%; background:#222222;}
 
+.reserve .y_Top {transition: background 0.3s;}
+.reserve .y_move {background:#222222; transition: background 0.3s;}
+.reserve .y_move li {color:#976d3f;}
+
 /* section_01 */
 .reserve #section_1::after {content:''; position: absolute; background:url(../img/section_back_img_1.jpg); width: 100%; height: 100%; top:0; left:0; background-size:cover; opacity: 0.3; z-index: -1;}
 .reserve #section_1 .cont_1 {flex-wrap: wrap;}
@@ -48,13 +52,18 @@
 .reserve #section_3 .extraction_list ul li .txt_box .sub_tit {margin-bottom:1.5rem; flex-basis:100%; font-size:2.2rem; font-weight:500; letter-spacing:0.1rem; color:#976d3f; white-space: nowrap;}
 .reserve #section_3 .extraction_list ul li .txt_box .sub_txt {display:flex; align-items:center; height:4.5em; font-size:1.3rem; word-break:keep-all; text-align: center; line-height: 2rem;}
 
+/* section_03 */
+.reserve #section_4 .section_tit .sub_tit {flex-basis:100%; margin-top:1.5rem; font-size:2.4rem;}
+.reserve #section_4 .cont_1 {margin-top:8rem;}
+.reserve #section_4 .coffee_item {flex-basis:27.5rem; border:1px solid #ffffff;}
 
 /* Footer */
 #reserve_footer {border-top:0.1rem solid #976d3f;}
 #reserve_footer .con {max-width:140rem; margin:0 auto; padding-top:2.5rem;}
 #reserve_footer .con .footer_menu_1 ul li {color:#976d3f;}
 #reserve_footer .con .footer_menu_2 {margin-top:6.5rem;}
-#reserve_footer .con .footer_menu_2 ul li {display:flex; justify-content:center; align-items:center; width:16rem; height:3.6rem; font-size:1.6rem; font-weight:400; color:#ffffff; border:0.2rem solid #ffffff; border-radius:0.3rem;}
+#reserve_footer .con .footer_menu_2 ul li {display:flex; justify-content:center; align-items:center; width:16rem; height:3.6rem; font-size:1.6rem; font-weight:400; color:#ffffff; border:0.2rem solid #ffffff; border-radius:0.3rem; cursor:pointer; transition: color 0.3s, border 0.3s;}
+#reserve_footer .con .footer_menu_2 ul li:hover {border-color:#976d3f; color:#976d3f}
 #reserve_footer .con .address {margin-top:6.5rem; margin-bottom:1.5rem; justify-content:center;}
 #reserve_footer .con .address div {font-size:1.4rem;}
 #reserve_footer .con .copyright {font-size:1.4rem;}

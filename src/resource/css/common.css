@@ -96,6 +96,3 @@ p, a, li, ol, div, span {font-size:1.6rem;}
 .text_align_left { text-align:left;}
 .white_space_no { white-space: nowrap;}
 .font_b { font-weight:bold;}
-
-.go_home {position:fixed; display: flex; justify-content: flex-end; width:100%; background:#222222;}
-.go_home a {padding:1rem; border:0.1rem solid #222222; background:#222222; font-size:1.5rem; font-weight:600; color:#ffffff;}

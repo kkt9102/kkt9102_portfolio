@@ -11,7 +11,7 @@ const Profil = () => {
         zIndex: 10}
     return(
         <>
-            <section id={style.section_02} className={`${style.section} relative`}>
+            <section id={style.section_02} className={`${style.section} relative main_sc_2`}>
                 <div className={style.page_tit}>
                     <span className="flex" style={txt1}>안녕하세요!</span>
                     <span className="flex" style={txt1}>웹 만들기를 좋아하는</span>

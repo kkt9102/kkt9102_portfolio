@@ -1,18 +1,13 @@
 import React,{useState, useEffect}  from "react";
+import { useScroll } from "../../../../utils/scrollMove";
 import { Link } from 'react-scroll';
-import style from "../resource/css/Reserve.module.css";
+import reserve from "../resource/css/Reserve.module.css";
 
 function RHeader() {
-    const [scrollPosition, setScrollPosition] = useState(0);
-    const updateScroll = () => {
-        setScrollPosition(window.scrollY || document.documentElement.scrollTop);
-    }
-    useEffect(()=>{
-        window.addEventListener('scroll', updateScroll);
-    });
+    const {scrollY} = useScroll();
     return(
         <>
-            <header className={`${scrollPosition < 100 ? "origin" : "change"} ${style.top_menu} fixed`}>
+            <header className={`${scrollY < 100 ? reserve.y_Top : reserve.y_move} ${reserve.top_menu} fixed`}>
                 <nav>
                     <ul className="flex flex_jc_sb">
                         <Link to="re_sc_1" spy={true} smooth={true}>

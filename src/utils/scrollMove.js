@@ -1,17 +1,17 @@
 import { useState, useEffect } from 'react';
 
 export const useScroll = () => {
-    const [scrollMV, setScrollMV] = useState(0);
+    const [scrollY, setScrollY] = useState(0);
 
     const scrolling = () => {
-        setScrollMV(window.pageYOffset);
+        setScrollY(window.scrollY || document.documentElement.scrollTop);
     };
 
     useEffect(() => {
-        window.addEventListener("scroll",scrolling);
+        document.addEventListener("scroll",scrolling);
         return () => {
-            window.removeEventListener("scroll",scrolling);
+            document.removeEventListener("scroll",scrolling);
         }
     })
-    return {scrollMV};
+    return {scrollY};
 }

@@ -8,7 +8,6 @@ import ReserveSC4 from "./components/reserve_section_4";
 import ReserveSC5 from "./components/reserve_section_5";
 import RFooter from "./include/reserve_footer";
 
-import "../../../resource/css/custom.css";
 
 function StarbucksReserve() {
 

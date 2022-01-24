@@ -3,6 +3,7 @@ import React from "react";
 import '../../resource/css/common.css';
 import style from '../../resource/css/main_style.module.css';
 import $, { event } from "jquery";
+import { Link } from "react-scroll";
 
 import { useMousePosition } from "../../utils/mosuePosition";
 import { useScroll } from "../../utils/scrollMove";
@@ -14,31 +15,51 @@ import Footer from "./components/footer";
 
 
 
+
 function Main() {
     const {x} = useMousePosition();
     const BgStyle = {
         width: x,
         transition: 0.3 + 's'
     }
-    const {scrollMV} = useScroll();
+
+    const {scrollY} = useScroll();
+    // const {scrollMV} = useScroll();
     return (
         
         <div id={style.main_page}>
-            <header className={`${style.main_header} fixed`}>
-
+            <header className={`${scrollY < 500 ? style.y_Top : style.y_move} ${style.main_header} fixed`}>
                 <nav>
                     <ul className="flex flex_jc_e">
-                        <li className="flex flex_ai_c" onClick={()=>{}}><span>Home</span></li>
-                        <li className="flex flex_ai_c" onClick={()=>{}}><span>Profil</span></li>
-                        <li className="flex flex_ai_c" onClick={()=>{}}><span>Web Work</span></li>
-                        <li className="flex flex_ai_c" onClick={()=>{}}><span>Contact</span></li>
+                        <li className="flex flex_ai_c">
+                            <Link to="main_sc_1" spy={true} smooth={true}>
+                                <span>Home</span>
+                            </Link>
+                        </li>
+                        <li className="flex flex_ai_c">
+                            <Link to="main_sc_2" spy={true} smooth={true}>
+                                <span>Profil</span>
+                            </Link>
+                        </li>
+                        <li className="flex flex_ai_c">
+                            <Link to="main_sc_3" spy={true} smooth={true}>
+                                <span>Web Work</span>
+                            </Link>    
+                        </li>
+                        <li className="flex flex_ai_c">
+                            <Link to="main_sc_4" spy={true} smooth={true}>
+                                <span>Contact</span>
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
             </header>
-            <section id={style.section_01} className={style.section}>
+            <section id={style.section_01} className={`${style.section} main_sc_1`}>
                 {/* <div className={`${style.sc_01_bg} absolute`} style={BgStyle}>
                 </div> */}
                 <div className={style.con}>
+                    <div className={`${style.sc_bg_1} absolute`}></div>
+                    <div className={`${style.sc_bg_2} absolute`}></div>
                     <div className={style.main_deco}>
                         <div className={style.main_tit}>kkt9102</div>
                         <div className={style.main_sub_tit}>Portfolio</div>
