@@ -1069,7 +1069,9 @@ export  const MapMark = [
         lng: 126.412578
     },
 ];
-
+export const CustomMarker = [{
+    image:'../resource/img/map_mark.png'
+}];
 // 지점추가시
 
 /*

@@ -58,7 +58,7 @@
 .reserve #section_4 .coffee_item {flex-basis:27.5rem; border:1px solid #ffffff;}
 
 /* section_05 */
-.reserve #section_5 .map_box {border:0.3rem solid #976d3f; border-radius: 0.2rem;}
+.reserve #section_5 .map_box {margin-top:3rem; border:0.3rem solid #976d3f; border-radius: 0.2rem;}
 
 /* Footer */
 #reserve_footer {border-top:0.1rem solid #976d3f;}
