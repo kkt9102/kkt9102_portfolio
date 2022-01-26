@@ -23,9 +23,9 @@ const Map=()=>{
         map: map,
         position: new kakao.maps.LatLng(reserve.lat, reserve.lng)
       });
-      new kakao.maps.Marker({
-          image: imageSrc
-      })
+    //   new kakao.maps.Marker({
+    //       image: imageSrc
+    //   })
   })
   
   // 인포윈도우를 표시하는 클로저를 만드는 함수입니다
