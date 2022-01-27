@@ -6,11 +6,11 @@ const CoffeeList = () => {
     return (
         <>
             <li className={reserve.coffee_item}>
-                <Link>
+                {/* <Link>
                     <div className={reserve.img_box}>
                         <img></img>
                     </div>
-                </Link>
+                </Link> */}
             </li>
         </>
     )
