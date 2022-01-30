@@ -9,7 +9,7 @@ const WebWork = () => {
         <>
         <section id={style.section_03} className={`${style.section} main_sc_3`}>
             <div className={style.con}>
-                <div className={`${style.cont_box} flex flex_wrap_wrap`}>
+                <div className={`${style.cont_box}`}>
                     <div className={`${style.sc_tit} flex flex_jc_c`}>Web Work</div>
                     <ul className={`${style.web_work} flex flex_wrap_wrap`}>
                         <li>
