@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import $ from 'jquery';
 import './App.css';
 import Main from './pages/main/main';
@@ -9,13 +10,14 @@ import Reserve from './pages/portsolio/reserve/reserve';
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
-
   const openModal = () => {
     setModalOpen(true);
   };
   const closeModal = () => {
     setModalOpen(false);
   };
+  // favicon
+  const [count, setCount] = useState(0);
   return (
     <>
        {/* <button onClick={openModal}>모달팝업</button>
