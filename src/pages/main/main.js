@@ -33,22 +33,22 @@ function Main() {
                     <ul className="flex flex_jc_e">
                         <li className="flex flex_ai_c">
                             <Link to="main_sc_1" spy={true} smooth={true}>
-                                <span>Home</span>
+                                <span title="Home 영역으로 이동">Home</span>
                             </Link>
                         </li>
                         <li className="flex flex_ai_c">
                             <Link to="main_sc_2" spy={true} smooth={true}>
-                                <span>Profil</span>
+                                <span title="Profile 영역으로 이동">Profil</span>
                             </Link>
                         </li>
                         <li className="flex flex_ai_c">
                             <Link to="main_sc_3" spy={true} smooth={true}>
-                                <span>Web Work</span>
+                                <span title="Web Work 영역으로 이동">Web Work</span>
                             </Link>    
                         </li>
                         <li className="flex flex_ai_c">
                             <Link to="main_sc_4" spy={true} smooth={true}>
-                                <span>Contact</span>
+                                <span title="Contact 영역으로 이동">Contact</span>
                             </Link>
                         </li>
                     </ul>

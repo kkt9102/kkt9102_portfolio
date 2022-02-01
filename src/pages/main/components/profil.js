@@ -19,7 +19,7 @@ const Profil = () => {
                 </div>
                 <div className={style.con}>
                     <div className={`${style.cont_box} flex flex_wrap_wrap`}>
-                        <div className={`${style.img_box} fixed`}></div>
+                        <div className={`${style.img_box} fixed`} alt="프로필 사진"></div>
                         <div className={`${style.txt_box} ${style.intro}`}>
                             <ul style={z_first}>
                                 <li>웹 페이지 만들기를 좋아하고 새로운 기술에 대한 두려움보다 흥미를 먼저 느낍니다.</li>

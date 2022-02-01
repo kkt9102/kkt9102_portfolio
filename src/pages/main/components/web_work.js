@@ -21,19 +21,19 @@ const WebWork = () => {
                         <li>
                         <Link to ="/clean">
                             <div className={`${style.link_btn} ${style.clean}`}></div>
-                            <div className={style.link_txt}>부패방지 3단계</div>
+                            <div className={style.link_txt}>청렴포털 홈페이지</div>
                         </Link>
                         </li>
                         <li>
                         <Link to ="/Acrc">
                             <div className={`${style.link_btn} ${style.acrc}`}></div>
-                            <div className={style.link_txt}>국민권익위원회 홈페이지·업무포털 전면개편</div>
+                            <div className={style.link_txt}>국민권익위원회 국문 홈페이지</div>
                         </Link>
                         </li>
                         <li>
                         <Link to ="/Acrc">
                             <div className={`${style.link_btn} ${style.acrc}`}></div>
-                            <div className={style.link_txt}>국민권익위원회 홈페이지·업무포털 전면개편</div>
+                            <div className={style.link_txt}>국민권익위원회 어린이 홈페이지</div>
                         </Link>
                         </li>
                     </ul>
