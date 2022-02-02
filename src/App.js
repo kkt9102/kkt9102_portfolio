@@ -4,9 +4,11 @@ import { Helmet } from 'react-helmet';
 import $ from 'jquery';
 import './App.css';
 import Main from './pages/main/main';
+import Reserve from './pages/portsolio/reserve/reserve';
 import Clean from './pages/portsolio/clean/clean';
 import Acrc from './pages/portsolio/acrc/acrc';
-import Reserve from './pages/portsolio/reserve/reserve';
+import AcrcChild from './pages/portsolio/acrc_children/child';
+
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -29,6 +31,7 @@ function App() {
           <Route path="/Reserve/" element={<Reserve/>}/>
           <Route path="/Clean" element={<Clean/>}/>
           <Route path="/Acrc" element={<Acrc/>}/>
+          <Route path="/AcrcChild" element={<AcrcChild/>}/>
         </Routes>
       </BrowserRouter>
     </>

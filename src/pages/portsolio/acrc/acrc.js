@@ -1,8 +1,10 @@
 import React from "react";
 import style from "../../../resource/css/main_style.module.css";
 import HomeMV from "../../../utils/home_move";
+import ScrollToTop from '../../../utils/scrollTop';
 
 // img
+import acrc_mian from "../../../resource/img/acrc_main.png";
 import main_board_img_1 from "../../../resource/img/acrc/main_board_list_1.png";
 import main_board_img_2 from "../../../resource/img/acrc/main_board_list_2.png";
 import main_board_img_3 from "../../../resource/img/acrc/main_board_list_3.png";
@@ -12,6 +14,7 @@ import main_cdns_img_2 from "../../../resource/img/acrc/main_cdns_list.png";
 function Acrc() {
     return(
         <>
+            <ScrollToTop/>
             <HomeMV />
             <div className={`${style.acrc} ${style.portfolio_info}`}>
                 <div className={style.con2}>
@@ -45,7 +48,7 @@ function Acrc() {
                                 <li>사용자 홈페이지 통합검색 퍼블리싱 (100%)</li>
                                 <li>영문 홈페이지 header 메뉴 퍼블리싱 (50%)</li>
                                 <li>영문 홈페이지 게시판별 퍼블리싱 (40%)</li>
-                                <li>어린이 홈페이지 메인, 게시판, 컨텐츠 페이지 퍼블리싱 (100%)</li>
+                                {/* <li>어린이 홈페이지 메인, 게시판, 컨텐츠 페이지 퍼블리싱 (100%)</li> */}
                                 <li>홈페이지 관리자 페이지 민원신청 확인 페이지 퍼블리싱 (80%)</li>
                                 <li>홈페이지 괸리자 페이지 개인정보 다운로드 사유 입력 및 엑셀 다운로드 기능 (40%)</li>
                                 <li>업무포털 통합검색 퍼블리싱 (100%)</li>
@@ -58,6 +61,14 @@ function Acrc() {
                         </div>
                         <div className={style.img_box}>
                             <ul className={style.img_list}>
+                                <li>
+                                    <div className={`${style.img_box} flex flex_jc_c`}>
+                                        <img src={acrc_mian} alt="국민권익위원회 국문 홈페이지 메인"></img>
+                                    </div>
+                                    <div className={style.txt_box}>
+
+                                    </div>
+                                </li>
                                 <li>
                                     <div className={`${style.img_box} flex flex_jc_c`}>
                                         <img src={main_board_img_1} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>

@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import style from "../../../resource/css/main_style.module.css";
 import HomeMV from "../../../utils/home_move";
+import ScrollToTop from '../../../utils/scrollTop';
 
 // img
 import main_img from "../../../resource/img/clean/clean_main.png";
@@ -17,6 +18,7 @@ function Clean() {
 
     return(
         <>
+        <ScrollToTop/>
         <HomeMV />
         <div className={`${style.clean} ${style.portfolio_info}`}>
             <div className={style.con2}>
