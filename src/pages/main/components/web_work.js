@@ -12,7 +12,7 @@ const WebWork = () => {
                     <div className={`${style.sc_tit} flex flex_jc_c`}>Web Work</div>
                     <ul className={`${style.web_work} flex flex_wrap_wrap`}>
                         <li>
-                        <Link to ="/Reserve" target="_blank" title="스타벅스 리저브 리디자인 소개페이지 바로가기">
+                        <Link to ="/Reserve" title="스타벅스 리저브 리디자인 소개페이지 바로가기">
                             <div className={`${style.link_btn} ${style.reserve}`}></div>
                             <div className={style.link_txt}><span className="flex flex_jc_c">스타벅스 리저브</span> (Re:Design)</div>
                         </Link>

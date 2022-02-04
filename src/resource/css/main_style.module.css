@@ -85,8 +85,16 @@
 .portfolio_info .link_box .target_move a {background:#dddddd; border:0.1rem solid #dddddd; border-radius:0.5rem; font-weight: 900; padding:1rem; color:#222222;}
 
 /* reserve */
-.reserve {background:#222222;}
+.reserve {background:#222222; z-index: 1;}
 .reserve * {color:#dddddd;}
+.reserve .page_tit {color:#976d3f; font-family: 'NotoKr';}
+.reserve .cont_box .img_box {position:absolute; z-index: -1;}
+.reserve .cont_box .sub_tit {font-size:2.4rem;}
+.reserve .cont_1 {z-index:1; padding-top:5rem; padding-bottom:5rem;}
+.reserve .cont_1 .img_1 {width:45%; top:3rem; left:5%;}
+.reserve .cont_1 .img_1 img {width:100%; opacity: 0.8;}
+.reserve .cont_1 .sub_txt ul li {line-height:2.5rem;}
+/* .reserve .cont_1::after {content:''; position:absolute; width:100%; height: 100%; background:url('../img/reserve/reserve_3d_1.png') no-repeat; background-size:cover; top:0; left:0; z-index: -1;} */
 
 /* clean */
 .clean {font-family: 'Pretendard'; letter-spacing: -1px;}
