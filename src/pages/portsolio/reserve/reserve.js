@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "../../../resource/css/main_style.module.css";
 import StarbucksReserve from "./StarbucksReserve";
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
+import ColorPop from './components/color_popup';
 
 // img
 import info_bg1 from '../../../resource/img/reserve/reserve_3d_1.png';
@@ -12,7 +13,19 @@ import info_bg4 from '../../../resource/img/reserve/reserve_3d_4.png';
 
 function Reserve(){
 
+    const [popup, setPopup] = useState(false);
 
+    const onPopup = () => {
+        setPopup(true);
+    }
+    const closePopuo = () => {
+        setPopup(false);
+    }
+
+    const clickHandler = (color, e) => {
+        console.log(color);
+        e.preventDefault();
+    }
     return(
         <>
             {/* <StarbucksReserve/> */}
@@ -42,6 +55,12 @@ function Reserve(){
                                 <li>기존의 스타벅스 로고와 같은 색상을 사용하여 디자인을 하지 않고</li>
                                 <li>리저브 로고 색상을 메인으로 사용하였습니다.</li>
                             </ul>
+                            <div className={`${style.use_colors} flex`}>
+                            <ColorPop open={popup} close={closePopuo}></ColorPop>
+                                <div className={style.color_1} title="#222222" onClick={() => onPopup()} header="배경색1"></div>
+                                <div className={style.color_2} title="#976d3f" onClick={() => onPopup()} header="배경색2"></div>
+                                <div className={style.color_3} title="#eeeeee" onClick={() => onPopup()} header="배경색3"></div>
+                            </div>
                         </div>
                     </div>
                 </div>

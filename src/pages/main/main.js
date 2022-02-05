@@ -22,7 +22,6 @@ function Main() {
         width: x,
         transition: 0.3 + 's'
     }
-
     const {scrollY} = useScroll();
     // const {scrollMV} = useScroll();
     return (

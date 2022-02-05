@@ -38,9 +38,9 @@ function Acrc() {
                         </div>
                     </div>
 
-                    <div className={style.cont_2}>
+                    <div className={`${style.cont_box} ${style.cont_2}`}>
                         <div className={style.txt_box}>
-                            <h4>프로젝트 참여 기간 : 2021.06 ~ 2022. 02</h4>
+                            <h2>프로젝트 참여 기간 : 2021.06 ~ 2022. 02</h2>
                             <ul className={`${style.percent}flex flex_wrap_wrap`}>
                                 <li>사용자 홈페이지 내 다양한 게시판별 퍼블리싱 (90%)</li>
                                 <li>사용자 홈페이지 내 컨텐츠 페이지 퍼블리싱 (30%)</li>
@@ -55,7 +55,7 @@ function Acrc() {
                                 <li>업무포털 SMS 발송 페이지 퍼블리싱 (80%)</li>
                                 <li>업무포털 혁신게시판 (업무포털 내 별도의 홈페이지 개념) 퍼블리싱 진행 (100%)</li>
                             </ul>
-                            <ul className={style.link_box}>
+                            <ul className={`${style.link_box} flex_jc_c`}>
                                 <li className={style.target_move}><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 홈페이지 바로가기 (https://www.clean.go.kr)</a></li>
                             </ul>
                         </div>

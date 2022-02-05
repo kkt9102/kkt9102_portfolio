@@ -46,7 +46,7 @@ function Clean() {
                             <li>사용자 홈페이지 내 청렴마당 페이지 퍼블리싱 (20%)</li>
                             <li>사용자 홈페이지 내 마이페이지 페이지 퍼블리싱 (30%)</li>
                         </ul>
-                        <ul className={style.link_box}>
+                        <ul className={`${style.link_box} flex_jc_c`}>
                             <li className={style.target_move}><a href="https://www.clean.go.kr/" target="_blank" title="청렴포털 홈페이지 새창으로 바로가기"  rel="noreferrer">청렴포털 홈페이지 바로가기 (https://www.clean.go.kr)</a></li>
                         </ul>
                     </div>

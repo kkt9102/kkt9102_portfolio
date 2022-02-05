@@ -7,7 +7,8 @@ function HomeMV() {
         display: 'flex',
         justifyContent: 'flex-end',
         width: 100 + '%',
-        background: '#eeeeee'
+        background: '#eeeeee',
+        zIndex: 2
     }
     const btn_link = {
         padding:1 + 'rem',

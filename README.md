@@ -74,3 +74,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# install list
+```console
+    npm install
+    npm install react-scroll --save
+    npm install styled-components --save
+    npm install jquery --save
+    npm install react-helmet --save
+    npm install react-promise-tracker --save (제거)
+    npm install react-loding --save (제거)
+```
