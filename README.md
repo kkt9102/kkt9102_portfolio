@@ -78,6 +78,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # install list
 ```console
+<!-- index.js 최상단에 추가 -->
+    import 'react-app-polyfill/ie11';
+    import 'react-app-polyfill/stable';
+<!-- package.json 에 추가해야할 것 -->
+- "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "ie 11",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+
     npm install
     npm install react-scroll --save
     npm install styled-components --save
@@ -85,4 +103,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     npm install react-helmet --save
     npm install react-promise-tracker --save (제거)
     npm install react-loding --save (제거)
+    npm install react-app-polyfill --save
 ```
