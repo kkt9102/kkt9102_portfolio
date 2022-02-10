@@ -8,6 +8,7 @@ import Reserve from './pages/portsolio/reserve/reserve';
 import Clean from './pages/portsolio/clean/clean';
 import Acrc from './pages/portsolio/acrc/acrc';
 import AcrcChild from './pages/portsolio/acrc_children/child';
+import Prlt from './pages/portsolio/prtl/prtl';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/Clean" element={<Clean/>}/>
           <Route path="/Acrc" element={<Acrc/>}/>
           <Route path="/AcrcChild" element={<AcrcChild/>}/>
+          <Route path="Prtl" element={<Prlt/>}/>
         </Routes>
       </BrowserRouter>
     </>

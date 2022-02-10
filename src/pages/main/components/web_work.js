@@ -36,7 +36,7 @@ const WebWork = () => {
                         </Link>
                         </li>
                         <li>
-                        <Link to ="/AcrcChild" title="국민권익위원회 인트라넷 홈페이지 작업내역 소개페이지 바로가기">
+                        <Link to ="/Prtl" title="국민권익위원회 인트라넷 홈페이지 작업내역 소개페이지 바로가기">
                             <div className={`${style.link_btn} ${style.acrc_child}`}></div>
                             <div className={style.link_txt}><span className="flex flex_jc_c">국민권익위원회</span> 인트라넷 홈페이지</div>
                         </Link>

@@ -30,11 +30,12 @@ const AcrcChild = () => {
                     </div>
 
                     <div className={style.cont_2}>
-                        <div className={style.txt_box}>
+                        <div className={`${style.txt_box} flex flex_wrap_wrap`}>
                             <h2>프로젝트 참여 기간 : 2021.06 ~ 2022. 02</h2>
                             <ul className={`${style.percent}flex flex_wrap_wrap`}>
-                                <li>어린이 홈페이지 내 컨텐츠 페이지 퍼블리싱 (100%)</li>
-                                <li>어린이 홈페이지 내 퀴즈로 배워요 퍼블리싱 및 JavaScript (100%)</li>
+                                <li className={style.dots_b}>어린이 홈페이지 컨텐츠 페이지 퍼블리싱 (100%)</li>
+                                <li className={style.dots_b}>어린이 홈페이지 게시판 퍼블리싱 (100%)</li>
+                                <li className={style.dots_b}>어린이 홈페이지 퀴즈로 배워요 퍼블리싱 및 JavaScript (100%)</li>
                             </ul>
                             <ul className={`${style.link_box} flex_jc_c`}>
                                 <li className={style.target_move}><a href="https://www.acrc.go.kr/child/" target="_blank" title="국민권익위원회 어린이 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 어린이 홈페이지 바로가기 (https://www.acrc.go.kr/child/)</a></li>

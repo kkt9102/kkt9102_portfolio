@@ -75,16 +75,21 @@
 #section_04 .contect_me_form form .contect_btn button:focus,
 #section_04 .contect_me_form form .contect_btn button:hover {color:#ffffff; background:#222222;}
 #section_04 .contect_me_form form .contect_btn button:active {color:#ffffff; background:#222222; box-shadow: -2px 0px 5px #373737; transform: scale(0.95);}
-
+#section_04 .link_list ul li a {display:flex; justify-content:center; align-items:center; width:5rem; height:5rem; border:0.1rem solid #222222; border-radius:1rem;}
+#section_04 .link_list ul li a svg {width:3rem; height:3rem;}
 /* footer */
 .main_footer {position:relative; height:auto; padding:5rem 0; background:#ffffff; border-top:0.1rem solid #eeeeee;}
 .main_footer .copyright {font-size:1.3rem; font-family:'NotoKr' !important; font-weight: 300;}
 
 /* portfolio_info */
 .con2 .page_tit {margin-bottom:2rem; padding-top:5rem; font-size:3.5rem; font-weight:600;}
-.portfolio_info .con .cont_2 .txt_box ul {flex-wrap:wrap;}
-.portfolio_info .con .cont_2 .txt_box ul li:not('.target_move') {flex-basis:100%;}
-.portfolio_info .con .cont_2 .txt_box ul {flex-wrap:wrap;}
+.portfolio_info .cont_1 .sub_tit {margin-bottom:2rem; font-size: 2.4rem;}
+.portfolio_info .cont_1 .sub_txt ul li {font-size:1.7rem; line-height: 2.4rem;}
+.portfolio_info .cont_2 .txt_box {padding:1rem; border:0.1rem solid #dddddd;}
+.portfolio_info .cont_2 .txt_box > h2 {flex-basis:100%; margin-bottom:1rem; font-size:2.1rem; text-align:center;}
+.portfolio_info .cont_2 .txt_box .dots_b {position:relative; text-indent: 1rem; line-height: 2rem;}
+.portfolio_info .cont_2 .txt_box .dots_b::before {content:''; position: absolute; width: 0.4rem; height: 0.4rem; left:0; top:50%; background-color: #222222;}
+.portfolio_info .cont_2 .txt_box ul li:not('.target_move') {flex-basis:100%;}
 .portfolio_info .link_box {display:flex; margin:1rem 0;}
 .portfolio_info .link_box .target_move a {background:#dddddd; border:0.1rem solid #dddddd; border-radius:0.5rem; font-weight: 900; padding:1rem; color:#222222;}
 
@@ -135,3 +140,6 @@
 .child .cont_1 .sub_txt {line-height: 1.5;}
 .child .cont_2 .img_box img {width:60%; border:0.1rem solid #dddddd;}
 
+/* prtl */
+.prtl {font-family: 'Pretendard'; letter-spacing: -1px;}
+.prtl * {color:#222222;}

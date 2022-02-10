@@ -1,5 +1,6 @@
 import React from "react";
 import style from "../../../resource/css/main_style.module.css";
+import { RiKakaoTalkFill, RiGithubFill, RiPenNibFill } from "react-icons/ri";
 
 const Contect = () => {
     return(
@@ -30,6 +31,20 @@ const Contect = () => {
                                     <button>보내기</button>
                                 </div>
                             </form>
+                        </div>
+
+                        <div className={style.link_list}>
+                            <ul className={` flex`}>
+                                <li className={style.opentok}>
+                                    <a href="https://open.kakao.com/o/swDf3n0c" target="_blank" rel="noopener noreferrer" title="카카오톡 오픈체팅"><RiKakaoTalkFill/></a>
+                                </li>
+                                <li className={style.github}>
+                                    <a href="https://github.com/kkt9102" target="_blank" rel="noopener noreferrer" title="깃허브 바로가기"><RiGithubFill/></a>
+                                </li>
+                                <li className={style.gitblog}>
+                                    <a href="https://kkt9102.github.io/"  target="_blank" rel="noopener noreferrer" title="블로그 바로가기"><RiPenNibFill/></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
