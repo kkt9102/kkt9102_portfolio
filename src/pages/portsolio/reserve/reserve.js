@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import style from "../../../resource/css/main_style.module.css";
-import StarbucksReserve from "./StarbucksReserve";
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
-import ColorPop from './components/color_popup';
+import ColorPop from './color_popup';
 
 // img
 import info_bg1 from '../../../resource/img/reserve/reserve_3d_1.png';
@@ -28,7 +27,6 @@ function Reserve(){
     }
     return(
         <>
-            {/* <StarbucksReserve/> */}
             <ScrollToTop/>
             <HomeMV/>
             <div className={`${style.reserve} ${style.portfolio_info} relative`}>

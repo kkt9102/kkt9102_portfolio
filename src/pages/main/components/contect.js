@@ -19,7 +19,7 @@ const Contect = () => {
                                     </div>
                                     <div className={style.email_box}>
                                         <div>E-Mail Address</div>
-                                        <input type="text" name="email" id="email" placeholder="답장을 받아 보실 이메일을 입력해주세요." title="답장을 받으실 이메일을 입력해주세요."></input>
+                                        <input type="text" name="email" id="email" placeholder="답장을 받으실 이메일을 입력해주세요." title="답장을 받으실 이메일을 입력해주세요."></input>
                                     </div>
                                 </div>
                                 <div className={style.email_contents_box}>
