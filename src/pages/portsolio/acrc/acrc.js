@@ -38,7 +38,7 @@ function Acrc() {
                     <div className={`${style.cont_box} ${style.cont_2}`}>
                         <div className={`${style.txt_box} flex flex_wrap_wrap`}>
                             <h2>프로젝트 참여 기간 : 2021.06 ~ 2022. 02</h2>
-                            <ul className={`${style.percent}flex flex_wrap_wrap`}>
+                            <ul className={style.percent}>
                                 <li className={style.dots_b}>사용자 홈페이지 내 다양한 게시판별 퍼블리싱 (90%)</li>
                                 <li className={style.dots_b}>사용자 홈페이지 내 컨텐츠 페이지 퍼블리싱 (30%)</li>
                                 <li className={style.dots_b}>사용자 홈페이지 내 민원신청 페이지 퍼블리싱 (100%)</li>

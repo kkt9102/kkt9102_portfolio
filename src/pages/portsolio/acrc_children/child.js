@@ -32,7 +32,7 @@ const AcrcChild = () => {
                     <div className={style.cont_2}>
                         <div className={`${style.txt_box} flex flex_wrap_wrap`}>
                             <h2>프로젝트 참여 기간 : 2021.06 ~ 2022. 02</h2>
-                            <ul className={`${style.percent}flex flex_wrap_wrap`}>
+                            <ul className={style.percent}>
                                 <li className={style.dots_b}>어린이 홈페이지 컨텐츠 페이지 퍼블리싱 (100%)</li>
                                 <li className={style.dots_b}>어린이 홈페이지 게시판 퍼블리싱 (100%)</li>
                                 <li className={style.dots_b}>어린이 홈페이지 퀴즈로 배워요 퍼블리싱 및 JavaScript (100%)</li>
