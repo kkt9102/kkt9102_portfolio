@@ -2,6 +2,7 @@ import React from "react";
 
 import '../../resource/css/common.css';
 import style from '../../resource/css/main_style.module.css';
+import '../../resource/css/style1240.module.css';
 import $, { event } from "jquery";
 import { Link } from "react-scroll";
 
@@ -17,6 +18,7 @@ import Footer from "./components/footer";
 
 
 function Main() {
+    
     const {x} = useMousePosition();
     const BgStyle = {
         width: x,

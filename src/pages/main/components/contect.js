@@ -1,6 +1,7 @@
 import React from "react";
 import style from "../../../resource/css/main_style.module.css";
 import { RiKakaoTalkFill, RiGithubFill, RiPenNibFill } from "react-icons/ri";
+import { FaBlogger } from "react-icons/fa";
 
 const Contect = () => {
     return(
@@ -42,7 +43,7 @@ const Contect = () => {
                                     <a href="https://github.com/kkt9102" target="_blank" rel="noopener noreferrer" title="깃허브 바로가기"><RiGithubFill/></a>
                                 </li>
                                 <li className={style.gitblog}>
-                                    <a href="https://kkt9102.github.io/"  target="_blank" rel="noopener noreferrer" title="블로그 바로가기"><RiPenNibFill/></a>
+                                    <a href="https://kkt9102.github.io/"  target="_blank" rel="noopener noreferrer" title="블로그 바로가기"><FaBlogger/></a>
                                 </li>
                             </ul>
                         </div>
