@@ -89,19 +89,18 @@
 .main_footer .copyright {font-size:1.3rem; font-family:'NotoKr' !important; font-weight: 300;}
 
 /* portfolio_info */
-.con2 .page_tit {margin-bottom:2rem; padding-top:5rem; font-size:3.5rem; font-weight:600;}
-.portfolio_info .cont_1 .sub_tit {margin-bottom:2rem; font-size: 2.4rem;}
+.con2 {max-width: 100rem;}
+.con2 .page_tit {margin-bottom:2rem; padding-top:5rem; font-size:3.5rem; font-weight:800;}
+.portfolio_info .cont_1 .sub_tit {margin-bottom:2rem; font-size: 2.4rem; font-weight:600;}
 .portfolio_info .cont_1 .sub_txt {border:0.1rem solid #dddddd; padding:1rem; margin-bottom:3rem;}
 .portfolio_info .cont_1 .sub_txt ul li {font-size:1.7rem; line-height: 2.4rem;}
-/* .portfolio_info .cont_2 > .txt_box {padding:1rem; border:0.1rem solid #dddddd;} */
 .portfolio_info .cont_2 .txt_box > * {flex-basis:100%;}
-.portfolio_info .cont_2 .txt_box .percent {padding:1rem 25rem;}
 .portfolio_info .cont_2 .txt_box .percent li {line-height:2.5rem;}
-.portfolio_info .cont_2 .txt_box h2 {margin-bottom:1rem; font-size:2.1rem; text-align:center;}
+.portfolio_info .cont_2 .txt_box h2 {margin-bottom:1rem; font-size:2.1rem;}
 .portfolio_info .cont_2 .txt_box .dots_b {position:relative; text-indent: 1rem; line-height: 2rem;}
 .portfolio_info .cont_2 .txt_box .dots_b::before {content:''; position: absolute; width: 0.4rem; height: 0.4rem; left:0; top:50%; background-color: #222222;}
 .portfolio_info .cont_2 .txt_box ul li:not('.target_move') {flex-basis:100%;}
-.portfolio_info .link_box {display:flex; margin:1rem 0 3rem;}
+.portfolio_info .link_box {display:flex; margin:2rem 0 3rem;}
 .portfolio_info .link_box .target_move a {background:#ffffff; border:0.1rem solid #dddddd; border-radius:0.5rem; font-weight: 900; padding:1rem; color:#222222; transition: all 0.2s;}
 .portfolio_info .link_box .target_move a:hover {background:#222222; border-color:#222222; color:#eeeeee;}
 
@@ -138,20 +137,22 @@
 .clean .cont_2 {margin-top:2rem;}
 .clean .cont_2 h2 {font-size:1.7rem;}
 .clean .cont_2 .img_box {margin-top:1.5rem;}
-.clean .cont_2 .img_box img {width:60%; border:0.1rem solid #dddddd;}
+.clean .cont_2 .img_box img {width:90%; border:0.1rem solid #dddddd;}
 
 /* acrc */
 .acrc {font-family: 'Pretendard'; letter-spacing: -1px;}
 .acrc * {color:#222222;}
 .acrc .cont_1 .sub_txt {line-height: 1.5;}
-.acrc .cont_2 .img_box img {width:60%; border:0.1rem solid #dddddd;}
+.acrc .cont_2 .img_box img {width:90%; border:0.1rem solid #dddddd;}
 
 /* child */
 .child {font-family: 'Pretendard'; letter-spacing: -1px;}
 .child * {color:#222222;}
 .child .cont_1 .sub_txt {line-height: 1.5;}
-.child .cont_2 .img_box img {width:60%; border:0.1rem solid #dddddd;}
+.child .cont_2 .img_box img {width:90%; border:0.1rem solid #dddddd;}
 
 /* prtl */
 .prtl {font-family: 'Pretendard'; letter-spacing: -1px;}
 .prtl * {color:#222222;}
+.prtl .cont_1 .sub_txt {line-height: 1.5;}
+.prtl .cont_2 .img_box img {width:90%; border:0.1rem solid #dddddd;}

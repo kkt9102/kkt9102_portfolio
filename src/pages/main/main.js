@@ -2,7 +2,6 @@ import React from "react";
 
 import '../../resource/css/common.css';
 import style from '../../resource/css/main_style.module.css';
-import $, { event } from "jquery";
 import { Link } from "react-scroll";
 
 import { useMousePosition } from "../../utils/mosuePosition";

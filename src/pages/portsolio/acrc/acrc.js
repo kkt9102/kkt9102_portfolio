@@ -3,6 +3,8 @@ import style from "../../../resource/css/main_style.module.css";
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
 
+import { useScroll } from "../../../utils/scrollMove";
+
 // img
 import acrc_mian from "../../../resource/img/acrc_main.png";
 import main_board_img_1 from "../../../resource/img/acrc/main_board_list_1.png";
@@ -12,6 +14,7 @@ import main_board_img_4 from "../../../resource/img/acrc/main_board_list_4.png";
 import main_cdns_img_2 from "../../../resource/img/acrc/main_cdns_list.png";
 
 function Acrc() {
+    const {scrollY} = useScroll();
     return(
         <>
             <ScrollToTop/>
@@ -56,7 +59,8 @@ function Acrc() {
                                 <li className={style.target_move}><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 홈페이지 바로가기 (https://www.clean.go.kr)</a></li>
                             </ul>
                         </div>
-                        <div className={style.img_box}>
+                        {/*  className={`${scrollY < 500 ? style.y_Top : style.y_move} ${style.main_header}  */}
+                        <div className={`${scrollY < 1400 ? style.show : style.hide } ${style.img_box}`}>
                             <ul className={style.img_list}>
                                 <li>
                                     <div className={`${style.img_box} flex flex_jc_c`}>
