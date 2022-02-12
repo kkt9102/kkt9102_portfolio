@@ -60,7 +60,7 @@ function Acrc() {
                             </ul>
                         </div>
                         {/*  className={`${scrollY < 500 ? style.y_Top : style.y_move} ${style.main_header}  */}
-                        <div className={`${scrollY < 1400 ? style.show : style.hide } ${style.img_box}`}>
+                        <div className={`${style.img_box}`}>
                             <ul className={style.img_list}>
                                 <li>
                                     <div className={`${style.img_box} flex flex_jc_c`}>
@@ -71,7 +71,7 @@ function Acrc() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className={`${style.img_box} flex flex_jc_c`}>
+                                    <div className={`${scrollY < 1400 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
                                         <img src={main_board_img_1} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                                     </div>
                                     <div className={style.txt_box}>
@@ -79,7 +79,7 @@ function Acrc() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className={`${style.img_box} flex flex_jc_c`}>
+                                    <div className={`${scrollY < 2220 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
                                         <img src={main_board_img_2} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                                     </div>
                                     <div className={style.txt_box}>
@@ -87,7 +87,7 @@ function Acrc() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className={`${style.img_box} flex flex_jc_c`}>
+                                    <div className={`${scrollY < 3360 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
                                         <img src={main_board_img_3} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                                     </div>
                                     <div className={style.txt_box}>

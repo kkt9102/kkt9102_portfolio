@@ -4,6 +4,8 @@ import style from "../../../resource/css/main_style.module.css";
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
 
+import { useScroll } from "../../../utils/scrollMove";
+
 // img
 import main_img from "../../../resource/img/clean/clean_main.png";
 import main_board from "../../../resource/img/clean/clean_board.png";
@@ -15,7 +17,7 @@ import main_sub_mo from "../../../resource/img/clean/clean_sub_list_mo.png";
 import main_pop_mo from "../../../resource/img/clean/clean_sub_pop_mo.png";
 
 function Clean() {
-
+    const {scrollY} = useScroll();
     return(
         <>
         <ScrollToTop/>
@@ -61,7 +63,7 @@ function Clean() {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 800 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
                                     <img src={main_board} alt="청렴포털 상담사례 목록"></img>
                                 </div>
                                 <div className={style.txt_box}>
@@ -69,7 +71,7 @@ function Clean() {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 1900 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
                                     <img src={main_sub} alt="청렴포털 청렴마당 기관별 목록"></img>
                                 </div>
                                 <div className={style.txt_box}>
@@ -77,7 +79,7 @@ function Clean() {
                                 </div>    
                             </li>
                             <li>
-                                <div className={`${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 3000 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
                                     <img src={main_pop} alt="청렴마당"></img>
                                 </div>
                                 <div className={style.txt_box}>

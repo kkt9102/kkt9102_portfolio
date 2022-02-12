@@ -3,6 +3,8 @@ import style from "../../../resource/css/main_style.module.css";
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
 
+import { useScroll } from "../../../utils/scrollMove";
+
 // img
 import child_main from "../../../resource/img/acrc_child_main.png";
 import cont_1 from "../../../resource/img/child/child_cont_1.png";
@@ -11,6 +13,7 @@ import child_quiz from "../../../resource/img/child/child_quiz.png";
 import child_sitemap from "../../../resource/img/child/child_sitemap.png";
 
 const AcrcChild = () => {
+    const {scrollY} = useScroll();
     return (
         <>
             <ScrollToTop/>
@@ -24,7 +27,8 @@ const AcrcChild = () => {
                         <div className={style.sub_txt}>
                             <ul>
                                 <li>국민권익위원회 홈페이지·업무포털 전면개편 사업에 포함되는 사업이었으며</li>
-                                <li>그 중 어린이 홈페이지 개편 부분 퍼블리싱을 진행했습니다.</li>
+                                <li>그 중 어린이 홈페이지 전체 퍼블리싱을 진행했습니다.</li>
+                                <li></li>
                             </ul>
                         </div>
                     </div>
@@ -52,7 +56,7 @@ const AcrcChild = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 1400 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
                                     <img src={cont_1} alt="국민권익위원회 어린이 홈페이지 컨텐츠페이지1"></img>
                                 </div>
                                 <div className={style.txt_box}>
@@ -60,7 +64,7 @@ const AcrcChild = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 4300 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
                                     <img src={cont_2} alt="국민권익위원회 어린이 홈페이지 컨텐츠 페이지2"></img>
                                 </div>
                                 <div className={style.txt_box}>
@@ -68,7 +72,7 @@ const AcrcChild = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 5700 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
                                     <img src={child_quiz} alt="국민권익위원회 어린이 홈페이지 퀴즈로 배워요 페이지"></img>
                                 </div>
                                 <div className={style.txt_box}>
@@ -76,7 +80,7 @@ const AcrcChild = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 6450 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
                                     <img src={child_sitemap} alt="국민권익위원회 어린이 홈페이지 사이트맵"></img>
                                 </div>
                                 <div className={style.txt_box}>

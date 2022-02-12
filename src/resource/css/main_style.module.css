@@ -103,6 +103,8 @@
 .portfolio_info .link_box {display:flex; margin:2rem 0 3rem;}
 .portfolio_info .link_box .target_move a {background:#ffffff; border:0.1rem solid #dddddd; border-radius:0.5rem; font-weight: 900; padding:1rem; color:#222222; transition: all 0.2s;}
 .portfolio_info .link_box .target_move a:hover {background:#222222; border-color:#222222; color:#eeeeee;}
+.portfolio_info .img_box.hide {opacity: 0; transform:translateY(-10%); transition: opacity 0.2s, transform 0.3s;}
+.portfolio_info .img_box.show {opacity: 1; transform:translateY(0); transition: opacity 0.2s, transform 0.3s;}
 
 /* reserve */
 .reserve {background:#222222; z-index: 1;}
