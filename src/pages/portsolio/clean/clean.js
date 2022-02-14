@@ -26,7 +26,7 @@ function Clean() {
             <div className={style.con2}>
                 <h2 className={style.page_tit}>국민권익위원회 | 부패방지 종합정보시스템 구축3단계</h2>
                 <div className={`${style.cont_box} ${style.cont_1}`}>
-                    {/* <div className={style.sub_tit}>국민권익위원회 | 부패방지 3단계 고도화 사업</div> */}
+                    <div className={style.sub_tit}>국민권익위원회 | 부패방지 3단계 고도화 사업</div>
 
                     <div className={style.sub_txt}>
                         <div>
