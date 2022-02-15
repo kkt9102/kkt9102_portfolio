@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import $ from 'jquery';
-import './App.css';
+import Css from './css';
 import Main from './pages/main/main';
 import Reserve from './pages/portsolio/reserve/reserve';
 import Clean from './pages/portsolio/clean/clean';
@@ -23,10 +23,12 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <>
+    <Css/>
        {/* <button onClick={openModal}>모달팝업</button>
       <Modal open={modalOpen} close={closeModal} header="Modal heading">
       </Modal> */}
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* <BrowserRouter> */}
         <Routes>
           <Route path="/" element={<Main/>} />
           <Route path="/Reserve/" element={<Reserve/>}/>

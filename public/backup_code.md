@@ -7,7 +7,7 @@
         transition: 0.05 + 's'
     }
 
-    <div className={style.section_progress} style={progress}></div>
+    <div className= section_progress} style={progress}></div>
 
     <div>{scrollMV}/{view_height}</div>
 

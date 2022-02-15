@@ -1,5 +1,4 @@
 import React from "react";
-import style from "../../../resource/css/main_style.module.css";
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
 
@@ -18,13 +17,13 @@ const AcrcChild = () => {
         <>
             <ScrollToTop/>
             <HomeMV/>
-            <div className={`${style.child} ${style.portfolio_info}`}>
-                <div className={style.con2}>
-                    <h2 className={style.page_tit}>국민권익위원회 어린이 홈페이지</h2>
-                    <div className={`${style.cont_box} ${style.cont_1}`}>
-                        <div className={style.sub_tit}>국민권익위원회 홈페이지·업무포털 전면개편 사업</div>
+            <div className='child portfolio_info'>
+                <div className='con2'>
+                    <h2 className='page_tit'>국민권익위원회 어린이 홈페이지</h2>
+                    <div className='cont_box cont_1'>
+                        <div className='sub_tit'>국민권익위원회 홈페이지·업무포털 전면개편 사업</div>
                     
-                        <div className={style.sub_txt}>
+                        <div className='sub_txt'>
                             <ul>
                                 <li>국민권익위원회 홈페이지·업무포털 전면개편 사업에 포함되는 사업이었으며</li>
                                 <li>그 중 어린이 홈페이지 전체 퍼블리싱을 진행했습니다.</li>
@@ -33,57 +32,57 @@ const AcrcChild = () => {
                         </div>
                     </div>
 
-                    <div className={style.cont_2}>
-                        <div className={`${style.txt_box} flex flex_wrap_wrap`}>
+                    <div className='cont_2'>
+                        <div className='txt_box flex flex_wrap_wrap'>
                             <h2>프로젝트 참여 기간 : 2021.06 ~ 2022. 02</h2>
-                            <ul className={style.percent}>
-                                <li className={style.dots_b}>어린이 홈페이지 컨텐츠 페이지 퍼블리싱 (100%)</li>
-                                <li className={style.dots_b}>어린이 홈페이지 게시판 퍼블리싱 (100%)</li>
-                                <li className={style.dots_b}>어린이 홈페이지 퀴즈로 배워요 퍼블리싱 및 JavaScript (100%)</li>
+                            <ul className='percent'>
+                                <li className='dots_b'>어린이 홈페이지 컨텐츠 페이지 퍼블리싱 (100%)</li>
+                                <li className='dots_b'>어린이 홈페이지 게시판 퍼블리싱 (100%)</li>
+                                <li className='dots_b'>어린이 홈페이지 퀴즈로 배워요 퍼블리싱 및 JavaScript (100%)</li>
                             </ul>
-                            <ul className={`${style.link_box} flex_jc_c`}>
-                                <li className={style.target_move}><a href="https://www.acrc.go.kr/child/" target="_blank" title="국민권익위원회 어린이 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 어린이 홈페이지 바로가기 (https://www.acrc.go.kr/child/)</a></li>
+                            <ul className='link_box flex_jc_c'>
+                                <li className='target_move'><a href="https://www.acrc.go.kr/child/" target="_blank" title="국민권익위원회 어린이 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 어린이 홈페이지 바로가기 (https://www.acrc.go.kr/child/)</a></li>
                             </ul>
                         </div>
-                        <div className={style.img_box}>
-                        <ul className={style.img_list}>
+                        <div className='img_box'>
+                        <ul className='img_list'>
                             <li>
-                                <div className={`${style.img_box} flex flex_jc_c`}>
+                                <div className='img_box flex flex_jc_c'>
                                     <img src={child_main} alt="국민권익위원회 어린이 홈페이지 메인"></img>
                                 </div>
-                                <div className={style.txt_box}>
+                                <div className='txt_box'>
 
                                 </div>
                             </li>
                             <li>
-                                <div className={`${scrollY < 1400 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 1400 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={cont_1} alt="국민권익위원회 어린이 홈페이지 컨텐츠페이지1"></img>
                                 </div>
-                                <div className={style.txt_box}>
+                                <div className='txt_box'>
 
                                 </div>
                             </li>
                             <li>
-                                <div className={`${scrollY < 4300 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 4300 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={cont_2} alt="국민권익위원회 어린이 홈페이지 컨텐츠 페이지2"></img>
                                 </div>
-                                <div className={style.txt_box}>
+                                <div className='txt_box'>
 
                                 </div>
                             </li>
                             <li>
-                                <div className={`${scrollY < 5700 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 5700 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={child_quiz} alt="국민권익위원회 어린이 홈페이지 퀴즈로 배워요 페이지"></img>
                                 </div>
-                                <div className={style.txt_box}>
+                                <div className='txt_box'>
 
                                 </div>
                             </li>
                             <li>
-                                <div className={`${scrollY < 6450 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
+                                <div className={`${scrollY < 6450 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={child_sitemap} alt="국민권익위원회 어린이 홈페이지 사이트맵"></img>
                                 </div>
-                                <div className={style.txt_box}>
+                                <div className='txt_box'>
 
                                 </div>
                             </li>

@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../../../resource/css/main_style.module.css";
+import "../../../resource/css/style.css";
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
 
@@ -19,13 +19,13 @@ function Acrc() {
         <>
             <ScrollToTop/>
             <HomeMV />
-            <div className={`${style.acrc} ${style.portfolio_info}`}>
-                <div className={style.con2}>
-                    <h2 className={style.page_tit}>국민권익위원회 홈페이지</h2>
-                    <div className={`${style.cont_box} ${style.cont_1}`}>
-                        <div className={style.sub_tit}>국민권익위원회 홈페이지·업무포털 전면개편 사업</div>
+            <div className='acrc portfolio_info'>
+                <div className='con2'>
+                    <h2 className='page_tit'>국민권익위원회 홈페이지</h2>
+                    <div className='cont_box cont_1'>
+                        <div className='sub_tit'>국민권익위원회 홈페이지·업무포털 전면개편 사업</div>
                         
-                        <div className={style.sub_txt}>
+                        <div className='sub_txt'>
                             <ul>
                                 <li>퍼블리셔로 취업 후 두번째로 투입 된 사업입니다.</li>
                                 <li>해당 프로젝트에서는 초급 개발자 겸 퍼블리셔로 투입되었습니다.</li>
@@ -38,16 +38,16 @@ function Acrc() {
                         </div>
                     </div>
 
-                    <div className={`${style.cont_box} ${style.cont_2}`}>
-                        <div className={`${style.txt_box} flex flex_wrap_wrap`}>
+                    <div className='cont_box cont_2'>
+                        <div className='txt_box flex flex_wrap_wrap'>
                             <h2>프로젝트 참여 기간 : 2021.06 ~ 2022. 02</h2>
-                            <ul className={style.percent}>
-                                <li className={style.dots_b}>사용자 홈페이지 내 다양한 게시판별 퍼블리싱 (90%)</li>
-                                <li className={style.dots_b}>사용자 홈페이지 내 컨텐츠 페이지 퍼블리싱 (30%)</li>
-                                <li className={style.dots_b}>사용자 홈페이지 내 민원신청 페이지 퍼블리싱 (100%)</li>
-                                <li className={style.dots_b}>사용자 홈페이지 통합검색 퍼블리싱 (100%)</li>
-                                <li className={style.dots_b}>영문 홈페이지 header 메뉴 퍼블리싱 (50%)</li>
-                                <li className={style.dots_b}>영문 홈페이지 게시판별 퍼블리싱 (40%)</li>
+                            <ul className='percent'>
+                                <li className='dots_b'>사용자 홈페이지 내 다양한 게시판별 퍼블리싱 (90%)</li>
+                                <li className='dots_b'>사용자 홈페이지 내 컨텐츠 페이지 퍼블리싱 (30%)</li>
+                                <li className='dots_b'>사용자 홈페이지 내 민원신청 페이지 퍼블리싱 (100%)</li>
+                                <li className='dots_b'>사용자 홈페이지 통합검색 퍼블리싱 (100%)</li>
+                                <li className='dots_b'>영문 홈페이지 header 메뉴 퍼블리싱 (50%)</li>
+                                <li className='dots_b'>영문 홈페이지 게시판별 퍼블리싱 (40%)</li>
                                 {/* <li>어린이 홈페이지 메인, 게시판, 컨텐츠 페이지 퍼블리싱 (100%)</li> */}
                                 {/* <li>홈페이지 관리자 페이지 민원신청 확인 페이지 퍼블리싱 (80%)</li> */}
                                 {/* <li>홈페이지 괸리자 페이지 개인정보 다운로드 사유 입력 및 엑셀 다운로드 기능 (40%)</li> */}
@@ -55,49 +55,49 @@ function Acrc() {
                                 {/* <li>업무포털 SMS 발송 페이지 퍼블리싱 (80%)</li> */}
                                 {/* <li>업무포털 혁신게시판 (업무포털 내 별도의 홈페이지 개념) 퍼블리싱 진행 (100%)</li> */}
                             </ul>
-                            <ul className={`${style.link_box} flex_jc_c`}>
-                                <li className={style.target_move}><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 홈페이지 바로가기 (https://www.clean.go.kr)</a></li>
+                            <ul className='link_box flex_jc_c'>
+                                <li className='target_move'><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 홈페이지 바로가기 (https://www.clean.go.kr)</a></li>
                             </ul>
                         </div>
                         {/*  className={`${scrollY < 500 ? style.y_Top : style.y_move} ${style.main_header}  */}
-                        <div className={`${style.img_box}`}>
-                            <ul className={style.img_list}>
+                        <div className='img_box'>
+                            <ul className='img_list'>
                                 <li>
-                                    <div className={`${style.img_box} flex flex_jc_c`}>
+                                    <div className='img_box flex flex_jc_c'>
                                         <img src={acrc_mian} alt="국민권익위원회 국문 홈페이지 메인"></img>
                                     </div>
-                                    <div className={style.txt_box}>
+                                    <div className='txt_box'>
 
                                     </div>
                                 </li>
                                 <li>
-                                    <div className={`${scrollY < 1400 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
+                                    <div className={`${scrollY < 1400 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                         <img src={main_board_img_1} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                                     </div>
-                                    <div className={style.txt_box}>
+                                    <div className='txt_box'>
 
                                     </div>
                                 </li>
                                 <li>
-                                    <div className={`${scrollY < 2220 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
+                                    <div className={`${scrollY < 2220 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                         <img src={main_board_img_2} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                                     </div>
-                                    <div className={style.txt_box}>
+                                    <div className='txt_box'>
 
                                     </div>
                                 </li>
                                 <li>
-                                    <div className={`${scrollY < 3360 ? style.hide : style.show } ${style.img_box} flex flex_jc_c`}>
+                                    <div className={`${scrollY < 3360 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                         <img src={main_board_img_3} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                                     </div>
-                                    <div className={style.txt_box}>
+                                    <div className='txt_box'>
 
                                     </div>
                                 </li>
                             </ul>
                         </div>
 
-                        <div className={style.cont_3}>
+                        <div className='cont_3'>
 
                         
                         </div>

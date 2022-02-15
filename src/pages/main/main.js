@@ -1,7 +1,5 @@
 import React from "react";
 
-import '../../resource/css/common.css';
-import style from '../../resource/css/main_style.module.css';
 import { Link } from "react-scroll";
 
 import { useMousePosition } from "../../utils/mosuePosition";
@@ -26,8 +24,8 @@ function Main() {
     // const {scrollMV} = useScroll();
     return (
         
-        <div id={style.main_page}>
-            <header className={`${scrollY < 500 ? style.y_Top : style.y_move} ${style.main_header} fixed`}>
+        <div id='main_page'>
+            <header className={`${scrollY < 500 ? 'y_Top' : 'y_move'}  main_header fixed`}>
                 <nav>
                     <ul className="flex flex_jc_e">
                         <li className="flex flex_ai_c">
@@ -53,15 +51,15 @@ function Main() {
                     </ul>
                 </nav>
             </header>
-            <section id={style.section_01} className={`${style.section} main_sc_1`}>
+            <section id='section_01'className='section main_sc_1'>
                 {/* <div className={`${style.sc_01_bg} absolute`} style={BgStyle}>
                 </div> */}
-                <div className={style.con}>
-                    <div className={`${style.sc_bg_1} absolute`}></div>
-                    <div className={`${style.sc_bg_2} absolute`}></div>
-                    <div className={style.main_deco}>
-                        <div className={style.main_tit}>kkt9102</div>
-                        <div className={style.main_sub_tit}>Portfolio</div>
+                <div className='con'>
+                    <div className='sc_bg_1 absolute'></div>
+                    <div className='sc_bg_2 absolute'></div>
+                    <div className='main_deco'>
+                        <div className='main_tit'>kkt9102</div>
+                        <div className='main_sub_tit'>Portfolio</div>
                     </div>
                 </div>
             </section>
