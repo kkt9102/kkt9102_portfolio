@@ -79,6 +79,7 @@
 #section_04 .contect_me_form form .contect_btn button:focus,
 #section_04 .contect_me_form form .contect_btn button:hover {color:#ffffff; background:#222222;}
 #section_04 .contect_me_form form .contect_btn button:active {color:#ffffff; background:#222222; box-shadow: -2px 0px 5px #373737; transform: scale(0.95);}
+#section_04 .link_list ul li {margin:1rem;}
 #section_04 .link_list ul li a {display:flex; justify-content:center; align-items:center; width:5rem; height:5rem; border:0.1rem solid #222222; border-radius:1rem; background:none; transition:background 0.2s;}
 #section_04 .link_list ul li a svg {width:3rem; height:3rem;}
 #section_04 .link_list ul .opentok a:hover {background:#FAE100;}

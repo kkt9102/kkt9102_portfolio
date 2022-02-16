@@ -34,7 +34,7 @@ const Contect = () => {
                         </div>
 
                         <div className='link_list'>
-                            <ul className='flex'>
+                            <ul className='flex flex_jc_c'>
                                 <li className='opentok'>
                                     <a href="https://open.kakao.com/o/swDf3n0c" target="_blank" rel="noopener noreferrer" title="카카오톡 오픈체팅"><RiKakaoTalkFill/></a>
                                 </li>

@@ -1,0 +1,34 @@
+@media all and (max-width:786px) {
+    /* common */
+    #main_page .sc_tit {font-size:2.4rem; padding:1rem;}
+
+    /* header */
+    .main_header ul li span {font-size:1.5rem;}
+
+    /* section_01 */
+    #section_01 .main_deco {margin-top:0; align-items:flex-start;}
+    #section_01 .main_deco > div {font-size:8rem;}
+
+    /* section_02 */
+    #section_02::after {width:10rem; left:10%;}
+    #section_02 .page_tit {width: 80%; flex-direction: unset;}
+    #section_02 .page_tit span {margin-right:0.5rem; font-size:1.8rem;}
+    #section_02 .page_tit span div {font-size:2rem;}
+    #section_02 .page_tit > span:not(:first-child) {margin-top:0;}
+    #section_02 .cont_box .img_box {width: 15%;}
+    #section_02 .cont_box .txt_box {padding-top:12rem; margin-left:12%;}
+    #section_02 .cont_box .txt_box.intro .sub_tit {margin-top:3rem; padding-bottom:1.2rem; font-size:2rem;}
+    #section_02 .cont_box .txt_box.intro ul li {font-size:1.4rem; line-height:1.9rem;}
+    #section_02 .cont_box .txt_box.intro ul:last-child li {line-height:2rem;}
+
+    /* content_03 */
+    #section_03 {padding-top:6rem;}
+    #section_03 .cont_box .sc_tit {margin-bottom:2rem;}
+    #section_03 .cont_box .web_work li {display:flex; justify-content:center; flex-basis:10%; height:14.5rem;}
+    #section_03 .cont_box .web_work li .link_btn {position:relative; width:8rem; height:100%; border-radius:1rem; background: url('../img/mockup_mo.png'); background-size: cover; overflow: hidden;}
+    #section_03 .cont_box .web_work li .link_btn.reserve::after {}
+    #section_03 .cont_box .web_work li .link_btn.clean::after {background:url('../img/clean/clean_main_mo.png'); background-size:cover; height:100%; top:14%;}
+    #section_03 .cont_box .web_work li .link_btn.acrc::after {background:url('../img/acrc/acrc_main_mo.png'); background-size:cover; height:100%; top:14%;}
+    #section_03 .cont_box .web_work li .link_btn.acrc_child::after {background:url('../img/child/acrc_child_main_mo.png'); background-size:cover; height:100%; top:14%;}
+    
+}

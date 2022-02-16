@@ -1,20 +1,21 @@
 
 @media all and (max-width:1024px) {
     /* common */
-
+    .con {max-width:90%;}
     /* header menu */
     .y_Top ul,.y_move ul {justify-content: space-around; height:6rem;}
 
     /* section_01 */
-    #section_01 .main_deco {display:flex; flex-direction: column; align-items: center;}
-    #section_01 .main_deco > div {font-size:17rem; text-shadow: 0.2rem 0.2rem #222222, 0 0.2rem #222222, -0.2rem -0.2rem #222222, -0.2rem 0 #222222; mix-blend-mode:unset; color:#ffffff;}
+    #section_01 .main_deco {display:flex; flex-direction: column; align-items: center; margin-top:20rem;}
+    #section_01 .main_deco > div {font-size:17rem;}
+    /*  text-shadow: 0.2rem 0.2rem #222222, 0 0.2rem #222222, -0.2rem -0.2rem #222222, -0.2rem 0 #222222; mix-blend-mode:unset; color:#ffffff; */
 
     /* section_02 */
-    #section_02::after {left:30%;}
+    #section_02::after {left:33%; width:23rem;}
     #section_02 .page_tit {width:50%; z-index:6;}
     #section_02 .page_tit span {font-size:2.3rem; margin-right:2rem;}
     #section_02 .page_tit span div {font-size:2.8rem;}
-    #section_02 .cont_box .img_box {width:40%;}
+    #section_02 .cont_box .img_box {width:45%;}
     #section_02 .cont_box .txt_box {margin-left:35%;}
     #section_02 .cont_box .txt_box.intro ul li {font-size:1.6rem; word-break: keep-all;}
     #section_02 .cont_box .txt_box.intro ul:last-child {margin-left:10%;}
@@ -22,9 +23,13 @@
     #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(2) {margin-left:-9%;}
     #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(3) {margin-left:-8%;}
     #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(4) {margin-left:-7%;}
-    #section_02 .cont_box .txt_box.intro .sub_tit {padding-left:20rem;}
+    #section_02 .cont_box .txt_box.intro .sub_tit {padding-left:20rem; z-index:6;}
     
     /* section_03 */
+    #section_03 .cont_box .web_work {width:100%;}
     #section_03 .cont_box .web_work li .link_txt {margin-top:1rem;}
     #section_03 .cont_box .web_work li .link_btn.reserve::after {left:3%;}
+
+    /* footer */
+    .main_footer {padding:2.5rem;}
 }
