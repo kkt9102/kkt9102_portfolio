@@ -1,5 +1,6 @@
-import './resource/css/1024.css';
 import './resource/css/common.css';
+import './resource/css/style.css';
+import './resource/css/1024.css';
 
 
 
