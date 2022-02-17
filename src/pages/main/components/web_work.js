@@ -3,6 +3,8 @@ import { BrowserRouter, Link } from "react-router-dom";
 
 const WebWork = () => {
 
+    const PageWidth = document.documentElement.scrollWidth;
+
     return (
         <>
         <section id='section_03' className='section main_sc_3'>
@@ -34,7 +36,7 @@ const WebWork = () => {
                             <div className='link_txt'><span className="flex flex_jc_c">국민권익위원회</span> 어린이 홈페이지</div>
                         </Link>
                         </li>
-                        <li>
+                        <li className={`${PageWidth < 786 ? 'none_im' : 'win'}`}>
                         <Link to ="/Prtl" title="국민권익위원회 인트라넷 홈페이지 작업내역 소개페이지 바로가기">
                             <div className='link_btn prtl'></div>
                             <div className='link_txt'><span className="flex flex_jc_c">국민권익위원회</span> 인트라넷 홈페이지</div>

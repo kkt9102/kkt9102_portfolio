@@ -2,6 +2,7 @@
 @media all and (max-width:1024px) {
     /* common */
     .con {max-width:90%;}
+
     /* header menu */
     .y_Top ul,.y_move ul {justify-content: space-around; height:6rem;}
 
@@ -17,19 +18,25 @@
     #section_02 .page_tit span div {font-size:2.8rem;}
     #section_02 .cont_box .img_box {width:45%;}
     #section_02 .cont_box .txt_box {margin-left:35%;}
-    #section_02 .cont_box .txt_box.intro ul li {font-size:1.6rem; word-break: keep-all;}
+    #section_02 .cont_box .txt_box.intro ul li {font-size:1.5rem; line-height:1.8; word-break: keep-all;}
     #section_02 .cont_box .txt_box.intro ul:last-child {margin-left:10%;}
     #section_02 .cont_box .txt_box.intro ul:last-child li:first-child {margin-left:-10%;}
     #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(2) {margin-left:-9%;}
     #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(3) {margin-left:-8%;}
     #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(4) {margin-left:-7%;}
-    #section_02 .cont_box .txt_box.intro .sub_tit {padding-left:20rem; z-index:6;}
+    #section_02 .cont_box .txt_box.intro .sub_tit {padding-left:20rem; margin-top:8rem; z-index:6;}
     
     /* section_03 */
-    #section_03 .cont_box .web_work {width:100%;}
+    #section_03 .cont_box .web_work {max-width:100%;}
+    #section_03 .cont_box .web_work li {padding:1rem;}
     #section_03 .cont_box .web_work li .link_txt {margin-top:1rem;}
     #section_03 .cont_box .web_work li .link_btn.reserve::after {left:3%;}
 
     /* footer */
     .main_footer {padding:2.5rem;}
+
+    /* portfolio_info */
+    .con2 {max-width: 90%;}
+    .portfolio_info .cont_1 .sub_txt ul li {font-size:1.5rem; line-height:1.8;}
+    .acrc .cont_2 .img_box img {width:80%;}
 }

@@ -20,6 +20,7 @@ p, a, li, ol, div, span {font-size:1.6rem;}
 .inline_block { display:inline-block;}
 .inline_flex { display:inline-flex;}
 .none {display:none;}
+.none_im {display:none !important;}
 
 /* position */
 .fixed {position:fixed;}
