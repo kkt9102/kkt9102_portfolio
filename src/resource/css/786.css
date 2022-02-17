@@ -24,7 +24,7 @@
     /* content_03 */
     #section_03 {padding-top:6rem; height:auto;}
     #section_03 .cont_box .sc_tit {margin-bottom:2rem;}
-    #section_03 .cont_box .web_work li {display:flex; justify-content:center; flex-basis:10%; height:14.5rem;}
+    #section_03 .cont_box .web_work li {display:flex; justify-content:center; flex-basis:calc(100%/4); height:16.5rem;}
     #section_03 .cont_box .web_work li .link_txt,
     #section_03 .cont_box .web_work li .link_txt span {font-size:1.2rem;}
     #section_03 .cont_box .web_work li .link_btn {position:relative; width:8rem; height:100%; border-radius:1rem; background: url('../img/mockup_mo.png'); background-size: cover; overflow: hidden;}

@@ -40,3 +40,16 @@
     .portfolio_info .cont_1 .sub_txt ul li {font-size:1.5rem; line-height:1.8;}
     .acrc .cont_2 .img_box img {width:80%;}
 }
+
+@media all and (max-width:844px) and (max-height:390px) {
+    /* common */
+    .section {height:100%;}
+
+    /* header */
+    .y_Top ul, .y_move ul {height:5rem;}
+
+    /* section_01 */
+    #section_01 {padding-top:7rem;}
+    #section_01 .main_deco {margin-top:0rem;}
+    #section_01 .main_deco > div {font-size:12rem;}
+}

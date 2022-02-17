@@ -56,7 +56,7 @@ function Acrc() {
                                 {/* <li>업무포털 혁신게시판 (업무포털 내 별도의 홈페이지 개념) 퍼블리싱 진행 (100%)</li> */}
                             </ul>
                             <ul className='link_box flex_jc_c'>
-                                <li className='target_move'><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 홈페이지 바로가기 (https://www.clean.go.kr)</a></li>
+                                <li className='target_move'><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 홈페이지 바로가기 <span className="mobile_none">(https://www.clean.go.kr)</span></a></li>
                             </ul>
                         </div>
                         {/*  className={`${scrollY < 500 ? style.y_Top : style.y_move} ${style.main_header}  */}

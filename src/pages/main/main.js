@@ -15,13 +15,13 @@ import Footer from "./components/footer";
 
 function Main() {
 
-    const {x} = useMousePosition();
-    const BgStyle = {
-        width: x,
-        transition: 0.3 + 's'
-    }
+    // const {x} = useMousePosition();
+
     const {scrollY} = useScroll();
-    // const {scrollMV} = useScroll();
+
+    // const BgStyle = {
+    //     width: x
+    // }
     return (
         
         <div id='main_page'>
@@ -55,13 +55,12 @@ function Main() {
                 {/* <div className={`${style.sc_01_bg} absolute`} style={BgStyle}>
                 </div> */}
                 <div className='con'>
-                    <div className='sc_bg_1 absolute'></div>
-                    <div className='sc_bg_2 absolute'></div>
                     <div className='main_deco'>
                         <div className='main_tit'>kkt9102</div>
                         <div className='main_sub_tit'>Portfolio</div>
                     </div>
                 </div>
+                <div className='sc_bg_1 fixed'></div>
             </section>
             <Profil />
             <WebWork />

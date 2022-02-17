@@ -1,0 +1,17 @@
+@media all and (max-width:550px) {
+    /* common */
+    .mobile_none {display:none;}
+    .section {height: 100%;}
+
+    /* header */
+
+    /* section_01 */
+
+    /* section_02 */
+
+    /* section_03 */
+
+    /* section_04 */
+    #section_04 .contect_me_form form .contect_header {flex-wrap:wrap;}
+    #section_04 .contect_me_form form .contect_header > div {flex-basis:100%;}
+}
