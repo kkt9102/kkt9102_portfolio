@@ -15,6 +15,9 @@ import main_cdns_img_2 from "../../../resource/img/acrc/main_cdns_list.png";
 
 function Acrc() {
     const {scrollY} = useScroll();
+    const PageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPer = (scrollY/PageHeight) * 100;
+
     return(
         <>
             <ScrollToTop/>
@@ -59,7 +62,6 @@ function Acrc() {
                                 <li className='target_move'><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 홈페이지 바로가기 <span className="mobile_none">(https://www.clean.go.kr)</span></a></li>
                             </ul>
                         </div>
-                        {/*  className={`${scrollY < 500 ? style.y_Top : style.y_move} ${style.main_header}  */}
                         <div className='img_box'>
                             <ul className='img_list'>
                                 <li>
@@ -71,7 +73,7 @@ function Acrc() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className={`${scrollY < 1400 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
+                                    <div className={`${scrollPer < 32 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                         <img src={main_board_img_1} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                                     </div>
                                     <div className='txt_box'>
@@ -79,7 +81,7 @@ function Acrc() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className={`${scrollY < 2220 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
+                                    <div className={`${scrollPer < 52 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                         <img src={main_board_img_2} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                                     </div>
                                     <div className='txt_box'>
@@ -87,7 +89,7 @@ function Acrc() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className={`${scrollY < 3360 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
+                                    <div className={`${scrollPer < 82 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                         <img src={main_board_img_3} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                                     </div>
                                     <div className='txt_box'>

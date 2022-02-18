@@ -19,7 +19,8 @@
     #section_02 .cont_box .txt_box {padding-top:12rem; margin-left:12%;}
     #section_02 .cont_box .txt_box.intro .sub_tit {margin-top:3rem; padding-bottom:1.2rem; font-size:2rem;}
     #section_02 .cont_box .txt_box.intro ul li {font-size:1.4rem; line-height:1.9rem;}
-    #section_02 .cont_box .txt_box.intro ul:last-child li {line-height:2rem;}
+    #section_02 .cont_box .txt_box.intro ul:last-child li {margin-bottom:1rem; flex-wrap: wrap; line-height:2rem;}
+    #section_02 .cont_box .txt_box.intro ul:last-child li span {flex-basis: 100%;}
 
     /* content_03 */
     #section_03 {padding-top:6rem; height:auto;}

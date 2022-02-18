@@ -17,6 +17,9 @@ import main_pop_mo from "../../../resource/img/clean/clean_sub_pop_mo.png";
 
 function Clean() {
     const {scrollY} = useScroll();
+    const PageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPer = (scrollY/PageHeight) * 100;
+
     return(
         <>
         <ScrollToTop/>
@@ -62,7 +65,7 @@ function Clean() {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${scrollY < 800 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
+                                <div className={`${scrollPer < 18 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={main_board} alt="청렴포털 상담사례 목록"></img>
                                 </div>
                                 <div className='txt_box'>
@@ -70,7 +73,7 @@ function Clean() {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${scrollY < 1900 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
+                                <div className={`${scrollPer < 44 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={main_sub} alt="청렴포털 청렴마당 기관별 목록"></img>
                                 </div>
                                 <div className='txt_box'>
@@ -78,7 +81,7 @@ function Clean() {
                                 </div>    
                             </li>
                             <li>
-                                <div className={`${scrollY < 3000 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
+                                <div className={`${scrollPer < 73 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={main_pop} alt="청렴마당"></img>
                                 </div>
                                 <div className='txt_box'>

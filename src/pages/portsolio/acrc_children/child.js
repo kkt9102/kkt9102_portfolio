@@ -13,6 +13,9 @@ import child_sitemap from "../../../resource/img/child/child_sitemap.png";
 
 const AcrcChild = () => {
     const {scrollY} = useScroll();
+    const PageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPer = (scrollY/PageHeight) * 100;
+
     return (
         <>
             <ScrollToTop/>
@@ -47,7 +50,7 @@ const AcrcChild = () => {
                         <div className='img_box'>
                         <ul className='img_list'>
                             <li>
-                                <div className='img_box flex flex_jc_c'>
+                                <div className='page_img img_box flex flex_jc_c'>
                                     <img src={child_main} alt="국민권익위원회 어린이 홈페이지 메인"></img>
                                 </div>
                                 <div className='txt_box'>
@@ -55,7 +58,7 @@ const AcrcChild = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${scrollY < 1400 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
+                                <div className={`${scrollPer < 17 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={cont_1} alt="국민권익위원회 어린이 홈페이지 컨텐츠페이지1"></img>
                                 </div>
                                 <div className='txt_box'>
@@ -63,7 +66,7 @@ const AcrcChild = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${scrollY < 4300 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
+                                <div className={`${scrollPer < 54 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={cont_2} alt="국민권익위원회 어린이 홈페이지 컨텐츠 페이지2"></img>
                                 </div>
                                 <div className='txt_box'>
@@ -71,7 +74,7 @@ const AcrcChild = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${scrollY < 5700 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
+                                <div className={`${scrollPer < 74 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={child_quiz} alt="국민권익위원회 어린이 홈페이지 퀴즈로 배워요 페이지"></img>
                                 </div>
                                 <div className='txt_box'>
@@ -79,7 +82,7 @@ const AcrcChild = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className={`${scrollY < 6450 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
+                                <div className={`${scrollPer < 84 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
                                     <img src={child_sitemap} alt="국민권익위원회 어린이 홈페이지 사이트맵"></img>
                                 </div>
                                 <div className='txt_box'>
