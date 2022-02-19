@@ -82,15 +82,15 @@
 #section_04 .contect_me_form form .contect_btn button:hover {color:#ffffff; background:#222222;}
 #section_04 .contect_me_form form .contect_btn button:active {color:#ffffff; background:#222222; box-shadow: -2px 0px 5px #373737; transform: scale(0.95);}
 #section_04 .link_list { padding-bottom:5rem;}
-#section_04 .link_list ul li {margin:1rem;}
+#section_04 .link_list ul li {margin:1rem; position:relative;}
 #section_04 .link_list ul li:hover {justify-content: center;}
-#section_04 .link_list ul li a {display:flex; justify-content:center; align-items:center; width:15rem; height:15rem; border:0.1rem solid #222222; border-radius:1rem; background:none; transition:background 0.2s, width 0.2s 0.3s, height 0.2s 0.5s;}
+#section_04 .link_list ul li a { display:flex; justify-content:center; align-items:center; width:15rem; height:15rem; border:0.1rem solid #222222; border-radius:1rem; background:none; transition:background 0.2s, width 0.2s 0.3s, height 0.2s 0.5s;}
 #section_04 .link_list ul li:hover a {width:80rem; height:20rem;}
 #section_04 .link_list ul li a svg {width:8rem; height:8rem;}
 #section_04 .link_list ul .send_mail a .svg_box {background:url('../img/icon/gmail.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%;}
 #section_04 .link_list ul .send_mail a:hover .svg_box {background:url('../img/icon/gmail_color.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%;}
-#section_04 .link_list ul .send_mail:hover {}
-#section_04 .link_list ul .opentok:hover {}
+#section_04 .link_list ul .send_mail:hover::after {content:'G-Mail 바로가기'; position:absolute;}
+#section_04 .link_list ul .opentok:hover::after {content:'오픈 톡 바로가기'; position:absolute;}
 #section_04 .link_list ul .opentok a:hover {background:#FAE100;}
 #section_04 .link_list ul .opentok a:hover svg {fill:#3C1E1E;}
 
