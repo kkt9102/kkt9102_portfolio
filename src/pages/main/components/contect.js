@@ -1,18 +1,19 @@
 import React from "react";
-import { RiKakaoTalkFill, RiGithubFill, RiPenNibFill } from "react-icons/ri";
+import { RiKakaoTalkFill, RiGithubFill, RiMailSendLine } from "react-icons/ri";
 import { FaBlogger } from "react-icons/fa";
 
 const Contect = () => {
+
     return(
         <>
             <section id='section_04' className='section main_sc_4'>
                 <div className='con'>
                     <div className='cont_box'>
                         <div className='sc_tit flex flex_jc_c'>Contect Me</div>
-                        <div className='contect_me_form'>
-                            <form>
-                                <input type="hidden" value=""></input>
-                                <input type="hidden" value=""></input>
+                        {/* <div className='contect_me_form'>
+                            <form action="" name="SendEmail">
+                                <input type="hidden" name="MyName" value="김기태"></input>
+                                <input type="hidden" name="MyEmail" value="creater@kakao.com"></input>
                                 <div className='contect_header flex'>
                                     <div className='from_name'>
                                         <div>Name</div>
@@ -31,18 +32,15 @@ const Contect = () => {
                                     <button>보내기</button>
                                 </div>
                             </form>
-                        </div>
-
+                        </div> */} 
+                        
                         <div className='link_list'>
-                            <ul className='flex flex_jc_c'>
+                            <ul className='flex flex_jc_c flex_wrap_wrap'>
+                                <li className="send_mail">
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kkt9102@gmail.com" target="_blank" rel="noopener noreferrer" title="g-mail 보내기"><div className="svg_box"></div></a>
+                                </li>
                                 <li className='opentok'>
                                     <a href="https://open.kakao.com/o/swDf3n0c" target="_blank" rel="noopener noreferrer" title="카카오톡 오픈체팅"><RiKakaoTalkFill/></a>
-                                </li>
-                                <li className='github'>
-                                    <a href="https://github.com/kkt9102" target="_blank" rel="noopener noreferrer" title="깃허브 바로가기"><RiGithubFill/></a>
-                                </li>
-                                <li className='gitblog'>
-                                    <a href="https://kkt9102.github.io/"  target="_blank" rel="noopener noreferrer" title="블로그 바로가기"><FaBlogger/></a>
                                 </li>
                             </ul>
                         </div>

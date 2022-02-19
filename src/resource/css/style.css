@@ -13,6 +13,8 @@
 .txt1 {font-size:3.1rem;}
 .txt2 {font-size:3.2rem;}
 .txt3 {font-size:3.5rem; font-weight:900;}
+.hide {opacity: 0; transform:translateY(-1rem); transition: opacity 0.2s, transform 0.2s;}
+.show {opacity: 1; transform:translateY(0); transition: opacity 0.2s, transform 0.2s;}
 
 /* Header */
 .main_header {width:100vw; z-index: 10;}
@@ -50,10 +52,9 @@
 #section_03 {padding-top:8rem;}
 #section_03 .cont_box .sc_tit {flex-basis:100%; margin-bottom:5rem;}
 #section_03 .cont_box .web_work {max-width: 80%; justify-content: flex-start; margin:0 auto;}
-#section_03 .cont_box .web_work li {margin-bottom:10rem;}
+#section_03 .cont_box .web_work li {display:flex; justify-content:center; flex-basis:calc(100%/4); margin-bottom:10rem;  transition:flex-basis 0.3s, opacity 0.3s, visible 0.3s;}
 /* #section_03 .cont_box .web_work li:not(:nth-child(4n + 5)) {margin-right:2rem;} */
 #section_03 .cont_box .web_work li a {position:relative;}
-#section_03 .cont_box .web_work li {display:flex; justify-content:center; flex-basis:calc(100%/4); transition:flex-basis 0.3s;}
 #section_03 .cont_box .web_work li .link_btn {position:relative; width:18rem; height:14.9rem; border-radius:1rem; background: url('../img/mockup_pc.png'); background-size: cover; transition:background 0.3s;}
 #section_03 .cont_box .web_work li .link_btn:hover::after {background-position-Y:bottom;}
 #section_03 .cont_box .web_work li .link_btn::after {transition:all 1s;}
@@ -74,26 +75,36 @@
 #section_04 .contect_me_form form .contect_header > div {flex-basis: 50%; padding:1rem;}
 #section_04 .contect_me_form form input[name="from_name"] {width:100%; font-size: 1.6rem; padding:0.5rem 1rem;}
 #section_04 .contect_me_form form input[name="email"] {width:100%; font-size: 1.6rem; padding:0.5rem 1rem;}
-/* #section_04 .contect_me_form form input[name="email"]::placeholder {color:#666666; font-family:'NotoKr'; font-weight: 700;} */
 #section_04 .contect_me_form form .email_contents_box {padding:1rem;}
 #section_04 .contect_me_form form textarea {width:100%; height:15em; font-size:1.6rem; padding:0.5rem 1rem; resize:none;}
 #section_04 .contect_me_form form .contect_btn button {padding:1rem 1.5rem; border-radius:0.5rem; border:0.1rem solid #222222; font-size:1.7rem; color:#222222; transition:all 0.3s;}
 #section_04 .contect_me_form form .contect_btn button:focus,
 #section_04 .contect_me_form form .contect_btn button:hover {color:#ffffff; background:#222222;}
 #section_04 .contect_me_form form .contect_btn button:active {color:#ffffff; background:#222222; box-shadow: -2px 0px 5px #373737; transform: scale(0.95);}
+#section_04 .link_list { padding-bottom:5rem;}
 #section_04 .link_list ul li {margin:1rem;}
-#section_04 .link_list ul li a {display:flex; justify-content:center; align-items:center; width:5rem; height:5rem; border:0.1rem solid #222222; border-radius:1rem; background:none; transition:background 0.2s;}
-#section_04 .link_list ul li a svg {width:3rem; height:3rem;}
+#section_04 .link_list ul li:hover {justify-content: center;}
+#section_04 .link_list ul li a {display:flex; justify-content:center; align-items:center; width:15rem; height:15rem; border:0.1rem solid #222222; border-radius:1rem; background:none; transition:background 0.2s, width 0.2s 0.3s, height 0.2s 0.5s;}
+#section_04 .link_list ul li:hover a {width:80rem; height:20rem;}
+#section_04 .link_list ul li a svg {width:8rem; height:8rem;}
+#section_04 .link_list ul .send_mail a .svg_box {background:url('../img/icon/gmail.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%;}
+#section_04 .link_list ul .send_mail a:hover .svg_box {background:url('../img/icon/gmail_color.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%;}
+#section_04 .link_list ul .send_mail:hover {}
+#section_04 .link_list ul .opentok:hover {}
 #section_04 .link_list ul .opentok a:hover {background:#FAE100;}
 #section_04 .link_list ul .opentok a:hover svg {fill:#3C1E1E;}
-#section_04 .link_list ul .github a:hover {background:#161B22;}
-#section_04 .link_list ul .github a:hover svg {fill:#ffffff;}
-#section_04 .link_list ul .gitblog a:hover {background: #222222;}
-#section_04 .link_list ul .gitblog a:hover svg {fill:#ffffff;}
+
 
 /* footer */
-.main_footer {position:relative; height:auto; padding:5rem 0; background:#ffffff; border-top:0.1rem solid #eeeeee;}
-.main_footer .copyright {font-size:1.3rem; font-family:'NotoKr' !important; font-weight: 300;}
+.main_footer {position:relative; height:auto; padding:2rem 0 5rem; background:#ffffff; border-top:0.1rem solid #eeeeee;}
+.main_footer .copyright {font-size:1.3rem; font-family:'NotoKr' !important; font-weight: 300; margin-bottom:2rem;}
+.main_footer .link_box ul li {margin:0 0.5rem; border-radius:0.3rem; border:0.1rem solid #222222;}
+.main_footer .link_box ul li a {display: flex; justify-content:center; align-items:center; width:3rem; height:3rem;}
+.main_footer .link_box ul li svg {width:2rem; height:2rem;}
+.main_footer .link_box ul .github a:hover {background:#161B22;}
+.main_footer .link_box ul .github a:hover svg {fill:#ffffff;}
+.main_footer .link_box ul .gitblog a:hover {background: #222222;}
+.main_footer .link_box ul .gitblog a:hover svg {fill:#ffffff;}
 
 /* portfolio_info */
 .con2 {max-width: 100rem;}
