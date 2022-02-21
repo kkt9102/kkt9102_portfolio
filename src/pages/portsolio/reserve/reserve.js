@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from 'react-helmet';
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
 import ColorPop from './color_popup';
@@ -26,6 +27,11 @@ function Reserve(){
     }
     return(
         <>
+            <Helmet>
+                <title>kkt9102 Portfolio | 스타벅스 리저브 리디자인</title>
+                <meta charSet="utf-8" />
+                <meta name="description" content="kkt9102 Portfolio | 스타벅스 리저브 리디자인" />
+            </Helmet>
             <ScrollToTop/>
             <HomeMV/>
             <div className='reserve portfolio_info relative'>

@@ -1,6 +1,5 @@
 import React from "react";
-import { RiKakaoTalkFill, RiGithubFill, RiMailSendLine } from "react-icons/ri";
-import { FaBlogger } from "react-icons/fa";
+import { RiKakaoTalkFill } from "react-icons/ri";
 
 const Contect = () => {
 
@@ -10,6 +9,7 @@ const Contect = () => {
                 <div className='con'>
                     <div className='cont_box'>
                         <div className='sc_tit flex flex_jc_c'>Contect Me</div>
+                        <div className="sub_tit">저에대해 조금 더 알고 싶으시다면 메일이나 오픈톡으로 연락주세요!</div>
                         {/* <div className='contect_me_form'>
                             <form action="" name="SendEmail">
                                 <input type="hidden" name="MyName" value="김기태"></input>
@@ -33,11 +33,13 @@ const Contect = () => {
                                 </div>
                             </form>
                         </div> */} 
-                        
+                        <div className="txt_box">
+                            <div>creater@kakao.com</div>
+                        </div>
                         <div className='link_list'>
                             <ul className='flex flex_jc_c flex_wrap_wrap'>
                                 <li className="send_mail">
-                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kkt9102@gmail.com" target="_blank" rel="noopener noreferrer" title="g-mail 보내기"><div className="svg_box"></div></a>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=creater@kakao.com" target="_blank" rel="noopener noreferrer" title="g-mail 보내기"><div className="svg_box"></div></a>
                                 </li>
                                 <li className='opentok'>
                                     <a href="https://open.kakao.com/o/swDf3n0c" target="_blank" rel="noopener noreferrer" title="카카오톡 오픈체팅"><RiKakaoTalkFill/></a>

@@ -23,19 +23,19 @@ const WebWork = () => {
                             <div className='link_txt'><span className="flex flex_jc_c">스타벅스 리저브</span> (Re:Design)</div>
                         </Link>
                         </li>
-                        <li className={scrollPer < 70 ? 'hide' : 'show' }>
+                        <li className={scrollPer < 65 ? 'hide' : 'show' }>
                         <Link to ="/clean" title="청렴포털 작업내역 소개페이지 바로가기">
                             <div className='link_btn clean'></div>
                             <div className='link_txt'><span className="flex flex_jc_c">청렴포털</span> 홈페이지</div>
                         </Link>
                         </li>
-                        <li className={scrollPer < 70 ? 'hide' : 'show' }>
+                        <li className={scrollPer < 65 ? 'hide' : 'show' }>
                         <Link to ="/Acrc" title="국민권익위원회 국문 홈페이지 작업내역 소개페이지 바로가기">
                             <div className='link_btn acrc'></div>
                             <div className='link_txt'><span className="flex flex_jc_c">국민권익위원회</span> 국문 홈페이지</div>
                         </Link>
                         </li>
-                        <li className={scrollPer < 70 ? 'hide' : 'show' }>
+                        <li className={scrollPer < 65 ? 'hide' : 'show' }>
                         <Link to ="/AcrcChild" title="국민권익위원회 어린이 홈페이지 작업내역 소개페이지 바로가기">
                             <div className='link_btn acrc_child'></div>
                             <div className='link_txt'><span className="flex flex_jc_c">국민권익위원회</span> 어린이 홈페이지</div>

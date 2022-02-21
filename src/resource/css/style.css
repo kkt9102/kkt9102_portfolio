@@ -41,7 +41,7 @@
 #section_02 .cont_box .sc_tit {flex-basis:100%;}
 #section_02 .cont_box .img_box {width:30%; height:100%; top:0; left:0; z-index: 4; background:url('../img/profil.JPG'); background-size:cover; transition:background 0.3s;}
 #section_02 .cont_box .img_box img {width:40rem;}
-#section_02 .cont_box .txt_box {margin-left:25%; padding-top:20rem;}
+#section_02 .cont_box .txt_box {margin-left:25%; padding-top:21rem;}
 #section_02 .cont_box .txt_box.intro {display:flex; width:100%; flex-direction: column; justify-content:flex-start; align-items: flex-start;}
 #section_02 .cont_box .txt_box.intro .sub_tit {font-size:2.5rem; padding-left:10rem; padding-bottom:1.5rem; margin-top:10rem; transition: padding 0.3s, margin 0.3s;}
 #section_02 .cont_box .txt_box.intro ul {text-align: left;}
@@ -67,9 +67,10 @@
 #section_03 .cont_box .web_work li .link_btn.acrc_child::after {content:''; position:absolute; z-index: -1; background:url('../img/acrc_child_main.png'); width:95%; height: 75%; top:5%; left:4%; background-size:cover; background-repeat: no-repeat;}
 #section_03 .cont_box .web_work li .link_btn.acrc_child:hover::after {background-position-Y:bottom;}
 #section_03 .cont_box .web_work li .link_txt {position:absolute; width: 100%; text-align:center; word-break: break-word;}
-
+ 
 /* section_04 */
 #section_04 {height: auto;}
+#section_04 .cont_box .sub_tit {display:flex; justify-content:center; margin-bottom:3rem;}
 #section_04 .contect_me_form form {display:flex; flex-wrap: wrap;}
 #section_04 .contect_me_form form > div {flex-basis:100%;}
 #section_04 .contect_me_form form .contect_header > div {flex-basis: 50%; padding:1rem;}
@@ -85,12 +86,14 @@
 #section_04 .link_list ul li {margin:1rem; position:relative;}
 #section_04 .link_list ul li:hover {justify-content: center;}
 #section_04 .link_list ul li a { display:flex; justify-content:center; align-items:center; width:15rem; height:15rem; border:0.1rem solid #222222; border-radius:1rem; background:none; transition:background 0.2s, width 0.2s 0.3s, height 0.2s 0.5s;}
-#section_04 .link_list ul li:hover a {width:80rem; height:20rem;}
+/* #section_04 .link_list ul li:hover a {width:80rem; height:20rem; margin-bottom:2rem;} */
 #section_04 .link_list ul li a svg {width:8rem; height:8rem;}
-#section_04 .link_list ul .send_mail a .svg_box {background:url('../img/icon/gmail.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%;}
+#section_04 .link_list ul .send_mail a .svg_box {background:url('../img/icon/gmail.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%; transition: background 0.3s;}
 #section_04 .link_list ul .send_mail a:hover .svg_box {background:url('../img/icon/gmail_color.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%;}
-#section_04 .link_list ul .send_mail:hover::after {content:'G-Mail 바로가기'; position:absolute;}
-#section_04 .link_list ul .opentok:hover::after {content:'오픈 톡 바로가기'; position:absolute;}
+/* #section_04 .link_list ul .send_mail::after {content:'G-Mail 바로가기'; position:absolute; width:100%; bottom:0; display:flex; justify-content:center; opacity:0; transition:opacity 0.3s;}
+#section_04 .link_list ul .opentok::after {content:'오픈 톡 바로가기'; position:absolute; width:100%; bottom:0; display:flex; justify-content:center; opacity:0; transition:opacity 0.3s;} */
+#section_04 .link_list ul .send_mail:hover::after {opacity:1;}
+#section_04 .link_list ul .opentok:hover::after {opacity:1;}
 #section_04 .link_list ul .opentok a:hover {background:#FAE100;}
 #section_04 .link_list ul .opentok a:hover svg {fill:#3C1E1E;}
 

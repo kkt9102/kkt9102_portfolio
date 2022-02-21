@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Link } from "react-scroll";
+import { Helmet } from 'react-helmet';
 
 import { useMousePosition } from "../../utils/mosuePosition";
 import { useScroll } from "../../utils/scrollMove";
@@ -16,15 +17,23 @@ import Footer from "./components/footer";
 function Main() {
 
     // const {x} = useMousePosition();
-
-    const {scrollY} = useScroll();
-
     // const BgStyle = {
     //     width: x
     // }
+
+    // const PageWidth = document.documentElement.clientWidth;
+
+    const {scrollY} = useScroll();
+
     return (
-        
         <div id='main_page'>
+            <Helmet>
+                <title>kkt9102 Portfolio</title>
+                <meta charSet="utf-8" />
+                <meta name="description" content="kkt9102 portfolio" />
+                <meta name="keywords" content="kkt9102,웹 퍼블리셔,포트폴리오,웹 퍼블리셔 포트폴리오,Web Publisher"/>
+            </Helmet>
+
             <header className={`${scrollY < 500 ? 'y_Top' : 'y_move'}  main_header fixed`}>
                 <nav>
                     <ul className="flex flex_jc_e">

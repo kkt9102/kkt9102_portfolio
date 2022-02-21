@@ -4,6 +4,7 @@ import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
 
 import { useScroll } from "../../../utils/scrollMove";
+import { Helmet } from 'react-helmet';
 
 // img
 import acrc_mian from "../../../resource/img/acrc_main.png";
@@ -20,6 +21,11 @@ function Acrc() {
 
     return(
         <>
+            <Helmet>
+                <title>kkt9102 Portfolio | 국민권익위원회 국문 홈페이지</title>
+                <meta charSet="utf-8" />
+                <meta name="description" content="kkt9102 Portfolio | 국민권익위원회 국문 홈페이지" />
+            </Helmet>
             <ScrollToTop/>
             <HomeMV />
             <div className='acrc portfolio_info'>
