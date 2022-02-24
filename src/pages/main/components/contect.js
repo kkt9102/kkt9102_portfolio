@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { RiKakaoTalkFill } from "react-icons/ri";
 
 const Contect = () => {
@@ -33,8 +34,10 @@ const Contect = () => {
                                 </div>
                             </form>
                         </div> */} 
-                        <div className="txt_box">
-                            <div>creater@kakao.com</div>
+                        <div className="link_box">
+                            <div>
+                                <Link to="/Resume" target="_blank">이력서</Link>
+                            </div>
                         </div>
                         <div className='link_list'>
                             <ul className='flex flex_jc_c flex_wrap_wrap'>

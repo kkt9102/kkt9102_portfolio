@@ -27,7 +27,9 @@ const Profil = () => {
                         <div className='sub_tit'>주요경력</div>
                             <ul>
                                 <li className='dots_w flex' style={z_first}><span className="date">2021.06 ~ 2022.02</span> 국민권익위원회 홈페이지·업무포털 전면개편 사업 (JAVA개발 초급, 퍼블리셔)</li>
+                                <li className='dots_w flex' style={z_first}><span className="date">2021.03</span> (주)에이블 정보기술 입사</li>
                                 <li className='dots_w flex' style={z_first}><span className="date">2020.12 ~ 2021.03</span> 부패방지 종합정보시스템 구축3단계 (퍼블리셔)</li>
+                                <li className='dots_w flex' style={z_first}><span className="date">2020.12</span> (주)에이블 정보기술 프리랜서 계약</li>
                                 <li className='dots_w flex' style={z_first}><span className="date">2020.04 ~ 2020.10</span> 스마트기기 UXUI디자인 양성과정</li>
                                 <li className='dots_w flex' style={z_first}><span className="date">2009.03 ~ 2015.02</span> 배재대학교 칠예과 졸업</li>
                             </ul>

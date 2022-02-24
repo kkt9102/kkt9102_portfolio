@@ -44,7 +44,7 @@
 #section_02 .cont_box .txt_box {margin-left:25%; padding-top:21rem;}
 #section_02 .cont_box .txt_box.intro {display:flex; width:100%; flex-direction: column; justify-content:flex-start; align-items: flex-start;}
 #section_02 .cont_box .txt_box.intro .sub_tit {font-size:2.5rem; padding-left:10rem; padding-bottom:1.5rem; margin-top:10rem; transition: padding 0.3s, margin 0.3s;}
-#section_02 .cont_box .txt_box.intro ul {text-align: left;}
+#section_02 .cont_box .txt_box.intro ul {width:100%; text-align: left;}
 #section_02 .cont_box .txt_box.intro ul li {font-size:1.7rem; line-height:2.2;}
 #section_02 .cont_box .txt_box.intro ul li > span {flex-basis:16rem; margin-right:2rem; font-size:1.7rem; font-weight:600;}
 

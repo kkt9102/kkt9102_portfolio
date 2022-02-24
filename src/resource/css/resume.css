@@ -1,0 +1,21 @@
+/* common */
+.resume_section * {font-family:'pretendard'; letter-spacing: -0.19rem;}
+.resume_section .con {max-width:140rem; margin:0 auto;}
+.resume_section .box_item .box_tit {margin-bottom:3rem; font-size:2.4rem; font-weight:800;}
+
+/* header */
+.resume_section {padding-top:5rem;}
+.resume_section .page_tit {padding-top:20rem;}
+.resume_section .page_tit,
+.resume_section .page_tit span {font-size:4.5rem;}
+.resume_section .txt_box:not(.txt_box_2) {margin-top:7.5rem; padding:2rem; border:0.1rem solid #222222;}
+
+/* body */
+.resume_section .box_1 {margin-top:3rem;}
+.resume_section .box_1 > .flex > div {margin-bottom:3rem;}
+.resume_section .box_1 .cont_tit {position:relative; margin-left:2rem; margin-bottom:1rem; font-size:2.1rem; font-weight: 800;}
+.resume_section .box_1 .cont_tit::before {content:''; position:absolute; width:0.7rem; height:0.7rem; top:25%; left:-2rem; border:0.3rem solid #222222;}
+.resume_section .box_1 .sub_tit {font-size:1.8rem; margin-bottom:1rem;}
+.resume_section .box_1 .reg_dt {margin-bottom:0.5rem; color:#666666;}
+.resume_section .box_1 .sub_txt {color:#666666;}
+
