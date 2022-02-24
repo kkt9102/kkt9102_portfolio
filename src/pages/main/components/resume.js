@@ -44,12 +44,18 @@ const Resume = () => {
                                     <div className="sub_txt">퍼블리셔 취업 후 처음으로 진행한 프로젝트이며 사업 후반에 투입되어 반응형 및 게시판 퍼블리싱을 진행하였습니다.</div>
                                 </div>
                                 <div className="cont_2">
+                                    <div className="cont_tit">에이블 정보기술 홈페이지 유지·보수</div>
+                                    <div className="sub_tit">회사 홈페이지 연혁 관리자 구축</div>
+                                    <div className="reg_dt">2021.04</div>
+                                    <div className="sub_txt">회사 홈페이지의 하드코딩으로 이루어진 연혁 컨텐츠를 관리자 화면에 추가하고 CRUD 기능으로 변경하였습니다.</div>
+                                </div>
+                                <div className="cont_3">
                                     <div className="cont_tit">AIMS</div>
                                     <div className="sub_tit">회사 솔루션 유지·보수,커스텀</div>
                                     <div className="reg_dt">2021.02 ~ 2021.05</div>
                                     <div className="sub_txt">자사의 솔루션 커스텀을 진행하면서 UX/UI 개발을 진행하였습니다.</div>
                                 </div>
-                                <div className="cont_3">
+                                <div className="cont_4">
                                     <div className="cont_tit">국민권익위원회 홈페이지·업무포털 전면개편</div>
                                     <div className="sub_tit">공공기관 프로젝트</div>
                                     <div className="reg_dt">2021.06 ~ 2022.03</div>
@@ -60,8 +66,12 @@ const Resume = () => {
                         <div className="box_2 box_item">
                             <div className="box_tit">경험 및 역량</div>
                             <div>
-                                저는 국비지원 학원과정을 마친 후 바로 SI업체에 프리랜서로 단기 계약으로 퍼블리셔 일을 시작하게 되었습니다. 취업 후 처음으로 진행한 프로젝트는 공공기관 구축사업 후반부였습니다. 
-                                첫 프로젝트에서는 실제 필드에서 어떤식으로 일이 진행되는지 일을 하면서 팀원들간의 소통이 중요한지를 느꼈습니다.
+                                <p>저는 국비지원 학원과정을 마친 후 바로 SI업체에 프리랜서로 단기 계약으로 퍼블리셔 일을 시작하게 되었습니다. 취업 후 처음으로 진행한 프로젝트는 공공기관 구축사업 후반부였습니다. 
+                                첫 프로젝트에서는 실제 필드에서 어떤식으로 일이 진행되는지 일을 하면서 팀원들간의 소통이 중요한지를 느꼈습니다.</p>
+                                <p>첫 프로젝트를 마무리 지은 후 프리랜서에서 정규직으로 전환이 되면서 회사의 솔루션 커스터마이징을 진행했습니다. 회사의 솔루션은 Ruby on Rails로 제작되었으며 개발 과장님 한분과 제가 2인1조로 솔루션 커스터마이징을 진행했습니다.</p>
+                                <p>이 때 단순하게 HTML, CSS, JavaScript 만 가지고 개발자와 협업을 하면서 퍼블리싱은 진행할 수 없다고 느꼈습니다. 퍼블리셔 입장에서 보이는 곳만 코드를 수정했지만 의도하지 않은 상황에선 제가 의도한대로 화면이 나오지 않기도 히고
+                                   다른 소스파일에서 조건을 타는 상황을 찾지 못해 작업을 번복하기도 했습니다. 과장님과 1대1로 지내면서 아무리 퍼블리셔라도 개발을 어느정도는 파악하고 있어야 작업을 진행하는데 어려움이 없다고 들었습니다.
+                                </p>
                             </div>
                         </div>
                     </div>

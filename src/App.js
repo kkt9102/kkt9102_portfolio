@@ -20,8 +20,7 @@ function App() {
   const closeModal = () => {
     setModalOpen(false);
   };
-  // favicon
-  const [count, setCount] = useState(0);
+
   return (
     <>
     <Css/>
