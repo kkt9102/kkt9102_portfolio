@@ -70,22 +70,25 @@
  
 /* section_04 */
 #section_04 {height: auto;}
+#section_04 .sc_tit {flex-basis:100%;}
 #section_04 .cont_box .sub_tit {display:flex; justify-content:center; margin-bottom:3rem;}
+#section_04 .contect_me_form {flex-basis:70%;}
 #section_04 .contect_me_form form {display:flex; flex-wrap: wrap;}
 #section_04 .contect_me_form form > div {flex-basis:100%;}
 #section_04 .contect_me_form form .contect_header > div {flex-basis: 50%; padding:1rem;}
-#section_04 .contect_me_form form input[name="from_name"] {width:100%; font-size: 1.6rem; padding:0.5rem 1rem;}
+#section_04 .contect_me_form form input[name="name"] {width:100%; font-size: 1.6rem; padding:0.5rem 1rem;}
 #section_04 .contect_me_form form input[name="email"] {width:100%; font-size: 1.6rem; padding:0.5rem 1rem;}
 #section_04 .contect_me_form form .email_contents_box {padding:1rem;}
 #section_04 .contect_me_form form textarea {width:100%; height:15em; font-size:1.6rem; padding:0.5rem 1rem; resize:none;}
-#section_04 .contect_me_form form .contect_btn button {padding:1rem 1.5rem; border-radius:0.5rem; border:0.1rem solid #222222; font-size:1.7rem; color:#222222; transition:all 0.3s;}
-#section_04 .contect_me_form form .contect_btn button:focus,
-#section_04 .contect_me_form form .contect_btn button:hover {color:#ffffff; background:#222222;}
-#section_04 .contect_me_form form .contect_btn button:active {color:#ffffff; background:#222222; box-shadow: -2px 0px 5px #373737; transform: scale(0.95);}
-#section_04 .link_list { padding-bottom:5rem;}
-#section_04 .link_list ul li {margin:1rem; position:relative;}
+#section_04 .contect_me_form form .contect_btn input[type="submit"] {padding:1rem 1.5rem; border-radius:0.5rem; border:0.1rem solid #222222; background:#ffffff; font-size:1.7rem; color:#222222; transition:all 0.3s; cursor:pointer;}
+#section_04 .contect_me_form form .contect_btn input[type="submit"]:focus,
+#section_04 .contect_me_form form .contect_btn input[type="submit"]:hover {color:#ffffff; background:#222222;}
+#section_04 .contect_me_form form .contect_btn input[type="submit"]:active {color:#ffffff; background:#222222; box-shadow: -2px 0px 5px #373737; transform: scale(0.95);}
+#section_04 .link_list {flex-basis:30%; padding-bottom:5rem;}
+#section_04 .link_list ul li {flex-basis:100%; margin:1rem; position:relative;}
+#section_04 .link_list ul .send_mail {margin-top:3rem;}
 #section_04 .link_list ul li:hover {justify-content: center;}
-#section_04 .link_list ul li a { display:flex; justify-content:center; align-items:center; width:15rem; height:15rem; border:0.1rem solid #222222; border-radius:1rem; background:none; transition:background 0.2s, width 0.2s 0.3s, height 0.2s 0.5s;}
+#section_04 .link_list ul li a {display:flex; justify-content:center; align-items:center; width:100%; height:14.5rem; border:0.1rem solid #222222; border-radius:1rem; background:none; transition:background 0.2s, width 0.2s 0.3s, height 0.2s 0.5s;}
 /* #section_04 .link_list ul li:hover a {width:80rem; height:20rem; margin-bottom:2rem;} */
 #section_04 .link_list ul li a svg {width:8rem; height:8rem;}
 #section_04 .link_list ul .send_mail a .svg_box {background:url('../img/icon/gmail.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%; transition: background 0.3s;}
@@ -124,6 +127,8 @@
 .portfolio_info .link_box {display:flex; margin:2rem 0 3rem;}
 .portfolio_info .link_box .target_move a {background:#ffffff; border:0.1rem solid #dddddd; border-radius:0.5rem; font-weight: 900; padding:1rem; color:#222222; transition: all 0.2s;}
 .portfolio_info .link_box .target_move a:hover {background:#222222; border-color:#222222; color:#eeeeee;}
+.portfolio_info .link_box .target_move a span {transition: all 0.2s;}
+.portfolio_info .link_box .target_move a:hover span {color:#eeeeee;}
 .portfolio_info .img_box.hide {opacity: 0; transform:translateY(-1rem); transition: opacity 0.2s, transform 0.2s;}
 .portfolio_info .img_box.show {opacity: 1; transform:translateY(0); transition: opacity 0.2s, transform 0.2s;}
 

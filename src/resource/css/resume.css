@@ -18,4 +18,4 @@
 .resume_section .box_1 .sub_tit {font-size:1.8rem; margin-bottom:1rem;}
 .resume_section .box_1 .reg_dt {margin-bottom:0.5rem; color:#666666;}
 .resume_section .box_1 .sub_txt {color:#666666;}
-
+.resume_section .box_2 ul li {line-height: 2.5rem; letter-spacing:-0.1rem; word-break: keep-all;}
