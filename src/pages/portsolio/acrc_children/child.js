@@ -33,17 +33,14 @@ const AcrcChild = () => {
                         <div className='sub_tit'>국민권익위원회 홈페이지·업무포털 전면개편 사업</div>
                     
                         <div className='sub_txt'>
-                            <ul>
-                                <li>국민권익위원회 홈페이지·업무포털 전면개편 사업에 포함되는 사업이었으며</li>
-                                <li>그 중 어린이 홈페이지 전체 퍼블리싱을 진행했습니다.</li>
-                                <li></li>
-                            </ul>
+                                <p>국민권익위원회 홈페이지·업무포털 전면개편 사업에 포함되는 사업이었으며
+                                그 중 어린이 홈페이지 전체 퍼블리싱을 진행했습니다.</p>
                         </div>
                     </div>
 
                     <div className='cont_2'>
                         <div className='txt_box flex flex_wrap_wrap'>
-                            <h2>프로젝트 참여 기간 : 2021.06 ~ 2022. 02</h2>
+                            <h2>프로젝트 참여 기간<span className="date"><span> : </span>2021.06 ~ 2022. 02</span></h2>
                             <ul className='percent'>
                                 <li className='dots_b'>어린이 홈페이지 컨텐츠 페이지 퍼블리싱 (100%)</li>
                                 <li className='dots_b'>어린이 홈페이지 게시판 퍼블리싱 (100%)</li>

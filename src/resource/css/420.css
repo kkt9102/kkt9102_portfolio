@@ -27,8 +27,7 @@
     .portfolio_info .cont_1 .sub_tit {font-size:2.1rem;}
     .portfolio_info .cont_1 .sub_txt ul li {font-size:1.3rem; word-break:keep-all;}
     .portfolio_info .cont_1 .sub_txt ul li {}
-    .portfolio_info .cont_2 .txt_box .percent li {font-size:1.4rem; line-height:1.5;}
-    .portfolio_info .cont_2 .txt_box .dots_b::before {top:40%;}
+    .portfolio_info .cont_2 .txt_box .percent li {font-size:1.4rem; line-height:1.5; word-break:keep-all;}
     .portfolio_info .link_box .target_move a {font-size:1.4rem;}
     
     

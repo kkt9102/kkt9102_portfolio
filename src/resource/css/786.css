@@ -31,13 +31,18 @@
     #section_03 .cont_box .web_work li .link_btn {position:relative; width:8rem; height:100%; border-radius:1rem; background: url('../img/mockup_mo.png'); background-size: cover; overflow: hidden;}
     #section_03 .cont_box .web_work li .link_btn.reserve::after {}
     #section_03 .cont_box .web_work li .link_btn.clean::after {background:url('../img/clean/clean_main_mo.png'); background-size:cover; height:100%; top:14%;}
-    #section_03 .cont_box .web_work li .link_btn.acrc::after {background:url('../img/acrc/acrc_main_mo.png'); background-size:cover; height:100%; top:14%;}
+    #section_03 .cont_box .web_work li .link_btn.acrc::after {background:url('../img/acrc/acrc_main_mo.gif'); background-size:cover; height:100%; top:14%;}
     #section_03 .cont_box .web_work li .link_btn.acrc_child::after {background:url('../img/child/acrc_child_main_mo.png'); background-size:cover; height:100%; top:14%;}
 
     /* content_04 */
     #section_04 .cont_box .sc_tit {font-size:2.7rem; font-weight:800;}
     #section_04 .cont_box .sub_tit {margin-top:3rem; margin-bottom:2rem; font-size:1.4rem;}
 
+    /* portfolii_info */
+    .portfolio_info .img_box .img_list {display: flex; flex-wrap:wrap;}
+    .portfolio_info .img_box .img_list li {flex-basis:50%;}
+    .portfolio_info .img_box .img_list li .mo_img_btn {display:flex; justify-content:center; align-items:center; height:6rem; border:0.1rem solid #222222; border-radius: 0.3rem;}
+    .portfolio_info .img_box .img_list li .img_box {display:none;}
 
     /* resume */
     .resume_section {max-width:80%; margin:0 auto;}

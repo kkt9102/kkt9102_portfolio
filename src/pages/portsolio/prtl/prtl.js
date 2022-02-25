@@ -38,7 +38,7 @@ function Acrc() {
 
                     <div className='cont_box cont_2'>
                         <div className='txt_box flex flex_wrap_wrap'>
-                            <h2>프로젝트 참여 기간 : 2021.06 ~ 2022. 02</h2>
+                            <h2>프로젝트 참여 기간<span className="date"><span> : </span>2021.06 ~ 2022. 02</span></h2>
                             <ul className='percent'>
                                 <li className='dots_b'>인트라넷 홈페이지 통합검색 퍼블리싱 (100%)</li>
                                 <li className='dots_b'>인트라넷 내 혁신게시판 전체 퍼블리싱 (100%)</li>

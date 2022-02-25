@@ -20,6 +20,7 @@ function App() {
   const closeModal = () => {
     setModalOpen(false);
   };
+  
 
   return (
     <>

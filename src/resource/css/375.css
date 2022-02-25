@@ -1,3 +1,7 @@
 @media all and (max-width:375px) {
     
+    /* portfolio_info */
+    .portfolio_info .cont_2 .txt_box h2 {display:flex; flex-wrap:wrap; flex-basis:100%; justify-content: center;}
+    .portfolio_info .cont_2 .txt_box h2 .date {flex-basis:100%; text-align: center; margin-top:0.5rem;}
+    .portfolio_info .cont_2 .txt_box h2 .date span {display:none;}
 }
