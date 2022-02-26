@@ -39,10 +39,14 @@
     #section_04 .cont_box .sub_tit {margin-top:3rem; margin-bottom:2rem; font-size:1.4rem;}
 
     /* portfolii_info */
+    .portfolio_info .link_box .target_move {flex-basis:100%;}
+    .portfolio_info .link_box .target_move a {display:flex; justify-content:center; flex-basis:100%; font-size:1.6rem;}
+    .portfolio_info .cont_2 > .img_box {margin-bottom:5rem;}
     .portfolio_info .img_box .img_list {display: flex; flex-wrap:wrap;}
-    .portfolio_info .img_box .img_list li {flex-basis:50%;}
-    .portfolio_info .img_box .img_list li .mo_img_btn {display:flex; justify-content:center; align-items:center; height:6rem; margin:1rem; border:0.1rem solid #222222; border-radius: 0.3rem;}
-    .portfolio_info .img_box .img_list li .img_box {display:none;}
+    .portfolio_info .img_box .img_list li {flex-basis:100%;}
+    .portfolio_info .img_box .img_list li .mo_img_btn {display:flex; justify-content:center; align-items:center; height:3rem; margin:0.5rem 0; border:0.1rem solid #dddddd; border-radius: 0.3rem; font-size:1.4rem;}
+    .portfolio_info .img_box .img_list li .img_box.hide {height: 0;}
+    .portfolio_info .img_box .img_list li .img_box.show {height: auto;}
 
     /* resume */
     .resume_section {max-width:80%; margin:0 auto;}

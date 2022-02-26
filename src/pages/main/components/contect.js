@@ -1,6 +1,5 @@
 import React,{ useCallback } from "react";
 import useInput from "../../../utils/useInput";
-import { Link } from "react-router-dom";
 import { RiKakaoTalkFill } from "react-icons/ri";
 import emailjs from '@emailjs/browser';
 
@@ -20,8 +19,15 @@ const Contect = () => {
             const key = next.value[0];
             const value = next.value[1]; 
             if (!value) { 
-                failNum++; 
-                alert(`${key}이(가) 비어있습니다.`);
+                failNum++;
+                if (key === 'name') {
+                    alert('이름이 비어있습니다.')
+                } else if (key === 'email') {
+                    alert('이메일 주소가 비어있습니다.')
+                } else if (key === 'contents') {
+                    alert('메일 내용이 비어있습니다.')
+                }
+                // alert(`${key}이(가) 비어있습니다.`);
                 break; 
             } 
         } if (!failNum) { 
@@ -29,7 +35,10 @@ const Contect = () => {
             .then(
                 (result) => { 
                     console.log('result.text', result.text);
-                    alert('메일이 발송되었습니다. 3~4일내로 답변을 드리겠습니다.');
+                    alert('메일이 발송되었습니다.');
+                    document.getElementById('SendEmail').style.display = 'none';
+                    document.getElementById('send_and_text').style.display = 'flex';
+                    
              }, 
                 (error) => { 
                     console.log(error.text);
@@ -54,7 +63,7 @@ const Contect = () => {
                             </ul>
                         </div>                  
                         <div className='contect_me_form'>
-                            <form name="SendEmail" onSubmit={sendEmail}>
+                            {/* <form id="SendEmail" name="SendEmail" onSubmit={sendEmail}>
                                 <div className='contect_header flex'>
                                     <div className='from_name'>
                                         <div>Name</div>
@@ -67,12 +76,38 @@ const Contect = () => {
                                 </div>
                                 <div className='email_contents_box'>
                                     <div>E-Mail contents</div>
-                                    <textarea placeholder="내용을 입력해주세요." value={contents} onChange={onChangeContents} title="보내실 메일의 내용을 입력해주세요." name="contents"></textarea>
+                                    <textarea name="contents" id="contents" placeholder="내용을 입력해주세요." value={contents} onChange={onChangeContents} title="보내실 메일의 내용을 입력해주세요."></textarea>
+                                </div>
+                                <div className='contect_btn flex flex_jc_c flex_ai_'>
+                                    <input type="submit" value="보내기" />
+                                </div>
+                            </form> */}
+
+                            <form id="SendEmail" name="SendEmail" onSubmit={sendEmail}>
+                                <div className='contect_header flex'>
+                                    <div className='from_name'>
+                                        <div className="title">Name</div>
+                                        <input type="text" name="name" id="from_name" value={name} onChange={onChangeName} placeholder="성함 or 회사명" title="보내는 분의 성함이나 회사명을 입력해주세요."></input>
+                                    </div>
+                                    <div className='email_box'>
+                                        <div className="title">E-Mail</div>
+                                        <input type="email" name="email" id="email" value={email} onChange={onChangeEmail} placeholder="답장을 받으실 이메일을 입력해주세요." title="답장을 받으실 이메일을 입력해주세요."></input>
+                                    </div>
+                                </div>
+                                <div className='email_contents_box'>
+                                    <div>E-Mail contents</div>
+                                    <textarea name="contents" id="contents" placeholder="내용을 입력해주세요." value={contents} onChange={onChangeContents} title="보내실 메일의 내용을 입력해주세요."></textarea>
                                 </div>
                                 <div className='contect_btn flex flex_jc_c flex_ai_'>
                                     <input type="submit" value="보내기" />
                                 </div>
                             </form>
+
+                            <div id="send_and_text">
+                                <span className="txt3">메일이 발송되었습니다.</span>
+                                <span className="txt2">메일을 확인한 후 빠른 시일 내에 답장을 드리겠습니다.</span>
+                                <span className="txt2">웹 퍼블리셔 김기태 입니다. 감사합니다!</span>
+                            </div>
                         </div>
                     </div>
                 </div>

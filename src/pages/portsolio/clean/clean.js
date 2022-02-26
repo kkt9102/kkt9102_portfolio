@@ -1,26 +1,12 @@
 import React from "react";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
 
-import { useScroll } from "../../../utils/scrollMove";
 import { Helmet } from 'react-helmet';
 
-// img
-import main_img from "../../../resource/img/clean/clean_main.png";
-import main_board from "../../../resource/img/clean/clean_board.png";
-import main_sub from "../../../resource/img/clean/clean_sub_list.png";
-import main_pop from "../../../resource/img/clean/clean_sub_pop.png";
-import main_img_mo from "../../../resource/img/clean/clean_main_mo.png";
-import main_board_mo from "../../../resource/img/clean/clean_board_mo.png";
-import main_sub_mo from "../../../resource/img/clean/clean_sub_list_mo.png";
-import main_pop_mo from "../../../resource/img/clean/clean_sub_pop_mo.png";
+import CleanImg from "./components/clean_img";
 
 function Clean() {
-    const {scrollY} = useScroll();
-    const PageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrollPer = (scrollY/PageHeight) * 100;
-
     return(
         <>
         <Helmet>
@@ -58,42 +44,8 @@ function Clean() {
                             <li className='target_move'><a href="https://www.clean.go.kr/" target="_blank" title="청렴포털 홈페이지 새창으로 바로가기"  rel="noreferrer">청렴포털 홈페이지 바로가기 <span className="mobile_none">(https://www.clean.go.kr)</span></a></li>
                         </ul>
                     </div>
-                    <div className='img_box'>
-                        <ul className='img_list'>
-                            <li>
-                                <div className='img_box flex flex_jc_c'>
-                                    <img src={main_img} alt="청렴포털 홈페이지 메인"></img>
-                                </div>
-                                <div className='txt_box'>
-
-                                </div>
-                            </li>
-                            <li>
-                                <div className={`${scrollPer < 18 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
-                                    <img src={main_board} alt="청렴포털 상담사례 목록"></img>
-                                </div>
-                                <div className='txt_box'>
-                                    
-                                </div>
-                            </li>
-                            <li>
-                                <div className={`${scrollPer < 44 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
-                                    <img src={main_sub} alt="청렴포털 청렴마당 기관별 목록"></img>
-                                </div>
-                                <div className='txt_box'>
-                                    
-                                </div>    
-                            </li>
-                            <li>
-                                <div className={`${scrollPer < 73 ? 'hide' : 'show' } img_box flex flex_jc_c`}>
-                                    <img src={main_pop} alt="청렴마당"></img>
-                                </div>
-                                <div className='txt_box'>
-                                    
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                    <CleanImg/>
+                    
                 </div>
             </div>
         </div>
