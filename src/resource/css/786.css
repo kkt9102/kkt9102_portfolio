@@ -41,7 +41,7 @@
     /* portfolii_info */
     .portfolio_info .img_box .img_list {display: flex; flex-wrap:wrap;}
     .portfolio_info .img_box .img_list li {flex-basis:50%;}
-    .portfolio_info .img_box .img_list li .mo_img_btn {display:flex; justify-content:center; align-items:center; height:6rem; border:0.1rem solid #222222; border-radius: 0.3rem;}
+    .portfolio_info .img_box .img_list li .mo_img_btn {display:flex; justify-content:center; align-items:center; height:6rem; margin:1rem; border:0.1rem solid #222222; border-radius: 0.3rem;}
     .portfolio_info .img_box .img_list li .img_box {display:none;}
 
     /* resume */
