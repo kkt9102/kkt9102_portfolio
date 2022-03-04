@@ -10,7 +10,7 @@ import './resource/css/320.css';
 
 const Css = () => {
     return (
-        <div className='none'></div>
+        <></>
     )
 }
 

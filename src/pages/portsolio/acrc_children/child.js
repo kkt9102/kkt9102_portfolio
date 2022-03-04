@@ -2,7 +2,7 @@ import React from "react";
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
 
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import ChildImg from "./components/child_img";
 
@@ -10,11 +10,13 @@ import ChildImg from "./components/child_img";
 const AcrcChild = () => {
     return (
         <>
-            <Helmet>
-                <title>kkt9102 Portfolio | 국민권익위원회 어린이 홈페이지</title>
-                <meta charSet="utf-8" />
-                <meta name="description" content="kkt9102 Portfolio | 국민권익위원회 어린이 홈페이지" />
-            </Helmet>
+            <HelmetProvider>
+                <Helmet>
+                    <title>kkt9102 Portfolio | 국민권익위원회 어린이 홈페이지</title>
+                    <meta charSet="utf-8" />
+                    <meta name="description" content="kkt9102 Portfolio | 국민권익위원회 어린이 홈페이지" />
+                </Helmet>
+            </HelmetProvider>
             <ScrollToTop/>
             <HomeMV/>
             <div className='child portfolio_info'>
@@ -33,6 +35,7 @@ const AcrcChild = () => {
                         <div className='txt_box flex flex_wrap_wrap'>
                             <h2>프로젝트 참여 기간<span className="date"><span> : </span>2021.06 ~ 2022. 02</span></h2>
                             <ul className='percent'>
+                                <li className='dots_b'>어린이 홈페이지 메인 페이지 퍼블리싱 (100%)</li>
                                 <li className='dots_b'>어린이 홈페이지 컨텐츠 페이지 퍼블리싱 (100%)</li>
                                 <li className='dots_b'>어린이 홈페이지 게시판 퍼블리싱 (100%)</li>
                                 <li className='dots_b'>어린이 홈페이지 퀴즈로 배워요 퍼블리싱 및 JavaScript (100%)</li>

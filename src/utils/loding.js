@@ -1,11 +1,20 @@
 import React, {useState, useEffect} from "react";
 
 const Loding = () => {
-    const [loding, setLoding] = useState(true);
+    // const [loding, setLoding] = useState(false);
 
-    useEffect(() => {
-        setLoding(false);
-    })
+    // const pageLoding = () => {
+    //     setLoding(window.onloadstart);
+    // }
+    // useEffect(() => {
+    //     setLoding(true,pageLoding);
+    // })
+
+    const Test = () => {
+        window.onload(() => {
+            alert('gi');
+        })
+    }
 
     const Loding = {
         position: 'fixed',
@@ -15,7 +24,7 @@ const Loding = () => {
     }
     return (
         <>
-            <div style={Loding}></div>
+            <div style={Loding} onLoadStart={Test}></div>
         </>
     )
 }

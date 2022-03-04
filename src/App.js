@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
-import $ from 'jquery';
+
+import Loding from './utils/loding';
 import Css from './css';
 import Main from './pages/main/main';
 import Reserve from './pages/portsolio/reserve/reserve';
@@ -20,16 +20,14 @@ function App() {
   const closeModal = () => {
     setModalOpen(false);
   };
+
   
 
   return (
     <>
+    {/* <Loding/> */}
     <Css/>
-       {/* <button onClick={openModal}>모달팝업</button>
-      <Modal open={modalOpen} close={closeModal} header="Modal heading">
-      </Modal> */}
       <BrowserRouter basename={process.env.PUBLIC_URL}>
-      {/* <BrowserRouter> */}
         <Routes>
           <Route path="/" element={<Main/>} />
           <Route path="/Reserve/" element={<Reserve/>}/>

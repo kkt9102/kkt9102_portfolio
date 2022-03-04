@@ -72,6 +72,8 @@
 #section_04 {height: auto;}
 #section_04 .sc_tit {flex-basis:100%;}
 #section_04 .cont_box .sub_tit {display:flex; justify-content:center; margin-bottom:3rem;}
+#section_04 .cont_box .txt_box {width:100%; margin-bottom:2rem;}
+#section_04 .cont_box .txt_box ul li {font-size:2rem;}
 #section_04 .contect_me_form {flex-basis:70%;}
 #section_04 .contect_me_form form {display:flex; flex-wrap: wrap;}
 #section_04 .contect_me_form form > div {flex-basis:100%;}
@@ -88,30 +90,31 @@
 #section_04 .contect_me_form form .contect_header  {height:8rem;}
 #section_04 .contect_me_form form .email_contents_box {height:27rem;}
 
-#section_04 .link_list {flex-basis:30%; padding-bottom:5rem;}
-#section_04 .link_list ul li {flex-basis:100%; margin:1rem; position:relative;}
-#section_04 .link_list ul .send_mail {margin-top:3rem;}
+#section_04 .link_list {flex-basis:100%; padding-top:5rem; padding-bottom:5rem;}
+#section_04 .link_list ul li {flex-basis:20%; margin:1rem; position:relative;}
+/* #section_04 .link_list ul .send_mail {margin-top:3rem;} */
 #section_04 .link_list ul li:hover {justify-content: center;}
 #section_04 .link_list ul li a {display:flex; justify-content:center; align-items:center; width:100%; height:14.5rem; border:0.1rem solid #222222; border-radius:1rem; background:none; transition:background 0.2s, width 0.2s 0.3s, height 0.2s 0.5s;}
 /* #section_04 .link_list ul li:hover a {width:80rem; height:20rem; margin-bottom:2rem;} */
 #section_04 .link_list ul li a svg {width:8rem; height:8rem;}
 #section_04 .link_list ul .send_mail a .svg_box {background:url('../img/icon/gmail.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%; transition: background 0.3s;}
 #section_04 .link_list ul .send_mail a:hover .svg_box {background:url('../img/icon/gmail_color.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%;}
-/* #section_04 .link_list ul .send_mail::after {content:'G-Mail 바로가기'; position:absolute; width:100%; bottom:0; display:flex; justify-content:center; opacity:0; transition:opacity 0.3s;}
-#section_04 .link_list ul .opentok::after {content:'오픈 톡 바로가기'; position:absolute; width:100%; bottom:0; display:flex; justify-content:center; opacity:0; transition:opacity 0.3s;} */
 #section_04 .link_list ul .send_mail:hover::after {opacity:1;}
 #section_04 .link_list ul .opentok:hover::after {opacity:1;}
 #section_04 .link_list ul .opentok a:hover {background:#FAE100;}
 #section_04 .link_list ul .opentok a:hover svg {fill:#3C1E1E;}
-#section_04 #send_and_text {display:none; flex-direction:column; justify-content:center; flex-basis:70%; height:31rem; margin:3rem 1rem; border:0.1rem solid #222222; border-radius:0.8rem; font-size:3rem;}
+#section_04 .link_list ul .github a:hover {background:#ffffff;}
+#section_04 .link_list ul .github a:hover svg {fill:#3C1E1E;}
+
+/* #section_04 #send_and_text {display:none; flex-direction:column; justify-content:center; flex-basis:70%; height:31rem; margin:3rem 1rem; border:0.1rem solid #222222; border-radius:0.8rem; font-size:3rem;}
 #section_04 #send_and_text span {display:flex; justify-content:center;}
 #section_04 #send_and_text .txt3 {margin-top:3rem;}
 #section_04 #send_and_text .txt2 {margin-top:2rem;}
-#section_04 #send_and_text .txt2:last-child {margin-bottom:2rem;}
+#section_04 #send_and_text .txt2:last-child {margin-bottom:2rem;} */
 
 
 /* footer */
-.main_footer {position:relative; height:auto; padding:2rem 0 5rem; background:#ffffff; border-top:0.1rem solid #eeeeee;}
+.main_footer {position:relative; height:auto; padding:2rem 0 3rem; background:#ffffff; border-top:0.1rem solid #eeeeee;}
 .main_footer .copyright {font-size:1.3rem; font-family:'NotoKr' !important; font-weight: 300; margin-bottom:2rem;}
 .main_footer .link_box ul li {margin:0 0.5rem; border-radius:0.3rem; border:0.1rem solid #222222;}
 .main_footer .link_box ul li a {display: flex; justify-content:center; align-items:center; width:3rem; height:3rem;}
@@ -146,23 +149,25 @@
 .reserve * {color:#dddddd;}
 .reserve .page_tit {color:#976d3f; font-family: 'NotoKr';}
 .reserve .cont_box .img_box {position:absolute; z-index: -1;}
-.reserve .cont_box .sub_tit {font-size:2.4rem;}
+.reserve .cont_box .sub_tit {font-size:2.4rem; margin-bottom:1rem;}
 .reserve .cont_1 {z-index:1; padding-top:5rem; padding-bottom:5rem;}
 .reserve .cont_1 .img_1 {width:45%; top:3rem; left:5%;}
 .reserve .cont_1 .img_1 img {width:100%; opacity: 0.8;}
 .reserve .cont_1 .sub_txt ul li {line-height:2.5rem;}
 
-.reserve .use_colors .popup {position:fixed; width:30%; height: 30%; top:50%; left:50%; background:#ffffff; border:0.1rem solid #976d3f; z-index:-99 !important; opacity: 0; transition: opacity 0.5s;}
+/* .reserve .use_colors .popup {position:fixed; width:30%; height: 30%; top:50%; left:50%; background:#ffffff; border:0.1rem solid #976d3f; z-index:-99 !important; opacity: 0; transition: opacity 0.5s;}
 .reserve .use_colors .popup .popup_close {position:absolute; width:2rem; height:2rem; right:0;}
 .reserve .use_colors .popup .popup_close .close_line {position:absolute; width:100%; height: 0.2rem; background:#222222;}
 .reserve .use_colors .popup .popup_close .close_line:first-child {transform:rotate(45deg);}
-.reserve .use_colors .popup .popup_close .close_line:last-child {transform:rotate(-45deg);}
+.reserve .use_colors .popup .popup_close .close_line:last-child {transform:rotate(-45deg);} */
 
+.reserve .use_colors {justify-content: space-around;}
+.reserve .use_colors li {display:flex; flex-direction: column; align-items: center;}
 .reserve .use_colors .popup.open_pop {opacity: 1;}
-.reserve .use_colors > div {width:3rem; height:3rem; border:0.2rem solid #eeeeee; cursor: pointer;}
-.reserve .use_colors .color_1 {background:#222222;}
-.reserve .use_colors .color_2 {background:#976d3f;}
-.reserve .use_colors .color_3 {background:#eeeeee;}
+.reserve .use_colors .color_box {width:5rem; height:5rem; margin-top:2rem; border:0.2rem solid #bcbcbc; cursor: pointer;}
+.reserve .use_colors .color_1 .color_box {background:#222222;}
+.reserve .use_colors .color_2 .color_box {background:#976d3f;}
+.reserve .use_colors .color_3 .color_box {background:#eeeeee;}
 /* .reserve .cont_1::after {content:''; position:absolute; width:100%; height: 100%; background:url('../img/reserve/reserve_3d_1.png') no-repeat; background-size:cover; top:0; left:0; z-index: -1;} */
 
 /* clean */

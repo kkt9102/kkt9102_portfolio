@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-scroll";
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import { useMousePosition } from "../../utils/mosuePosition";
 import { useScroll } from "../../utils/scrollMove";
@@ -27,12 +27,14 @@ function Main() {
 
     return (
         <div id='main_page'>
-            <Helmet>
-                <title>kkt9102 Portfolio</title>
-                <meta charSet="utf-8" />
-                <meta name="description" content="kkt9102 portfolio" />
-                <meta name="keywords" content="kkt9102,웹 퍼블리셔,포트폴리오,웹 퍼블리셔 포트폴리오,Web Publisher"/>
-            </Helmet>
+            <HelmetProvider>
+                <Helmet>
+                    <title>kkt9102 Portfolio</title>
+                    <meta charSet="utf-8" />
+                    <meta name="description" content="kkt9102 portfolio" />
+                    <meta name="keywords" content="kkt9102,웹 퍼블리셔,포트폴리오,웹 퍼블리셔 포트폴리오,Web Publisher"/>
+                </Helmet>
+            </HelmetProvider>
 
             <header className={`${scrollY < 500 ? 'y_Top' : 'y_move'}  main_header fixed`}>
                 <nav>

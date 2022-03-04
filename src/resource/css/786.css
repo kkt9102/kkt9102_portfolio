@@ -41,14 +41,20 @@
     /* portfolii_info */
     .portfolio_info .link_box .target_move {flex-basis:100%;}
     .portfolio_info .link_box .target_move a {display:flex; justify-content:center; flex-basis:100%; font-size:1.6rem;}
+    .portfolio_info .cont_1 .sub_txt ul li {word-break: keep-all; line-height: 1.5;}
     .portfolio_info .cont_2 > .img_box {margin-bottom:5rem;}
     .portfolio_info .img_box .img_list {display: flex; flex-wrap:wrap;}
     .portfolio_info .img_box .img_list li {flex-basis:100%;}
     .portfolio_info .img_box .img_list li .mo_img_btn {display:flex; justify-content:center; align-items:center; height:3rem; margin:0.5rem 0; border:0.1rem solid #dddddd; border-radius: 0.3rem; font-size:1.4rem;}
     .portfolio_info .img_box .img_list li .img_box.hide {height: 0;}
     .portfolio_info .img_box .img_list li .img_box.show {height: auto;}
+    
 
     /* resume */
     .resume_section {max-width:80%; margin:0 auto;}
     .resume_section * {word-break: keep-all;}
+
+    /* reserve */
+    .reserve .use_colors {justify-content:space-around;}
+    .reserve .use_colors > div {width: 6rem; height: 6rem; margin-top:3rem;}
 }

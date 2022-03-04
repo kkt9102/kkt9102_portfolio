@@ -16,7 +16,8 @@
     #section_03 {height:100%;}
 
     /* section_04 */
-    #section_04 .contect_me_form form .contect_header {flex-wrap:wrap;}
+    #section_04 .contect_me_form form .contect_header {flex-wrap:wrap; height:15rem;}
     #section_04 .contect_me_form form .contect_header > div {flex-basis:100%;}
     #section_04 .link_list,#section_04 .contect_me_form {flex-basis:100%;}
+    
 }
