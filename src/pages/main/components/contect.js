@@ -1,51 +1,51 @@
 import React,{ useCallback } from "react";
-import useInput from "../../../utils/useInput";
+// import useInput from "../../../utils/useInput";
 import { RiKakaoTalkFill, RiGithubFill } from "react-icons/ri";
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 const Contect = () => {
 
     // e-mail
-    const [name, onChangeName] = useInput(''); 
-    const [email, onChangeEmail] = useInput(''); 
-    const [contents, onChangeContents] = useInput(''); 
+    // const [name, onChangeName] = useInput(''); 
+    // const [email, onChangeEmail] = useInput(''); 
+    // const [contents, onChangeContents] = useInput(''); 
     
-    const sendEmail = useCallback((e) => { 
-        e.preventDefault(); const inputNum = e.target.childElementCount - 1;
-        const data = new FormData(e.target); 
-        const entries = data.entries(); let failNum = 0; 
-        for (let i = 0; i < inputNum; i++) { 
-            const next = entries.next(); 
-            const key = next.value[0];
-            const value = next.value[1]; 
-            if (!value) { 
-                failNum++;
-                if (key === 'name') {
-                    alert('이름이 비어있습니다.')
-                } else if (key === 'email') {
-                    alert('이메일 주소가 비어있습니다.')
-                } else if (key === 'contents') {
-                    alert('메일 내용이 비어있습니다.')
-                }
-                // alert(`${key}이(가) 비어있습니다.`);
-                break; 
-            } 
-        } if (!failNum) { 
-            emailjs.sendForm( 'service_mg5nlfc', 'template_2xziz8w', e.target, 'user_do6P99tYNFqedeqA4YKqe' )
-            .then(
-                (result) => { 
-                    console.log('result.text', result.text);
-                    alert('메일이 발송되었습니다.');
-                    document.getElementById('SendEmail').style.display = 'none';
-                    document.getElementById('send_and_text').style.display = 'flex';
+    // const sendEmail = useCallback((e) => { 
+    //     e.preventDefault(); const inputNum = e.target.childElementCount - 1;
+    //     const data = new FormData(e.target); 
+    //     const entries = data.entries(); let failNum = 0; 
+    //     for (let i = 0; i < inputNum; i++) { 
+    //         const next = entries.next(); 
+    //         const key = next.value[0];
+    //         const value = next.value[1]; 
+    //         if (!value) { 
+    //             failNum++;
+    //             if (key === 'name') {
+    //                 alert('이름이 비어있습니다.')
+    //             } else if (key === 'email') {
+    //                 alert('이메일 주소가 비어있습니다.')
+    //             } else if (key === 'contents') {
+    //                 alert('메일 내용이 비어있습니다.')
+    //             }
+    //             break; 
+    //         } 
+    //     } if (!failNum) { 
+    //         emailjs.sendForm( 'service_mg5nlfc', 'template_2xziz8w', e.target, 'user_do6P99tYNFqedeqA4YKqe' )
+    //         .then(
+    //             (result) => { 
+    //                 console.log('result.text', result.text);
+    //                 alert('메일이 발송되었습니다.');
+    //                 document.getElementById('SendEmail').style.display = 'none';
+    //                 document.getElementById('send_and_text').style.display = 'flex';
                     
-             }, 
-                (error) => { 
-                    console.log(error.text);
-                    alert('메일 발송이 실패했습니다. 다시 시도하시거나 아래의 g-mail 을 이용해주세요.')
-            }); 
-        } }, 
-        []);
+    //          }, 
+    //             (error) => { 
+    //                 console.log(error.text);
+    //                 alert('메일 발송이 실패했습니다. 다시 시도하시거나 아래의 g-mail 을 이용해주세요.')
+    //         }); 
+    //     } }, 
+    //     []);
+
     return(
         <>
             <section id='section_04' className='section main_sc_4'>

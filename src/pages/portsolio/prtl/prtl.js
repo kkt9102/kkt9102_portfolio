@@ -1,6 +1,7 @@
 import React from "react";
 import HomeMV from "../../../utils/home_move";
 import ScrollToTop from '../../../utils/scrollTop';
+import { Link } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 // img
@@ -48,7 +49,9 @@ function Acrc() {
                                 <li className='dots_b'>인트라넷 통합알림 퍼블리싱 (100%)</li>
                             </ul>
                             <ul className='link_box flex_jc_c'>
-                                <li className='target_move'><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 인트라넷 퍼블리싱 페이지 새창으로 바로가기" rel="noreferrer">인트라넷 퍼블리싱 페이지 바로가기 (https://www.clean.go.kr)</a></li>
+                                <li className='target_move'>
+                                    <Link to="/clonePage/CloneMain" target="_blank">인트라넷 클론 페이지 바로가기</Link>
+                                </li>
                             </ul>
                         </div>
                         <div className='img_box'>

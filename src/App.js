@@ -10,7 +10,7 @@ import Acrc from './pages/portsolio/acrc/acrc';
 import AcrcChild from './pages/portsolio/acrc_children/child';
 import Prlt from './pages/portsolio/prtl/prtl';
 import Resume from './pages/main/components/resume';
-
+import CloneMain from './pages/portsolio/prtl/clonePage/CloneMain';
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -35,6 +35,7 @@ function App() {
           <Route path="/Acrc" element={<Acrc/>}/>
           <Route path="/AcrcChild" element={<AcrcChild/>}/>
           <Route path="/Prtl" element={<Prlt/>}/>
+          <Route path="/clonePage/CloneMain" element={<CloneMain/>}/>
           <Route path="/Resume" element={<Resume/>}/>
         </Routes>
       </BrowserRouter>
