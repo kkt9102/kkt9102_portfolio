@@ -70,9 +70,12 @@ const Contect = () => {
                                     <a href="https://github.com/kkt9102" target="_blank" rel="noopener noreferrer" title="깃허브 새창으로 가기"><RiGithubFill/></a>
                                 </li>
                             </ul>
-                        </div>                  
-                        <div className='contect_me_form'>
-                            {/* <form id="SendEmail" name="SendEmail" onSubmit={sendEmail}>
+                        </div>
+                        <div>
+                            <strong>해당 페이지는 상업적 용도가 아닌 개인 포트폴리오용으로 제작되었습니다.</strong>    
+                        </div>                
+                        {/* <div className='contect_me_form'>
+                            <form id="SendEmail" name="SendEmail" onSubmit={sendEmail}>
                                 <div className='contect_header flex'>
                                     <div className='from_name'>
                                         <div className="title">Name</div>
@@ -90,14 +93,14 @@ const Contect = () => {
                                 <div className='contect_btn flex flex_jc_c flex_ai_'>
                                     <input type="submit" value="보내기" />
                                 </div>
-                            </form> */}
+                            </form>
 
-                            {/* <div id="send_and_text">
+                            <div id="send_and_text">
                                 <span className="txt3">메일이 발송되었습니다.</span>
                                 <span className="txt2">메일을 확인한 후 빠른 시일 내에 답장을 드리겠습니다.</span>
                                 <span className="txt2">웹 퍼블리셔 김기태 입니다. 감사합니다!</span>
-                            </div> */}
-                        </div>
+                            </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
