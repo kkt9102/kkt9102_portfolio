@@ -48,6 +48,14 @@ function Acrc() {
                                 <li className='dots_b'>SMS 발송및 이력관리 화면 퍼블리싱 (90%)</li>
                                 <li className='dots_b'>인트라넷 통합알림 퍼블리싱 (100%)</li>
                             </ul>
+                            <ul className="useing_code flex">
+                                <li>#DHTMLX</li>
+                                <li>#HTML</li>
+                                <li>#CSS</li>
+                                <li>#JavaScript</li>
+                                <li>#slick-slide</li>
+                                <li>#bx-slide</li>
+                            </ul>
                             <ul className='link_box flex_jc_c'>
                                 <li className='target_move'>
                                     <Link to="/clonePage/CloneMain" target="_blank">인트라넷 클론 페이지 바로가기</Link>

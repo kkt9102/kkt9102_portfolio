@@ -61,9 +61,16 @@ function Acrc() {
                                 <li className='dots_b'>어린이 홈페이지 메인, 게시판, 컨텐츠 페이지 퍼블리싱 (100%)</li>
                                 <li className='dots_b'>홈페이지 관리자 페이지 민원신청 확인 페이지 퍼블리싱 (80%)</li>
                                 <li className='dots_b'>홈페이지 괸리자 페이지 개인정보 다운로드 사유 입력 및 엑셀 다운로드 기능 (40%)</li>
-                                {/* <li>업무포털 통합검색 퍼블리싱 (100%)</li> */}
-                                {/* <li>업무포털 SMS 발송 페이지 퍼블리싱 (80%)</li> */}
-                                {/* <li>업무포털 혁신게시판 (업무포털 내 별도의 홈페이지 개념) 퍼블리싱 진행 (100%)</li> */}
+                            </ul>
+                            <ul className="useing_code flex">
+                                <li>#CMS</li>
+                                <li>#JAVA</li>
+                                <li>#SPRING</li>
+                                <li>#HTML</li>
+                                <li>#CSS</li>
+                                <li>#JavaScript</li>
+                                <li>#slick-slide</li>
+                                <li>#bx-slide</li>
                             </ul>
                             <ul className='link_box flex_jc_c'>
                                 <li className='target_move'><a href="https://www.acrc.go.kr/" target="_blank" title="국민권익위원회 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 홈페이지 바로가기 <span className="mobile_none">(https://www.clean.go.kr)</span></a></li>

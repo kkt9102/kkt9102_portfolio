@@ -40,6 +40,13 @@ const AcrcChild = () => {
                                 <li className='dots_b'>어린이 홈페이지 게시판 퍼블리싱 (100%)</li>
                                 <li className='dots_b'>어린이 홈페이지 퀴즈로 배워요 퍼블리싱 및 JavaScript (100%)</li>
                             </ul>
+                            <ul className="useing_code flex">
+                                <li>#CMS</li>
+                                <li>#HTML</li>
+                                <li>#CSS</li>
+                                <li>#JavaScript</li>
+                                <li>#slick-slide</li>
+                            </ul>
                             <ul className='link_box flex_jc_c'>
                                 <li className='target_move'><a href="https://www.acrc.go.kr/child/" target="_blank" title="국민권익위원회 어린이 홈페이지 새창으로 바로가기" rel="noreferrer">국민권익위원회 어린이 홈페이지 바로가기 <span className="mobile_none">(https://www.acrc.go.kr/child/)</span></a></li>
                             </ul>
