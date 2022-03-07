@@ -68,6 +68,8 @@
 #section_03 .cont_box .web_work li .link_btn.acrc:hover::after {background-position-Y:bottom;}
 #section_03 .cont_box .web_work li .link_btn.acrc_child::after {content:''; position:absolute; z-index: -1; background:url('../img/acrc_child_main.png'); width:95%; height: 75%; top:5%; left:4%; background-size:cover; background-repeat: no-repeat;}
 #section_03 .cont_box .web_work li .link_btn.acrc_child:hover::after {background-position-Y:bottom;}
+#section_03 .cont_box .web_work li .link_btn.prtl::after {content:''; position:absolute; z-index: -1; background:url('../img/prtl_main.gif'); width:95%; height: 65%; top:5%; left:-1%; background-size:cover; background-repeat: no-repeat;}
+#section_03 .cont_box .web_work li .link_btn.prtl:hover::after {background-position-Y:bottom;}
 #section_03 .cont_box .web_work li .link_txt {position:absolute; width: 100%; text-align:center; word-break: break-word;}
  
 /* section_04 */

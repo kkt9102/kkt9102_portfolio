@@ -40,9 +40,6 @@ function Main() {
             <header className={`${scrollY < 500 ? 'y_Top' : 'y_move'}  main_header fixed`}>
                 <nav>
                     <ul className="flex flex_jc_e">
-                        <li>
-                            <img src={logo} alt="로고"></img>
-                        </li>
                         <li className="flex flex_ai_c">
                             <Link to="main_sc_1" spy={true} smooth={true} title="Home 영역으로 이동" tabIndex="0">
                                 <span>Home</span>
