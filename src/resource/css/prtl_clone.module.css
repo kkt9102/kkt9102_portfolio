@@ -1,0 +1,30 @@
+.section {max-width: 1600px; margin:0 auto;}
+
+/* left_menu */
+.section .left_menu { height:500px; width: 234px; border-left:1px solid #dddddd; border-right:1px solid #dddddd;}
+.section .left_menu .logo {height: 110px; text-align: center; vertical-align: middle;}
+.section .left_menu .logo img {width: 60%; margin-top:5px;}
+.section .left_menu ul li:first-child {height:50px; background: #0064a2;}
+.section .left_menu ul li div {display:flex; align-items:center; justify-content:center; color:#ffffff; font-size:17px; font-weight:600;}
+.section .left_menu ul li .bars {flex-basis:50px; background:#005082;}
+.section .left_menu ul li .bars svg {width:24px; height:20px; fill:#ffffff;}
+.section .left_menu ul li .refresh svg,
+.section .left_menu ul li .setting svg {width:16px; height: 16px;}
+.section .left_menu ul li .refresh svg polyline,
+.section .left_menu ul li .refresh svg path {color:#bbbfc3;}
+.section .left_menu ul li .setting svg {fill:#bbbfc3;}
+
+/* right_section */
+.section .main_section {flex-basis:calc(1600px - 234px);}
+
+    /* top_menu */
+.section .main_section .top_menu {height:50px;}
+.section .main_section .top_menu li .menu_tit {display:flex; align-items:center; flex-basis:90px;}
+.section .main_section .top_menu li .menu_tit label {font-size:17px; font-weight: 600;}
+.section .main_section .top_menu li button svg {width: 20px; height: 20px; line:#0064a2;}
+    /* btm_menu */
+.section .main_section .btm_menu {align-items:center; height:60px; background:#0064a2;}
+.section .main_section .btm_menu li {display:flex; align-items:center; justify-content:center; height:inherit; color:#ffffff; font-size:17px; font-weight: 600;}
+.section .main_section .btm_menu li:not(.bookmark) {flex-basis: calc((100% - 60px) / 8);}
+.section .main_section .btm_menu .bookmark {flex-basis:60px; background: #2d8fd5; color:#ffffff;}
+.section .main_section .btm_menu .bookmark svg {width: 22px; height:24px;}

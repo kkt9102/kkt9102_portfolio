@@ -5,12 +5,14 @@ import { Link } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 // img
-import acrc_mian from "../../../resource/img/acrc_main.png";
-import main_board_img_1 from "../../../resource/img/acrc/main_board_list_1.png";
-import main_board_img_2 from "../../../resource/img/acrc/main_board_list_2.png";
-import main_board_img_3 from "../../../resource/img/acrc/main_board_list_3.png";
-import main_board_img_4 from "../../../resource/img/acrc/main_board_list_4.png";
-import main_cdns_img_2 from "../../../resource/img/acrc/main_cdns_list.png";
+import prtl_main from "../../../resource/img/prtl_main.gif";
+import prtl_sms_send from "../../../resource/img/prtl/sms_send.gif";
+import prtl_alert from "../../../resource/img/prtl/sms_alert.gif";
+import knw_main from "../../../resource/img/prtl/prtl_knw_main.gif";
+import knw_board_list from "../../../resource/img/prtl/prtl_knw_board_list.gif";
+import knw_board_view from "../../../resource/img/prtl/prtl_knw_board_view.gif";
+import knw_off_act from "../../../resource/img/prtl/prtl_off_activity_add.gif";
+import knw_my_act from "../../../resource/img/prtl/prtl_knw_my_activity.gif";
 
 function Acrc() {
     return(
@@ -66,7 +68,7 @@ function Acrc() {
                             <ul className='img_list'>
                                 <li>
                                     <div className='img_box flex flex_jc_c'>
-                                        <img src={acrc_mian} alt="국민권익위원회 국문 홈페이지 메인"></img>
+                                        <img src={prtl_main} alt="국민권익위원회 인트라넷 홈페이지 메인"></img>
                                     </div>
                                     <div className='txt_box'>
 
@@ -74,7 +76,7 @@ function Acrc() {
                                 </li>
                                 <li>
                                     <div className='img_box flex flex_jc_c'>
-                                        <img src={main_board_img_1} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
+                                        <img src={prtl_sms_send} alt="국민권익위원회 인트라넷 SMS 발송"></img>
                                     </div>
                                     <div className='txt_box'>
 
@@ -82,7 +84,7 @@ function Acrc() {
                                 </li>
                                 <li>
                                     <div className='img_box flex flex_jc_c'>
-                                        <img src={main_board_img_2} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
+                                        <img src={prtl_alert} alt="국민권익위원회 인트라넷 통합알람"></img>
                                     </div>
                                     <div className='txt_box'>
 
@@ -90,7 +92,47 @@ function Acrc() {
                                 </li>
                                 <li>
                                     <div className='img_box flex flex_jc_c'>
-                                        <img src={main_board_img_3} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
+                                        <img src={knw_main} alt="국민권익위원회 인트라넷 혁신게시판 메인"></img>
+                                    </div>
+                                    <div className='txt_box'>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className='img_box flex flex_jc_c'>
+                                        <img src={knw_main} alt="국민권익위원회 인트라넷 혁신게시판 메인"></img>
+                                    </div>
+                                    <div className='txt_box'>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className='img_box flex flex_jc_c'>
+                                        <img src={knw_board_list} alt="국민권익위원회 인트라넷 혁신게시판 게시판 목록"></img>
+                                    </div>
+                                    <div className='txt_box'>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className='img_box flex flex_jc_c'>
+                                        <img src={knw_board_view} alt="국민권익위원회 인트라넷 혁신게시판 게시판 상세"></img>
+                                    </div>
+                                    <div className='txt_box'>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className='img_box flex flex_jc_c'>
+                                        <img src={knw_off_act} alt="국민권익위원회 인트라넷 혁신게시판 오프라인 활동 등록"></img>
+                                    </div>
+                                    <div className='txt_box'>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className='img_box flex flex_jc_c'>
+                                        <img src={knw_my_act} alt="국민권익위원회 인트라넷 혁신게시판 나의 활동내역"></img>
                                     </div>
                                     <div className='txt_box'>
 
