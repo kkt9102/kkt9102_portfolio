@@ -42,6 +42,7 @@ p, a, li, ol, div, span {font-size:1.6rem;}
 
 /* flex */
 .flex {display:flex; -ms-flex: flex;}
+.flex_imp {display:flex !important; -ms-flex: flex;}
 .flex_auto { display:flex; flex:auto;}
 .flex_1_0_0 {display:flex; flex:1 0 0; -ms-flex: flex; -ms-flex:1 0 auto;}
 .flex_wrap_no { flex-wrap:nowrap; -ms-flex-wrap: nowrap;}
