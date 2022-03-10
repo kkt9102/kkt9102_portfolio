@@ -3,6 +3,11 @@ import {BsFillBookmarkStarFill} from 'react-icons/bs';
 
 import NormalSlick1 from "./components/slick_slide_1";
 import RolSlide1 from "./components/rol_slide_1";
+import BoardSet1 from "./components/board_set_1";
+import BoardSet2 from "./components/board_set_2";
+
+
+import RolSlide2 from "./components/rol_slide_2";
 
 import '../../../../resource/css/common.css';
 import '../../../../resource/font/XEIcon/xeicon.css';
@@ -168,20 +173,21 @@ const CloneMain = () => {
                     {/* body */}
                     <div className={`${prtl.body_sc} flex flex_jc_sb`}>
                         <div className={`${prtl.left_sc} flex flex_wrap_wrap`}>
-                            <ul className={`${prtl.rol_slide_1} ${prtl.rol_slide} flex relative`}>
+                            <ul className={`${prtl.rol_slide_1} ${prtl.rol_slide} flex relative `}>
                                 <RolSlide1/>
-                                <div className={prtl.rol_slide_btn}>
-                                    
-                                </div>
+                                <div className={prtl.rol_slide_btn}></div>
                             </ul>
                             <div className={`${prtl.board_set_1} ${prtl.board_view}`}>
+                                <BoardSet1/>
                             </div>
                             <div className={`${prtl.board_set_2} ${prtl.board_view}`}>
+                                <BoardSet2/>
                             </div>
                         </div>
                         <div className={`${prtl.right_sc} flex flex_wrap_wrap`}>
                             <ul className={`${prtl.rol_slide_2} ${prtl.rol_slide}`}>
-
+                                <RolSlide2/>
+                                <div className={prtl.rol_slide_btn}></div>
                             </ul>
                             <div className={`${prtl.cont_box} flex flex_jc_sb`}>
                                 <div className={prtl.slide_view}>

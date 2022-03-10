@@ -85,14 +85,29 @@
 
 /* body_section */
 .section .main_section .body_sc {padding:20px;}
-.section .main_section .body_sc > div {flex-basis:calc((100% - 40px)/2)}
+.section .main_section .body_sc > div {flex-basis:calc((100% - 20px)/2)}
 .section .main_section .body_sc > div > * {width:100%; margin-bottom:20px;}
-.section .main_section .body_sc > div .rol_slide {border:2px dotted #cbcbcb;}
+.section .main_section .body_sc > div .rol_slide {height:46px; border:2px dotted #cbcbcb;}
 .section .main_section .body_sc > div .rol_slide > div:not(.rol_slide_btn) {max-width: calc(100% - 50px);}
-.section .main_section .body_sc > div .rol_slide .rol_slide_btn {flex-basis:50px;}
-.section .main_section .body_sc > div .rol_slide_1 .slick-arrow.slick-prev {right:0;}
-.section .main_section .body_sc > div .rol_slide_1 .slick-arrow.slick-next {right:0;}
+.section .main_section .body_sc > div .rol_slide .rol_slide_btn {flex-basis:50px; border-left:1px solid #dddddd;}
+.section .main_section .body_sc > div .rol_slide li .tit {flex-basis:85%; font-size:14px; color:#333333; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.section .main_section .body_sc > div .rol_slide li .tit i {padding:4px; margin-right:20px; border-radius:100%; text-align:center; background:#0865b3; font-size:20px; color:#ffffff; transform: translateY(10%);}
+.section .main_section .body_sc > div .rol_slide li .red_dt {font-size:14px; color:#999999;}
+.section .main_section .body_sc > div .rol_slide_1 li {height:46px; padding: 0 20px; line-height:39px;}
+.section .main_section .body_sc > div .rol_slide_2 li {height:46px; padding: 0 20px; line-height:39px;}
+.section .main_section .body_sc > div .rol_slide_2 li .tit i {background:#606e79;}
+.section .main_section .body_sc > div .rol_slide_2 li .tit span {font-size:14px; font-weight:600; color:#0064a2;}
 .section .main_section .body_sc .left_sc .board_view {border:1px solid #dddddd; border-top:1px solid #4b5462;}
+.section .main_section .body_sc .left_sc .board_view .more_btn {flex-basis:48px; display:flex; justify-content: center; align-items: center; cursor:pointer;}
+.section .main_section .body_sc .left_sc .board_view .more_btn i {font-size:18px; color:#b7b7b7;}
+.section .main_section .body_sc .left_sc .board_view .tab_menu {height:48px; border-bottom:1px solid #dddddd;}
+.section .main_section .body_sc .left_sc .board_view .tab_menu ul {border-bottom:1px solid #dddddd;}
+.section .main_section .body_sc .left_sc .board_set_1 .tab_menu ul {display: flex; flex-basis:calc(100% - 48px); height:inherit; align-items:center; background: #e2eff9; border-right:1px solid #dddddd; cursor:pointer;}
+.section .main_section .body_sc .left_sc .board_set_1 .tab_menu ul li div {font-size:15px; font-weight:600; color:#1e1e1e;}
+.section .main_section .body_sc .left_sc .board_set_2 .tab_menu ul {display: flex; flex-basis:calc(100% - 48px); height:inherit; align-items:center; background: #e2eff9; border-right:1px solid #dddddd; cursor:pointer;}
+.section .main_section .body_sc .left_sc .board_set_2 .tab_menu ul li div {font-size:15px; font-weight:600; color:#1e1e1e;}
+.section .main_section .body_sc .left_sc .board_set_2 .setting_btn {flex-basis:48px; display:flex; justify-content: center; align-items: center; border-left:1px solid #dddddd; cursor:pointer;}
+.section .main_section .body_sc .left_sc .board_set_2 .setting_btn i {font-size:18px; color:#b7b7b7;}
 
 .section .main_section .body_sc .right_sc .cont_box {flex-basis:calc(100% - 20px);}
 .section .main_section .body_sc .right_sc .cont_box .slide_view {flex-basis:40%; max-width: 247px;}

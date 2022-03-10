@@ -13,7 +13,7 @@ const RolSlide1 = () => {
       return (
         <div
           className={className}
-          style={{ ...style, display: 'block', right: 0 }}
+          style={{ ...style, display: 'block', left: 103 +'%', width: 10, height: 10, fontSize: 15 }}
           onClick={onClick}
           />
         );
@@ -23,7 +23,7 @@ const RolSlide1 = () => {
         return (
           <div
             className={className}
-            style={{ ...style, display: 'block', right: 0 }}
+            style={{ ...style, display: 'block', top:5, right: -4.7 + '%', width: 10, height: 10, fontSize: 15 }}
             onClick={onClick}
                 />
               );
@@ -36,7 +36,10 @@ const RolSlide1 = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         vertical: true,
-        centerMode: false,
+        centerMode: true,
+        centerPadding: 40,
+        autoplay: true,
+        autoplaySpeed: 3000,
         prevArrow: <PrevArrow/>,
         nextArrow: <NextArrow/>
     };
@@ -44,27 +47,27 @@ const RolSlide1 = () => {
         <>
             <Slider {...settings}>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}>공지사항 샘플 글입니다.</div>
+                    <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.공지사항 샘플 글입니다.공지사항 샘플 글입니다.공지사항 샘플 글입니다.</div>
                     <div className={prtl.red_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}>공지사항 샘플 글입니다.</div>
+                    <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.</div>
                     <div className={prtl.red_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}>공지사항 샘플 글입니다.</div>
+                    <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.</div>
                     <div className={prtl.red_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}>공지사항 샘플 글입니다.</div>
+                    <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.</div>
                     <div className={prtl.red_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}>공지사항 샘플 글입니다.</div>
+                    <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.</div>
                     <div className={prtl.red_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}>공지사항 샘플 글입니다.</div>
+                    <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.</div>
                     <div className={prtl.red_dt}>2022-03-09</div>
                 </li>
             </Slider>
