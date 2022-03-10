@@ -10,7 +10,7 @@ import '../../../../resource/font/XEIcon/xeicon.min.css';
 import prtl from '../clonePage/resource/css/prtl_clone.module.css';
 
 // img
-import logo from './img/acrc_logo.svg';
+import logo from './resource/img/acrc_logo.svg';
 
 const CloneMain = () => {
 
@@ -171,8 +171,7 @@ const CloneMain = () => {
                             <ul className={`${prtl.rol_slide_1} ${prtl.rol_slide} flex relative`}>
                                 <RolSlide1/>
                                 <div className={prtl.rol_slide_btn}>
-                                    <div className='rol_prev_btn'>이전</div>
-                                    <div className={prtl.next}>다음</div>
+                                    
                                 </div>
                             </ul>
                             <div className={`${prtl.board_set_1} ${prtl.board_view}`}>

@@ -88,8 +88,10 @@
 .section .main_section .body_sc > div {flex-basis:calc((100% - 40px)/2)}
 .section .main_section .body_sc > div > * {width:100%; margin-bottom:20px;}
 .section .main_section .body_sc > div .rol_slide {border:2px dotted #cbcbcb;}
-.section .main_section .body_sc > div .rol_slide >div:not(.rol_slide_btn) {max-width: calc(100% - 50px);}
+.section .main_section .body_sc > div .rol_slide > div:not(.rol_slide_btn) {max-width: calc(100% - 50px);}
 .section .main_section .body_sc > div .rol_slide .rol_slide_btn {flex-basis:50px;}
+.section .main_section .body_sc > div .rol_slide_1 .slick-arrow.slick-prev {right:0;}
+.section .main_section .body_sc > div .rol_slide_1 .slick-arrow.slick-next {right:0;}
 .section .main_section .body_sc .left_sc .board_view {border:1px solid #dddddd; border-top:1px solid #4b5462;}
 
 .section .main_section .body_sc .right_sc .cont_box {flex-basis:calc(100% - 20px);}

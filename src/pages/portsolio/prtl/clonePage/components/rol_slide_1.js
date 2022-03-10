@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import "../../clonePage/resource/css/slick.css"; 
+import "../../clonePage/resource/css/slick-theme.css";
 
 import '../../../../../resource/css/common.css';
 import prtl from '../../clonePage/resource/css/prtl_clone.module.css';
@@ -9,25 +9,25 @@ import prtl from '../../clonePage/resource/css/prtl_clone.module.css';
 const RolSlide1 = () => {
 
     const PrevArrow = (props) => {
-        const {style, onClick } = props;
-        return (
-          <div
-            className='rol_prev_btn'
-            style={{ ...style, display: "block", background: "green" }}
-            onClick={onClick}
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: 'block', right: 0 }}
+          onClick={onClick}
           />
         );
       }
       const NextArrow = (props) => {
-        const {style, onClick } = props;
+        const { className, style, onClick } = props;
         return (
           <div
-            className='rol_next_btn'
-            style={{ ...style, display: "block", background: "green" }}
+            className={className}
+            style={{ ...style, display: 'block', right: 0 }}
             onClick={onClick}
-          />
-        );
-      }
+                />
+              );
+            }
 
     const settings = {
         dots: false,
