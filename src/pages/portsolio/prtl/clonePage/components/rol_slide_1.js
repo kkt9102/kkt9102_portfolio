@@ -7,7 +7,6 @@ import '../../../../../resource/css/common.css';
 import prtl from '../../clonePage/resource/css/prtl_clone.module.css';
 
 const RolSlide1 = () => {
-
     const PrevArrow = (props) => {
       const { className, style, onClick } = props;
       return (

@@ -191,11 +191,15 @@ const CloneMain = () => {
                             </ul>
                             <div className={`${prtl.cont_box} flex flex_jc_sb`}>
                                 <div className={prtl.slide_view}>
-                                    <nav className={`${prtl.slick_slide}`}>
+                                    <div className={`${prtl.slick_slide}`}>
+                                        <div className={prtl.slick_slide_btn}><span className={prtl.slide_tit}>알림판</span></div>
                                         <ul>
                                             <NormalSlick1/>
                                         </ul>
-                                    </nav>
+                                    </div>
+                                    <div className={prtl.issue_vid}>
+                                        <div className={prtl.slide_tit}>이슈 동영상</div>
+                                    </div>
                                 </div>
                                 <div className={`${prtl.board_view} flex flex_dir_c`}>
                                     <div className={prtl.non_read_mail}>
