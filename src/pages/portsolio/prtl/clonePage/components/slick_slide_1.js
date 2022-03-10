@@ -15,8 +15,8 @@ const NormalSlick1 = () => {
         const { className, style, onClick } = props;
         return (
           <div
-            className={className}
-            style={{ ...style, display: 'block', left: 103 +'%', width: 10, height: 10, fontSize: 15 }}
+            className= 'prev_btns'
+            style={{ ...style, display: 'block',top: -48 , right: 50, width: 50, height: 48, fontSize: 18 }}
             onClick={onClick}
             />
           );
@@ -25,8 +25,8 @@ const NormalSlick1 = () => {
           const { className, style, onClick } = props;
           return (
             <div
-              className={className}
-              style={{ ...style, display: 'block', top:5, right: -4.7 + '%', width: 10, height: 10, fontSize: 15 }}
+              className='next_btns'
+              style={{ ...style, display: 'block', top: -48, right: 0, width: 50, height: 48, fontSize: 18 }}
               onClick={onClick}
                   />
                 );
