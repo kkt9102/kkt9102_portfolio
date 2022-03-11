@@ -2,12 +2,18 @@ import react from "react";
 import {BsFillBookmarkStarFill} from 'react-icons/bs';
 
 import NormalSlick1 from "./components/slick_slide_1";
+import NormalSlick2 from "./components/slick_slide_2";
 import RolSlide1 from "./components/rol_slide_1";
+import RolSlide2 from "./components/rol_slide_2";
 import BoardSet1 from "./components/board_set_1";
 import BoardSet2 from "./components/board_set_2";
+import NonMail from "./components/non_mail";
+import PayDoc from "./components/payment_doc";
+import ShareDoc from "./components/share_doc";
+import Memos from "./components/memos";
 
 
-import RolSlide2 from "./components/rol_slide_2";
+
 
 import '../../../../resource/css/common.css';
 import '../../../../resource/font/XEIcon/xeicon.css';
@@ -200,19 +206,25 @@ const CloneMain = () => {
                                     <div className={prtl.issue_vid}>
                                         <div className={prtl.slide_tit}>이슈 동영상</div>
                                     </div>
+                                    <div className={prtl.knw_issue}>
+                                        <div className={prtl.slide_tit}>권익지식 이음터</div>
+                                        <ul>
+                                        <NormalSlick2/>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div className={`${prtl.board_view} flex flex_dir_c`}>
                                     <div className={prtl.non_read_mail}>
-                                        
+                                        <NonMail/>
                                     </div>
-                                    <div className={prtl.Payment_doc}>
-                                        
+                                    <div className={prtl.payment_doc}>
+                                        <PayDoc/>
                                     </div>
                                     <div className={prtl.share_doc}>
-                                        
+                                        <ShareDoc/>
                                     </div>
                                     <div className={prtl.memos}>
-                                        
+                                        <Memos/>
                                     </div>
                                 </div>
                             </div>

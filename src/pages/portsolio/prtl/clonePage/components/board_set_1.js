@@ -19,39 +19,39 @@ const BoardSet1 = () => {
                 <ul>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
                         <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>공지사항 샘플 글입니다.공지사항 샘플 글입니다.공지사항 샘플 글입니다.공지사항 샘플 글입니다.공지사항 샘플 글입니다.공지사항 샘플 글입니다.</div>
-                        <div className={prtl.red_dt}>2022-03-09</div>
+                        <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
                         <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>공지사항 샘플 글입니다.</div>
-                        <div className={prtl.red_dt}>2022-03-09</div>
+                        <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
                         <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>공지사항 샘플 글입니다.</div>
-                        <div className={prtl.red_dt}>2022-03-09</div>
+                        <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
                         <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>공지사항 샘플 글입니다.</div>
-                        <div className={prtl.red_dt}>2022-03-09</div>
+                        <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
                         <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>공지사항 샘플 글입니다.</div>
-                        <div className={prtl.red_dt}>2022-03-09</div>
+                        <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
                         <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>공지사항 샘플 글입니다.</div>
-                        <div className={prtl.red_dt}>2022-03-09</div>
+                        <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
                         <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>공지사항 샘플 글입니다.</div>
-                        <div className={prtl.red_dt}>2022-03-09</div>
+                        <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
                         <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>공지사항 샘플 글입니다.</div>
-                        <div className={prtl.red_dt}>2022-03-09</div>
+                        <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
                         <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>공지사항 샘플 글입니다.</div>
-                        <div className={prtl.red_dt}>2022-03-09</div>
+                        <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                 </ul>
             </div>

@@ -47,27 +47,27 @@ const RolSlide1 = () => {
             <Slider {...settings}>
                 <li className='flex_imp flex_jc_sb'>
                     <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.공지사항 샘플 글입니다.공지사항 샘플 글입니다.공지사항 샘플 글입니다.</div>
-                    <div className={prtl.red_dt}>2022-03-09</div>
+                    <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
                     <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.</div>
-                    <div className={prtl.red_dt}>2022-03-09</div>
+                    <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
                     <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.</div>
-                    <div className={prtl.red_dt}>2022-03-09</div>
+                    <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
                     <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.</div>
-                    <div className={prtl.red_dt}>2022-03-09</div>
+                    <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
                     <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.</div>
-                    <div className={prtl.red_dt}>2022-03-09</div>
+                    <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
                     <div className={prtl.tit}><i class="xi-volume-up"></i>공지사항 샘플 글입니다.</div>
-                    <div className={prtl.red_dt}>2022-03-09</div>
+                    <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
             </Slider>
         </>
