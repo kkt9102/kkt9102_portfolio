@@ -12,8 +12,7 @@ import PayDoc from "./components/payment_doc";
 import ShareDoc from "./components/share_doc";
 import Memos from "./components/memos";
 
-
-
+import Smaple from './resource/img/sample.gif';
 
 import '../../../../resource/css/common.css';
 import '../../../../resource/font/XEIcon/xeicon.css';
@@ -205,11 +204,16 @@ const CloneMain = () => {
                                     </div>
                                     <div className={prtl.issue_vid}>
                                         <div className={prtl.slide_tit}>이슈 동영상</div>
+                                        <div>
+                                            <a>
+                                                <img src={Smaple} alt=""></img>
+                                            </a>
+                                        </div>
                                     </div>
                                     <div className={prtl.knw_issue}>
                                         <div className={prtl.slide_tit}>권익지식 이음터</div>
                                         <ul>
-                                        <NormalSlick2/>
+                                            <NormalSlick2/>
                                         </ul>
                                     </div>
                                 </div>
