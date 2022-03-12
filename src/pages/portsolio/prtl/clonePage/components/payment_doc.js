@@ -13,15 +13,15 @@ const PayDoc = () => {
             <div className={prtl.list}>
                 <ul>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
-                        <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>자유게시판 샘플입니다.</div>
+                        <div className={`${prtl.tit} ${prtl.txt_over_hid}`}><span>[근태신청서]</span>자유게시판 샘플입니다.</div>
                         <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
-                        <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>자유게시판 샘플입니다.</div>
+                        <div className={`${prtl.tit} ${prtl.txt_over_hid}`}><span>[출장신청서]</span>자유게시판 샘플입니다.</div>
                         <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                     <li className={`${prtl.dots_g} flex_imp flex_jc_sb`}>
-                        <div className={`${prtl.tit} ${prtl.txt_over_hid}`}>자유게시판 샘플입니다.</div>
+                        <div className={`${prtl.tit} ${prtl.txt_over_hid}`}><span>[품의서]</span>자유게시판 샘플입니다.</div>
                         <div className={prtl.reg_dt}>2022-03-09</div>
                     </li>
                 </ul>

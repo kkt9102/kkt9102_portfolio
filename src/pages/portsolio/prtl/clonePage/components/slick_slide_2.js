@@ -78,27 +78,63 @@ const NormalSlick2 = () => {
                         </a>
                     </li>
                     <li className={prtl.knw_slide}>
-                        <a href="" title="" rel="">
-                            
+                        <a href="" title="" rel="" className='flex'>
+                          <div className={prtl.reg_dt}>
+                            <div className={prtl.year_mon}>2022.02</div>
+                            <div className={prtl.day}>01</div>
+                          </div>
+                          <div className={prtl.tit}>
+                            <div className={prtl.contents}>권익지식 이음터 글 목록 샘플입니다.</div>
+                            <div className={`${prtl.icons} flex`}>
+                              <div className={prtl.like}><i class="xi-thumbs-up"></i>2</div>
+                              <div className={prtl.cmt}><i class="xi-message"></i>1</div>
+                              <div className={prtl.slt_cmt}><i class="xi-crown"></i>2</div>
+                            </div>
+                          </div>
                         </a>
-                        <a href="" title="" rel="">
-                            
+                        <a href="" title="" rel="" className='flex'>
+                          <div className={prtl.reg_dt}>
+                            <div className={prtl.year_mon}>2022.02</div>
+                            <div className={prtl.day}>30</div>
+                          </div>
+                          <div className={prtl.tit}>
+                            <div className={prtl.contents}>권익지식 이음터 글 목록 샘플입니다.권익지식 이음터 글 목록 샘플입니다.</div>
+                            <div className={`${prtl.icons} flex`}>
+                              <div className={prtl.like}><i class="xi-thumbs-up"></i>13</div>
+                              <div className={prtl.cmt}><i class="xi-message"></i>10</div>
+                              <div className={prtl.slt_cmt}><i class="xi-crown"></i>3</div>
+                            </div>
+                          </div> 
                         </a>
                     </li>
                     <li className={prtl.knw_slide}>
-                        <a href="" title="" rel="">
-                            
+                        <a href="" title="" rel="" className='flex'>
+                          <div className={prtl.reg_dt}>
+                            <div className={prtl.year_mon}>2022.01</div>
+                            <div className={prtl.day}>01</div>
+                          </div>
+                          <div className={prtl.tit}>
+                            <div className={prtl.contents}>권익지식 이음터 글 목록 샘플입니다.</div>
+                            <div className={`${prtl.icons} flex`}>
+                              <div className={prtl.like}><i class="xi-thumbs-up"></i>2</div>
+                              <div className={prtl.cmt}><i class="xi-message"></i>1</div>
+                              <div className={prtl.slt_cmt}><i class="xi-crown"></i>2</div>
+                            </div>
+                          </div>
                         </a>
-                        <a href="" title="" rel="">
-                            
-                        </a>
-                    </li>
-                    <li className={prtl.knw_slide}>
-                        <a href="" title="" rel="">
-                            
-                        </a>
-                        <a href="" title="" rel="">
-                            
+                        <a href="" title="" rel="" className='flex'>
+                          <div className={prtl.reg_dt}>
+                            <div className={prtl.year_mon}>2022.01</div>
+                            <div className={prtl.day}>30</div>
+                          </div>
+                          <div className={prtl.tit}>
+                            <div className={prtl.contents}>권익지식 이음터 글 목록 샘플입니다.권익지식 이음터 글 목록 샘플입니다.</div>
+                            <div className={`${prtl.icons} flex`}>
+                              <div className={prtl.like}><i class="xi-thumbs-up"></i>13</div>
+                              <div className={prtl.cmt}><i class="xi-message"></i>10</div>
+                              <div className={prtl.slt_cmt}><i class="xi-crown"></i>3</div>
+                            </div>
+                          </div> 
                         </a>
                     </li>
               </Slider>

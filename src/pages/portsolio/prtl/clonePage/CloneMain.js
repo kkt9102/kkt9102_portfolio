@@ -11,6 +11,7 @@ import NonMail from "./components/non_mail";
 import PayDoc from "./components/payment_doc";
 import ShareDoc from "./components/share_doc";
 import Memos from "./components/memos";
+import FooterMenu from "./components/footer_menu";
 
 import Smaple from './resource/img/sample.gif';
 
@@ -176,7 +177,7 @@ const CloneMain = () => {
                     </nav>
 
                     {/* body */}
-                    <div className={`${prtl.body_sc} flex flex_jc_sb`}>
+                    <div className={`${prtl.body_sc} flex flex_jc_sb flex_wrap_wrap`}>
                         <div className={`${prtl.left_sc} flex flex_wrap_wrap`}>
                             <ul className={`${prtl.rol_slide_1} ${prtl.rol_slide} flex relative `}>
                                 <RolSlide1/>
@@ -232,6 +233,12 @@ const CloneMain = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className={`${prtl.foot_menu} flex flex_jc_sb flex_wrap_wrap`}>
+                            <div className={`${prtl.slide_tit} flex flex_jc_c flex_ai_c`}>시스템 바로가기</div>
+                            <ul>
+                                <FooterMenu/>
+                            </ul>
                         </div>
                     </div>
                 </div>
