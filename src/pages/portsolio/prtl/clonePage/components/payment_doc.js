@@ -8,7 +8,7 @@ const PayDoc = () => {
             <div className={`${prtl.sub_header} flex flex_ai_c`}>
                 <div className={prtl.tit}>결재대기함</div>
                 <div className={prtl.count}>20<span>건</span></div>
-                <div className={prtl.more_btn}><i class="xi-plus"></i></div>
+                <div className={prtl.more_btn}><i className="xi-plus"></i></div>
             </div>
             <div className={prtl.list}>
                 <ul>

@@ -47,23 +47,23 @@ const RolSlide2 = () => {
         <>
             <Slider {...settings}>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}><i class="xi-bell-o"></i><span>[메일]</span>메일 알림 샘플입니다.</div>
+                    <div className={prtl.tit}><i className="xi-bell-o"></i><span>[메일]</span>메일 알림 샘플입니다.</div>
                     <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}><i class="xi-bell-o"></i><span>[근태신청서]</span>공지사항 샘플 글입니다.</div>
+                    <div className={prtl.tit}><i className="xi-bell-o"></i><span>[근태신청서]</span>공지사항 샘플 글입니다.</div>
                     <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}><i class="xi-bell-o"></i><span>[메일]</span>메일 알림 샘플입니다.메일 알림 샘플입니다.메일 알림 샘플입니다.</div>
+                    <div className={prtl.tit}><i className="xi-bell-o"></i><span>[메일]</span>메일 알림 샘플입니다.메일 알림 샘플입니다.메일 알림 샘플입니다.</div>
                     <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}><i class="xi-bell-o"></i><span>[메일]</span>메일 알림 샘플입니다.메일 알림 샘플입니다.메일 알림 샘플입니다.</div>
+                    <div className={prtl.tit}><i className="xi-bell-o"></i><span>[메일]</span>메일 알림 샘플입니다.메일 알림 샘플입니다.메일 알림 샘플입니다.</div>
                     <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
                 <li className='flex_imp flex_jc_sb'>
-                    <div className={prtl.tit}><i class="xi-bell-o"></i><span>[메일]</span>메일 알림 샘플입니다.메일 알림 샘플입니다.메일 알림 샘플입니다.</div>
+                    <div className={prtl.tit}><i className="xi-bell-o"></i><span>[메일]</span>메일 알림 샘플입니다.메일 알림 샘플입니다.메일 알림 샘플입니다.</div>
                     <div className={prtl.reg_dt}>2022-03-09</div>
                 </li>
             </Slider>

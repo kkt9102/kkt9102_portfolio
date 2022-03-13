@@ -13,7 +13,7 @@ const BoardSet1 = () => {
                     <li><div>오늘의 메스컴</div></li>
                     <li><div>보도자료</div></li>
                 </ul>
-                <div className={prtl.more_btn}><i class="xi-plus"></i></div>
+                <div className={prtl.more_btn}><i className="xi-plus"></i></div>
             </div>
             <div className={prtl.board_list}>
                 <ul>

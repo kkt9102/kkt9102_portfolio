@@ -12,8 +12,8 @@ const BoardSet2 = () => {
                     <li><div>MOU게시판</div></li>
                     <li><div>S/W 자료제공</div></li>
                 </ul>
-                <div className={prtl.more_btn}><i class="xi-plus"></i></div>
-                <div className={prtl.setting_btn}><i class="xi-cog"></i></div>
+                <div className={prtl.more_btn}><i className="xi-plus"></i></div>
+                <div className={prtl.setting_btn}><i className="xi-cog"></i></div>
             </div>
             <div className={prtl.board_list}>
                 <ul>

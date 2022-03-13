@@ -56,9 +56,9 @@ const NormalSlick2 = () => {
                           <div className={prtl.tit}>
                             <div className={prtl.contents}>권익지식 이음터 글 목록 샘플입니다.</div>
                             <div className={`${prtl.icons} flex`}>
-                              <div className={prtl.like}><i class="xi-thumbs-up"></i>2</div>
-                              <div className={prtl.cmt}><i class="xi-message"></i>1</div>
-                              <div className={prtl.slt_cmt}><i class="xi-crown"></i>2</div>
+                              <div className={prtl.like}><i className="xi-thumbs-up"></i>2</div>
+                              <div className={prtl.cmt}><i className="xi-message"></i>1</div>
+                              <div className={prtl.slt_cmt}><i className="xi-crown"></i>2</div>
                             </div>
                           </div>
                         </a>
@@ -70,9 +70,9 @@ const NormalSlick2 = () => {
                           <div className={prtl.tit}>
                             <div className={prtl.contents}>권익지식 이음터 글 목록 샘플입니다.권익지식 이음터 글 목록 샘플입니다.</div>
                             <div className={`${prtl.icons} flex`}>
-                              <div className={prtl.like}><i class="xi-thumbs-up"></i>13</div>
-                              <div className={prtl.cmt}><i class="xi-message"></i>10</div>
-                              <div className={prtl.slt_cmt}><i class="xi-crown"></i>3</div>
+                              <div className={prtl.like}><i className="xi-thumbs-up"></i>13</div>
+                              <div className={prtl.cmt}><i className="xi-message"></i>10</div>
+                              <div className={prtl.slt_cmt}><i className="xi-crown"></i>3</div>
                             </div>
                           </div> 
                         </a>
@@ -86,9 +86,9 @@ const NormalSlick2 = () => {
                           <div className={prtl.tit}>
                             <div className={prtl.contents}>권익지식 이음터 글 목록 샘플입니다.</div>
                             <div className={`${prtl.icons} flex`}>
-                              <div className={prtl.like}><i class="xi-thumbs-up"></i>2</div>
-                              <div className={prtl.cmt}><i class="xi-message"></i>1</div>
-                              <div className={prtl.slt_cmt}><i class="xi-crown"></i>2</div>
+                              <div className={prtl.like}><i className="xi-thumbs-up"></i>2</div>
+                              <div className={prtl.cmt}><i className="xi-message"></i>1</div>
+                              <div className={prtl.slt_cmt}><i className="xi-crown"></i>2</div>
                             </div>
                           </div>
                         </a>
@@ -100,9 +100,9 @@ const NormalSlick2 = () => {
                           <div className={prtl.tit}>
                             <div className={prtl.contents}>권익지식 이음터 글 목록 샘플입니다.권익지식 이음터 글 목록 샘플입니다.</div>
                             <div className={`${prtl.icons} flex`}>
-                              <div className={prtl.like}><i class="xi-thumbs-up"></i>13</div>
-                              <div className={prtl.cmt}><i class="xi-message"></i>10</div>
-                              <div className={prtl.slt_cmt}><i class="xi-crown"></i>3</div>
+                              <div className={prtl.like}><i className="xi-thumbs-up"></i>13</div>
+                              <div className={prtl.cmt}><i className="xi-message"></i>10</div>
+                              <div className={prtl.slt_cmt}><i className="xi-crown"></i>3</div>
                             </div>
                           </div> 
                         </a>
@@ -116,9 +116,9 @@ const NormalSlick2 = () => {
                           <div className={prtl.tit}>
                             <div className={prtl.contents}>권익지식 이음터 글 목록 샘플입니다.</div>
                             <div className={`${prtl.icons} flex`}>
-                              <div className={prtl.like}><i class="xi-thumbs-up"></i>2</div>
-                              <div className={prtl.cmt}><i class="xi-message"></i>1</div>
-                              <div className={prtl.slt_cmt}><i class="xi-crown"></i>2</div>
+                              <div className={prtl.like}><i className="xi-thumbs-up"></i>2</div>
+                              <div className={prtl.cmt}><i className="xi-message"></i>1</div>
+                              <div className={prtl.slt_cmt}><i className="xi-crown"></i>2</div>
                             </div>
                           </div>
                         </a>
@@ -130,9 +130,9 @@ const NormalSlick2 = () => {
                           <div className={prtl.tit}>
                             <div className={prtl.contents}>권익지식 이음터 글 목록 샘플입니다.권익지식 이음터 글 목록 샘플입니다.</div>
                             <div className={`${prtl.icons} flex`}>
-                              <div className={prtl.like}><i class="xi-thumbs-up"></i>13</div>
-                              <div className={prtl.cmt}><i class="xi-message"></i>10</div>
-                              <div className={prtl.slt_cmt}><i class="xi-crown"></i>3</div>
+                              <div className={prtl.like}><i className="xi-thumbs-up"></i>13</div>
+                              <div className={prtl.cmt}><i className="xi-message"></i>10</div>
+                              <div className={prtl.slt_cmt}><i className="xi-crown"></i>3</div>
                             </div>
                           </div> 
                         </a>
