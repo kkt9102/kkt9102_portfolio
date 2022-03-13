@@ -118,10 +118,10 @@
 .section .main_section .btm_menu {align-items:center; height:60px; background:#0064a2;}
 .section .main_section .btm_menu li {position:relative; display:flex; align-items:center; justify-content:center; height:inherit; color:#ffffff; cursor:default;}
 .section .main_section .btm_menu li span {position:relative; font-size:16px; font-weight: 600; cursor: pointer;}
-.section .main_section .btm_menu li span::before {content:''; position:absolute; width: 0%; height:4px; bottom:-50%; left:50%; background:#ffffff; transition: width 0.2s;}
-.section .main_section .btm_menu li span::after {content:''; position:absolute; width: 0%; height:4px; bottom:-50%; right:50%; background:#ffffff; transition: width 0.2s;}
-.section .main_section .btm_menu li span:hover::before,
-.section .main_section .btm_menu li span:hover::after {width:50%;}
+.section .main_section .btm_menu > li > span::before {content:''; position:absolute; width: 0%; height:4px; bottom:-50%; left:50%; background:#ffffff; transition: width 0.2s;}
+.section .main_section .btm_menu > li > span::after {content:''; position:absolute; width: 0%; height:4px; bottom:-50%; right:50%; background:#ffffff; transition: width 0.2s;}
+.section .main_section .btm_menu > li > span:hover::before,
+.section .main_section .btm_menu > li > span:hover::after {width:50%;}
 .section .main_section .btm_menu li span > i {margin-left:5px; font-size:18px; opacity:0.5;}
 .section .main_section .btm_menu > li:not(.bookmark) {flex-basis: calc((100% - 60px) / 8);}
 .section .main_section .btm_menu .bookmark {flex-basis:60px; background: #2d8fd5; color:#ffffff;}
