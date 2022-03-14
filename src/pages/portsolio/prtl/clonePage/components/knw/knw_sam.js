@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import knw from '../../resource/css/knw.module.css';
 
-const NewKnwlg = () => {
+const KnwSam = () => {
 
 
     return(
@@ -44,4 +44,4 @@ const NewKnwlg = () => {
     )
 }
 
-export default NewKnwlg;
+export default KnwSam;

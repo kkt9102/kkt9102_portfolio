@@ -6,9 +6,13 @@ import knw from '../../resource/css/knw.module.css';
 import RolSlide from './rol_slide';
 import NewKnwlg from './new_knwlg';
 import Pupknwlg from './pup_knw';
+import KnwBrige from './knw_brige';
+import KnwSam from './knw_sam';
+import ExcStaff from './exc_staff';
 
 // img
 import MyAct from '../../resource/img/knw/knw_main_icon.png';
+
 
 const KnwMainBody = () => {
     return (
@@ -151,19 +155,28 @@ const KnwMainBody = () => {
                             <div className={knw.tit}>권익지식 이음터</div>
                             <button><i className='xi-plus'></i></button>
                         </div>
+                        <nav>
+                            <KnwBrige/>
+                        </nav>
                     </div>
                     <div className={`${knw.right_cont_box} flex flex_jc_sb`}>
-                        <div className={`${knw.knw_san}`}>
+                        <div className={`${knw.knw_sam}`}>
                             <div className={`${knw.main_cont_box_header} flex flex_jc_sb flex_ai_c`}>
                                 <div className={knw.tit}>권익샘</div>
                                 <button><i className='xi-plus'></i></button>
                             </div>
+                            <nav>
+                                <KnwSam/>
+                            </nav>
                         </div>
                         <div className={`${knw.exc_staff_list}`}>
                             <div className={`${knw.main_cont_box_header} flex flex_jc_sb flex_ai_c`}>
                                 <div className={knw.tit}>우수직원</div>
                                 <button><i className='xi-plus'></i></button>
                             </div>
+                            <nav>
+                                <ExcStaff/>
+                            </nav>
                         </div>
                     </div>
                 </div>

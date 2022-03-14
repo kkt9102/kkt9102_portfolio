@@ -7,9 +7,15 @@
 .knw_section .knw_dots::after {content:''; position: absolute; width:3px; height:3px; top:40%; left:0; background:#999999;}
 .knw_section .knw_main_board_list {padding:7.5px 15px 7.5px 20px; border-top:1px solid #dddddd;}
 .knw_section .knw_main_board_list li {margin:7.5px 0;}
-.knw_section .knw_main_board_list li a {display: flex; justify-content:space-between;}
-/* .knw_section .knw_main_board_list li .tit {flex-basis:100px; overflow:hidden; text-overflow: ellipsis; white-space: nowrap; font-size:14px; color:#333333; text-indent: 9px;} */
+.knw_section .knw_main_board_list li a {display: flex; width:100%; justify-content:space-between;}
+.knw_section .knw_main_board_list li .tit {width:85%; overflow:hidden; text-overflow: ellipsis; white-space: nowrap; font-size:14px; color:#333333; text-indent: 9px;}
 .knw_section .knw_main_board_list li .reg_dt {font-size:14px; color:#999999;}
+.knw_section .knw_main_board_list li a:hover .tit,
+.knw_section .knw_main_board_list li a:hover .reg_dt {font-weight: 600;}
+
+.knw_section .icon_box .like i {color:#3ca2ae;}
+.knw_section .icon_box .cmt i {color:#0064a2;}
+.knw_section .icon_box .select i {color:#d9582b;}
 
 /* header */
 .knw_section .header {height:60px; padding:0 20px; background:#2d8fd5;}
@@ -64,7 +70,7 @@
 .knw_section .body_section .section_3 .main_cont_box_header {height:50px; padding:0 20px; background:#f8f8f8;}
 .knw_section .body_section .section_3 .main_cont_box_header .tit {font-size:15px; color:#0054a2;}
 .knw_section .body_section .section_3 .main_cont_box_header i {font-size:18px; color:#b7b7b7;}
-.knw_section .body_section .section_3 > div {flex-basis:590px; border:1px solid #dddddd; border-top:1px solid #4b5462;}
+.knw_section .body_section .section_3 > div {flex-basis:590px; max-width:590px; border:1px solid #dddddd; border-top:1px solid #4b5462;}
 .knw_section .body_section .section_3 .pup_knwlg .main_cont_box_header .tit {flex-grow:1;}
 .knw_section .body_section .section_3 .pup_knwlg .main_cont_box_header select {width:100px; height:32px; border:1px solid #dddddd; border-radius: 0; font-size:14px; color:#666666; cursor:pointer;}
 .knw_section .body_section .section_3 .pup_knwlg .main_cont_box_header select option {font-size:14px;}
@@ -76,6 +82,21 @@
 .knw_section .body_section .section_4 .main_cont_box_header .tit {font-size:15px; color:#0054a2;}
 .knw_section .body_section .section_4 .main_cont_box_header i {font-size:18px; color:#b7b7b7;}
 .knw_section .body_section .section_4 > div {flex-basis:590px;}
-.knw_section .body_section .section_4 .knw_brige {border:1px solid #dddddd; border-top:1px solid #4b5462;}
-.knw_section .body_section .section_4 .right_cont_box > div {flex-basis:285px; border:1px solid #dddddd; border-top:1px solid #4b5462;}
+.knw_section .body_section .section_4 .knw_brige {border-top:1px solid #4b5462;}
+.knw_section .body_section .section_4 .knw_brige ul li {flex-basis:190px; border:1px solid #dddddd; cursor: pointer;}
+.knw_section .body_section .section_4 .knw_brige ul li .cont_box {padding:20px;}
+.knw_section .body_section .section_4 .knw_brige ul li .cont_box .cate {width:64px; height:20px; font-size:13px; color:#ffffff; background:#606e79;}
+.knw_section .body_section .section_4 .knw_brige ul li .cont_box .contents {min-height:4rem; margin:10px 0; font-size:14px; color:#333333; white-space: normal; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;}
+.knw_section .body_section .section_4 .knw_brige ul li .cont_box .reg_dt {font-size:14px; color:#999999;}
+.knw_section .body_section .section_4 .knw_brige ul li .icon_box {height: 30px; padding:0 20px; border-top:1px solid #dddddd; background: #f8f8f8;}
+.knw_section .body_section .section_4 .knw_brige ul li .icon_box i {margin-right:3px; font-size:14px;}
+.knw_section .body_section .section_4 .knw_brige ul li .icon_box > div:not(:last-child) {margin-right:10px;}
+.knw_section .body_section .section_4 .knw_brige ul li .icon_box .count {font-size:12px; color:#999999;}
+.knw_section .body_section .section_4 .right_cont_box > div {flex-basis:285px; max-width: 285px; border:1px solid #dddddd; border-top:1px solid #4b5462;}
 .knw_section .body_section .section_4 .right_cont_box .main_cont_box_header {height:50px; background:#f8f8f8;}
+.knw_section .body_section .section_4 .right_cont_box .knw_sam nav {flex-basis:100%;}
+.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul {padding-top:0; padding-bottom:0;}
+.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li div {font-size:14px; line-height: 14px;}
+.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li .name {}
+.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li .name img {width:18px; height:23px;}
+.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li .dept {font-weight:400; color:#666666;}
