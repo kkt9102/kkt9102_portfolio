@@ -1,5 +1,6 @@
 import react from 'react';
 import {BsFillBookmarkStarFill} from 'react-icons/bs';
+import {Link} from 'react-router-dom';
 
 import '../../../../../resource/css/common.css';
 import prtl from '../../clonePage/resource/css/prtl_clone.module.css';
@@ -117,7 +118,9 @@ const PrtlHeader = () => {
                     </div>
                 </li>
                 <li>
-                    <span>혁신게시판<i className="xi-documents-o"></i></span>
+                    <Link to="/clonePage/knwMain" target="_blank">
+                        <span>혁신게시판<i className="xi-documents-o"></i></span>
+                    </Link>
                     <div className={`${prtl.drop_menu} absolute`}>
                         <ul className={`flex flex_wrap_wrap`}>
                             <li><span>지식마당<i className="xi-documents-o"></i></span></li>
