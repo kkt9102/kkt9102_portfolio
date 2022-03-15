@@ -37,7 +37,7 @@
 .knw_section .body_section .section_1 {margin-top:20px;}
 .knw_section .body_section .section_1 > div {flex-basis:590px; height:50px;}
 .knw_section .body_section .section_1 .knw_search .search_box {flex-basis:100%;}
-.knw_section .body_section .section_1 .knw_search .search {flex-basis:496px; height:50px; align-self:center; border:2px dotted #999999;}
+.knw_section .body_section .section_1 .knw_search .search {flex-basis:496px; height:50px; align-self:center; border:2px dotted #cdcdcd;}
 .knw_section .body_section .section_1 .knw_search .search label[for="Knw_Search"] {position:relative; flex-basis:95px; font-size:16px; font-weight: 600; text-align: center;;}
 .knw_section .body_section .section_1 .knw_search .search label[for="Knw_Search"]::after {content:''; position:absolute; width:1px; height:16px; background:#999999; top:20%; right:0;}
 .knw_section .body_section .section_1 .knw_search .search input {flex-basis:330px; width:330px; padding:0 20px; border:none; outline: none; font-size:16px;}
@@ -46,8 +46,16 @@
 .knw_section .body_section .section_1 .knw_search .search button i {font-size:20px; color:#0064a2;}
 .knw_section .body_section .section_1 .knw_search .search_box .ex_search {flex-basis:85px; height:50px; background:#0064a2; cursor:pointer;}
 .knw_section .body_section .section_1 .knw_search .search_box .ex_search span {font-size:14px; color:#ffffff;}
-.knw_section .body_section .section_1 .rol_slide {border:2px dotted #999999;}
-.knw_section .body_section .section_1 .rol_slide > ul {width:540px;}
+.knw_section .body_section .section_1 .rol_slide {border:2px dotted #cdcdcd;}
+.knw_section .body_section .section_1 .rol_slide > ul {width:540px; height: 48px;}
+.knw_section .body_section .section_1 .rol_slide ul li a {width:100%; height: 48px; line-height:48px; padding:0 20px;}
+.knw_section .body_section .section_1 .rol_slide ul li a > div {display: inline-block;}
+.knw_section .body_section .section_1 .rol_slide ul li a > .tit {width:80%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.knw_section .body_section .section_1 .rol_slide ul li a > .tit,
+.knw_section .body_section .section_1 .rol_slide ul li a > .tit span {font-size:14px;}
+.knw_section .body_section .section_1 .rol_slide ul li a > .tit i {width:28px; height:28px; margin-right:20px; border-radius:100%; background:#0064a2; font-size:14px; line-height:28px; color:#ffffff; text-align:center;}
+.knw_section .body_section .section_1 .rol_slide ul li a > .reg_dt {font-size:14px; color:#999999; vertical-align: top;}
+.knw_section .body_section .section_1 .rol_slide .rol_slide_btn {flex-basis:48px; border-left:1px solid #dddddd;}
 
     /* section_2 */
 .knw_section .body_section .section_2 {margin-top:20px;}
@@ -97,6 +105,6 @@
 .knw_section .body_section .section_4 .right_cont_box .knw_sam nav {flex-basis:100%;}
 .knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul {padding-top:0; padding-bottom:0;}
 .knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li div {font-size:14px; line-height: 14px;}
-.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li .name {}
-.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li .name img {width:18px; height:23px;}
-.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li .dept {font-weight:400; color:#666666;}
+.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li .name {display: flex; align-items:center; flex-basis:90px;}
+.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li .name img {width:18px; height:23px; margin-right:5px;}
+.knw_section .body_section .section_4 .right_cont_box .exc_staff_list nav ul li .dept {display: flex; align-items:center; font-weight:400; color:#666666;}

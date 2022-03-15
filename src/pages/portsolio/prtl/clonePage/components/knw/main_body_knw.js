@@ -34,10 +34,11 @@ const KnwMainBody = () => {
                             </div>
                         </form>
                     </div>
-                    <div className={`${knw.rol_slide}`}>
+                    <div className={`${knw.rol_slide} flex`}>
                         <ul>
                             <RolSlide/>
                         </ul>
+                        <div className={knw.rol_slide_btn}></div>
                     </div>
                 </div>
 
