@@ -21,7 +21,7 @@ const KnwHeader = () => {
                 </ul>
                 <ul className={`${knw.menu_box} flex flex_jc_sb`}>
                     <li>
-                        <Link to=""><span>지식마당</span></Link>
+                        <Link to="/clonePage/components/knw/KnwlgBoard1"><span>지식마당</span></Link>
                     </li>
                     <li>
                         <Link to=""><span>권익지식 이음터</span></Link>

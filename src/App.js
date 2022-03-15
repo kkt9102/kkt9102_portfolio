@@ -12,6 +12,7 @@ import Prlt from './pages/portsolio/prtl/prtl';
 import Resume from './pages/main/components/resume';
 import CloneMain from './pages/portsolio/prtl/clonePage/CloneMain';
 import KnwMain from './pages/portsolio/prtl/clonePage/knwMain';
+import KnwlgBoard1 from './pages/portsolio/prtl/clonePage/components/knw/board/list/KnwlgBoard1';
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -38,6 +39,7 @@ function App() {
           <Route path="/Prtl" element={<Prlt/>}/>
           <Route path="/clonePage/CloneMain" element={<CloneMain/>}/>
           <Route path="/clonePage/KnwMain" element={<KnwMain/>}/>
+          <Route path="/clonePage/components/knw/KnwlgBoard1" element={<KnwlgBoard1/>}/>
           <Route path="/Resume" element={<Resume/>}/>
         </Routes>
       </BrowserRouter>
