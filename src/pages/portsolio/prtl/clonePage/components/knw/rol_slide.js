@@ -14,8 +14,8 @@ const RolSlide = () => {
       const { className, style, onClick } = props;
       return (
         <div
-          className={className}
-          style={{ ...style, display: 'block', left: 103 +'%', width: 10, height: 10, fontSize: 15 }}
+          className='rol_prev'
+          style={{ ...style, display: 'block', left: 103 +'%', width: 10, height: 10, fontSize: 18 }}
           onClick={onClick}
           />
         );
@@ -24,8 +24,8 @@ const RolSlide = () => {
         const { className, style, onClick } = props;
         return (
           <div
-            className={className}
-            style={{ ...style, display: 'block', top:5, right: -4.7 + '%', width: 10, height: 10, fontSize: 15 }}
+            className='rol_next'
+            style={{ ...style, display: 'block', top:20, right: -4.8 + '%', width: 10, height: 10, fontSize: 18 }}
             onClick={onClick}
                 />
               );

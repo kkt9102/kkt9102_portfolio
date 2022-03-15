@@ -1,4 +1,5 @@
 @import url('../../../../../../resource/font/NotoSansCJKkr.css');
+@import url('../../../../../../resource/font/XEIcon/xeicon.css');
 
 /* common */
 .knw_section {max-width: 1200px; margin:0 auto;}
@@ -56,6 +57,7 @@
 .knw_section .body_section .section_1 .rol_slide ul li a > .tit i {width:28px; height:28px; margin-right:20px; border-radius:100%; background:#0064a2; font-size:14px; line-height:28px; color:#ffffff; text-align:center;}
 .knw_section .body_section .section_1 .rol_slide ul li a > .reg_dt {font-size:14px; color:#999999; vertical-align: top;}
 .knw_section .body_section .section_1 .rol_slide .rol_slide_btn {flex-basis:48px; border-left:1px solid #dddddd;}
+.knw_section .body_section .section_1 .rol_slide .rol_prev_btn::before {content:'\e945'; position:absolute; font-family: 'xeicon'; color:#000000;}
 
     /* section_2 */
 .knw_section .body_section .section_2 {margin-top:20px;}
@@ -94,7 +96,7 @@
 .knw_section .body_section .section_4 .knw_brige ul li {flex-basis:190px; border:1px solid #dddddd; cursor: pointer;}
 .knw_section .body_section .section_4 .knw_brige ul li .cont_box {padding:20px;}
 .knw_section .body_section .section_4 .knw_brige ul li .cont_box .cate {width:64px; height:20px; font-size:13px; color:#ffffff; background:#606e79;}
-.knw_section .body_section .section_4 .knw_brige ul li .cont_box .contents {min-height:4rem; margin:10px 0; font-size:14px; color:#333333; white-space: normal; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;}
+.knw_section .body_section .section_4 .knw_brige ul li .cont_box .contents {min-height:4rem; max-height:4rem; margin:10px 0; font-size:14px; color:#333333; white-space: normal; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;}
 .knw_section .body_section .section_4 .knw_brige ul li .cont_box .reg_dt {font-size:14px; color:#999999;}
 .knw_section .body_section .section_4 .knw_brige ul li .icon_box {height: 30px; padding:0 20px; border-top:1px solid #dddddd; background: #f8f8f8;}
 .knw_section .body_section .section_4 .knw_brige ul li .icon_box i {margin-right:3px; font-size:14px;}
