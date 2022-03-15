@@ -10,6 +10,12 @@ import icons from '../resource/img/sub_icon1.png';
 
 
 const PrtlLeftMenu  = () => {
+    const [onnara, setOnnara] = useState(false);
+
+    const onnaraMenu = () => {
+        setOnnara(!onnara);
+    };
+
     const [e_people, setE_people] = useState(false);
 
     const e_peopleMenu = () => {
@@ -45,7 +51,7 @@ const PrtlLeftMenu  = () => {
                     <div></div>
                 </li>
                 {/* mld_menu */}
-                <li className={`${prtl.onnara} ${prtl.mld_menu} ${prtl.active}`}>
+                <li id="onnara" className={`${onnara ? `${prtl.active}` : null} ${prtl.onnara} ${prtl.mld_menu}`} onClick={onnaraMenu}>
                     <div><span>온-나라</span><span className={prtl.count}>49</span></div>
                     <ul>
                         <li className="flex flex_jc_sb">

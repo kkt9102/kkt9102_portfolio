@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import '../../../../../../resource/css/common.css';
 import knw from '../../resource/css/knw.module.css';
 
@@ -128,7 +130,11 @@ const KnwMainBody = () => {
                     <div className={`${knw.new_knwlg}`}>
                         <div className={`${knw.main_cont_box_header} flex flex_jc_sb flex_ai_c`}>
                             <div className={knw.tit}>최신지식</div>
-                            <button><i className='xi-plus'></i></button>
+                            <button>
+                                <Link to="/clonePage/components/knw/KnwlgBoard1">
+                                <i className='xi-plus'></i>
+                                </Link>
+                            </button>
                         </div>
                         <nav>
                             <NewKnwlg/>
@@ -140,6 +146,7 @@ const KnwMainBody = () => {
                             <div className={knw.slt_box}>
                                 <select>
                                     <option>조회수</option>
+                                    <option>등록일</option>
                                 </select>
                             </div>
                             <button><i className='xi-plus'></i></button>
