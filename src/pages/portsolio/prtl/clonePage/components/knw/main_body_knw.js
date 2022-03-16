@@ -25,7 +25,7 @@ const KnwMainBody = () => {
                     <div className={`${knw.knw_search} flex`}>
                         <form className={`${knw.search_box} flex flex_jc_sb flex_ai_c`}>
                             <div className={`${knw.search} flex flex_ai_c`}>
-                                <label for="Knw_Search">지식검색</label>
+                                <label htmlFor="Knw_Search">지식검색</label>
                                 <input type="text" id="Knw_Search" name="Knw_Search" placeholder='검색어를 입력하세요'></input>
                                 <button>
                                     <i className="xi-search"></i>

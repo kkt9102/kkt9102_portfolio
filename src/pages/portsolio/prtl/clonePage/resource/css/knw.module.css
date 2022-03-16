@@ -22,6 +22,18 @@
 .knw_section .exceldown_btn i {font-size:18px; color:#b7b7b7;}
 .knw_section .list_check_box > input[type="checkbox"] {}
 
+.knw_section .list_btn_box .create_btn {display:flex; justify-content:center; align-items:center; width:80px; height:36px; border:1px solid #dddddd; background:#f8f8f8; font-size:14px;}
+.knw_section .list_btn_box .slt_dt_btn, .knw_section .list_btn_box .all_move_btn {display:flex; justify-content:center; align-items:center; width:80px; height:36px; border:1px solid #dddddd; background:#ffffff; font-size:14px; cursor:pointer;}
+.knw_section .list_btn_box .move_btn {display:flex; justify-content:center; align-items:center; width:60px; height:36px; margin:0 10px; border:1px solid #dddddd; background:#ffffff; font-size:14px; cursor:pointer;}
+.knw_section .list_btn_box .slt_dt_btn i, .knw_section .list_btn_box .all_move_btn i, .knw_section .list_btn_box .move_btn i {font-size:16px; color:#999999;}
+
+.knw_section .paging div,.knw_section .paging ul li span {display:flex; justify-content:center; align-items:center; width:30px; height:30px; border:1px solid #dddddd; font-size:14px; cursor: pointer;}
+.knw_section .paging div i {font-size:18px;}
+.knw_section .paging .first_page, .knw_section .paging .last_page {letter-spacing: -15px;}
+.knw_section .paging .first_page i {transform:translateX(-7px);}
+.knw_section .paging .last_page i {transform:translateX(-7px);}
+.knw_section .paging ul .current_page span {border:1px solid #0064a2; background:#0064a2; color:#ffffff;}
+
 /* header */
 .knw_section .header {height:60px; padding:0 20px; background:#2d8fd5;}
 .knw_section .header ul li span {font-size:18px; color:#ffffff;}
@@ -153,18 +165,22 @@
 .knw_section .knwlg_right .search_form table tr td .search_btn {display:inline-block; width:80px; height:36px; margin-left:4px; font-size:14px; color:#ffffff; background:#0064a2;}
 .knw_section .knwlg_right .search_form table tr td .reset_btn {display:inline-block; width:80px; height:36px; margin-left:4px; font-size:14px; color:#ffffff; background:#606e79;}
 
+.knw_section .knwlg_right .board_list_section {margin-bottom:10px;}
 .knw_section .knwlg_right .board_list_section .list_header {margin-bottom:10px;}
 .knw_section .knwlg_right .board_list_section .list_header .count {align-self:flex-end; font-size:14px; color:#999999;}
 .knw_section .knwlg_right .board_list_section .list_header .count span {font-size:14px; color:#333333;}
 .knw_section .knwlg_right .board_list_section .table_type_01 {width:100%; border-top:2px solid #606e79; table-layout: fixed; border-collapse: collapse;}
 .knw_section .knwlg_right .board_list_section .table_type_01 th,
-.knw_section .knwlg_right .board_list_section .table_type_01 td {padding:10px 0; font-size:14px; text-align: center;}
-.knw_section .knwlg_right .board_list_section .table_type_01 th {padding: 10px 0; border-bottom:1px solid #b7b7b7;}
-.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr:not(:last-child) {border-bottom:1px solid #dddddd;}
-.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr td {color:#666666;}
+.knw_section .knwlg_right .board_list_section .table_type_01 td {padding:5px 0; font-size:14px; text-align: center;}
+.knw_section .knwlg_right .board_list_section .table_type_01 th {padding:5px 0; border-bottom:1px solid #b7b7b7;}
+.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr {border-bottom:1px solid #dddddd;}
+.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr td {color:#999999;}
+.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr td input[type="checkbox"] {cursor: pointer;}
 .knw_section .knwlg_right .board_list_section .table_type_01 tbody tr .list_mark {position:relative; color:#333333;}
 .knw_section .knwlg_right .board_list_section .table_type_01 tbody tr .list_mark input[type="checkbox"] {opacity: 0;}
-.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr .list_mark input[type="checkbox"] + label {position:absolute; font-size:14px; left:25%; cursor: pointer;}
-.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr .list_mark input[type="checkbox"]:checked + label {color:red;}
-.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr .list_tit {color:#333333;}
+.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr .list_mark input[type="checkbox"] + label {color:#ffffff; position:absolute; font-size:15px; left:25%; cursor: pointer; text-shadow: 0px 0px 1px #000000;}
+.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr .list_mark input[type="checkbox"]:checked + label {color:#0064a2;}
+.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr .list_tit {color:#333333; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer;}
 .knw_section .knwlg_right .board_list_section .table_type_01 tbody tr .file i {font-size:14px; color:#999999; transform:rotate(45deg);}
+
+.knw_section .knwlg_right .board_list_section .table_type_01 tbody tr:hover > .list_tit {font-weight: 600;}
