@@ -2,6 +2,8 @@ import React from 'react';
 
 import knw from '../../../../resource/css/knw.module.css';
 
+import List1 from './knw_List/list1';
+
 import Icon from '../../../../resource/img/knw/search_icon.png';
 
 const KnwlgType1 = () => {
@@ -58,12 +60,50 @@ const KnwlgType1 = () => {
                         </tbody>
                     </table>
                 </form>
+            </div>
 
-                {/* list section */}
-                <div className={knw.board_list}>
-
-                    
+            {/* list section */}
+            <div className={knw.board_list_section}>
+                <div className={`${knw.list_header} flex flex_jc_sb`}>
+                    <div className={`${knw.count} flex`}>전체<span>1,234</span>건</div>
+                    <div className={knw.exceldown_btn}><i className='xi-file-download'></i>엑셀 다운로드</div>
                 </div>
+
+                <div className={knw.board_list}>
+                    <table className={knw.table_type_01}>
+                        {/* <caption></caption> */}
+                        <colgroup>
+                            <col width="50"></col>
+                            <col width="30"></col>
+                            <col width="60"></col>
+                            <col width="auto"></col>
+                            <col width="50"></col>
+                            <col width="80"></col>
+                            <col width="120"></col>
+                            <col width="50"></col>
+                            <col width="50"></col>
+                            <col width="50"></col>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th className={knw.list_check_box}>
+                                    <input type="checkbox" name="list_check_all" id="list_check_all"></input>
+                                    <label for="list_check_all"></label>
+                                </th>
+                                <th>★</th>
+                                <th>번호</th>
+                                <th>제목</th>
+                                <th>첨부</th>
+                                <th>작성자</th>
+                                <th>등록일</th>
+                                <th>의견</th>
+                                <th>추천</th>
+                                <th>조회</th>
+                            </tr>
+                        </thead>
+                        <List1/>
+                    </table>    
+                </div>    
             </div>
         </div>
     )
