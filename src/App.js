@@ -13,6 +13,7 @@ import Resume from './pages/main/components/resume';
 import CloneMain from './pages/portsolio/prtl/clonePage/CloneMain';
 import KnwMain from './pages/portsolio/prtl/clonePage/knwMain';
 import KnwlgBoard1 from './pages/portsolio/prtl/clonePage/components/knw/board/KnwlgBoard1';
+import KnwSamType from './pages/portsolio/prtl/clonePage/components/knw/board/knw_sam_type';
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -40,6 +41,7 @@ function App() {
           <Route path="/clonePage/CloneMain" element={<CloneMain/>}/>
           <Route path="/clonePage/KnwMain" element={<KnwMain/>}/>
           <Route path="/clonePage/components/knw/KnwlgBoard1" element={<KnwlgBoard1/>}/>
+          <Route path="/clonePage/components/knw/KnwSamType" element={<KnwSamType/>}/>
           <Route path="/Resume" element={<Resume/>}/>
         </Routes>
       </BrowserRouter>

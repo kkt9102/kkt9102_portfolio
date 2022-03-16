@@ -27,7 +27,7 @@ const KnwHeader = () => {
                         <Link to=""><span>권익지식 이음터</span></Link>
                     </li>
                     <li>
-                        <Link to=""><span>권익샘</span></Link>
+                        <Link to="/clonePage/components/knw/KnwSamType"><span>권익샘</span></Link>
                     </li>
                     <li>
                         <Link to=""><span>공지사항</span></Link>
