@@ -17,9 +17,21 @@ const CleanImg = () => {
 
     const PageWidth = document.documentElement.scrollWidth;
 
-    const [isImg, setImg] = useState(false);
-    const toggleImg = () => {
-        setImg(isImg => !isImg);
+    const [isImg1, setImg1] = useState(false);
+    const toggleImg1 = () => {
+        setImg1(isImg1 => !isImg1);
+    }
+    const [isImg2, setImg2] = useState(false);
+    const toggleImg2 = () => {
+        setImg2(isImg2 => !isImg2);
+    }
+    const [isImg3, setImg3] = useState(false);
+    const toggleImg3 = () => {
+        setImg3(isImg3 => !isImg3);
+    }
+    const [isImg4, setImg4] = useState(false);
+    const toggleImg4 = () => {
+        setImg4(isImg4 => !isImg4);
     }
 
     if ( PageWidth > 768 ) {
@@ -66,8 +78,8 @@ const CleanImg = () => {
             <div className='img_box'>
                 <ul className='img_list'>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg()}>청렴포털 메인화면</div>
-                        <div className={`${isImg ? "show" : "hide"} img_box flex flex_jc_c`}>
+                        <div className="mo_img_btn" onClick={() => toggleImg1()}>청렴포털 메인화면</div>
+                        <div className={`${isImg1 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_img_mo} alt="청렴포털 홈페이지 메인"></img>
                         </div>
                         <div className='txt_box'>
@@ -75,8 +87,8 @@ const CleanImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg()}>청렴포털 상담사례 목록 화면</div>
-                        <div className={`${isImg ? "show" : "hide"} img_box flex flex_jc_c`}>
+                        <div className="mo_img_btn" onClick={() => toggleImg2()}>청렴포털 상담사례 목록 화면</div>
+                        <div className={`${isImg2 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_board_mo} alt="청렴포털 상담사례 목록"></img>
                         </div>
                         <div className='txt_box'>
@@ -84,8 +96,8 @@ const CleanImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg()}>청렴포털 청렴마당 기관별 목록 화면</div>
-                        <div className={`${isImg ? "show" : "hide"} img_box flex flex_jc_c`}>
+                        <div className="mo_img_btn" onClick={() => toggleImg3()}>청렴포털 청렴마당 기관별 목록 화면</div>
+                        <div className={`${isImg3 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_sub_mo} alt="청렴포털 청렴마당 기관별 목록판"></img>
                         </div>
                         <div className='txt_box'>
@@ -93,8 +105,8 @@ const CleanImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg()}>청렴마당 화면</div>
-                        <div className={`${isImg ? "show" : "hide"} img_box flex flex_jc_c`}>
+                        <div className="mo_img_btn" onClick={() => toggleImg4()}>청렴마당 화면</div>
+                        <div className={`${isImg4 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_pop_mo} alt="청렴마당"></img>
                         </div>
                         <div className='txt_box'>

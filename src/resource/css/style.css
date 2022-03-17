@@ -109,6 +109,7 @@
 #section_04 .link_list ul .opentok a:hover svg {fill:#3C1E1E;}
 #section_04 .link_list ul .github a:hover {background:#ffffff;}
 #section_04 .link_list ul .github a:hover svg {fill:#3C1E1E;}
+#section_04 .cont_box .txt_box ul li.mo_view {display:none;}
 
 /* #section_04 #send_and_text {display:none; flex-direction:column; justify-content:center; flex-basis:70%; height:31rem; margin:3rem 1rem; border:0.1rem solid #222222; border-radius:0.8rem; font-size:3rem;}
 #section_04 #send_and_text span {display:flex; justify-content:center;}
@@ -140,6 +141,8 @@
 .portfolio_info .cont_2 .txt_box .dots_b {position:relative; margin-left: 1rem; line-height: 2rem;}
 .portfolio_info .cont_2 .txt_box .dots_b::before {content:''; position: absolute; width: 0.4rem; height: 0.4rem; left:-1rem; top:1rem; background-color: #222222;}
 .portfolio_info .cont_2 .txt_box ul li:not('.target_move') {flex-basis:100%;}
+.portfolio_info .cont_2 .txt_box .useing_code {flex-wrap: wrap;}
+.portfolio_info .cont_2 .txt_box .useing_code li {margin:0 10px;}
 .portfolio_info .link_box {display:flex; margin:2rem 0 3rem;}
 .portfolio_info .link_box .target_move a {background:#ffffff; border:0.1rem solid #dddddd; border-radius:0.5rem; font-weight: 900; padding:1rem; color:#222222; transition: all 0.2s;}
 .portfolio_info .link_box .target_move a:hover {background:#222222; border-color:#222222; color:#eeeeee;}

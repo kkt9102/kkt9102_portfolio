@@ -54,7 +54,12 @@ const Contect = () => {
                         <div className='sc_tit flex flex_jc_c'>Contact Me</div>
                         <div className="txt_box">
                             <ul className="flex flex_jc_c">
-                                <li>Email : kkt9102@gmail.com / creater@kakao.com</li>
+                                <li className="pc_view">Email : kkt9102@gmail.com / creater@kakao.com</li>
+                                <li className="mo_view">
+                                    <div>Email</div>
+                                    <div>kkt9102@gmail.com</div> 
+                                    <div>creater@kakao.com</div>
+                                </li>
                                 <li></li>
                             </ul>
                         </div>
@@ -71,7 +76,7 @@ const Contect = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div>
+                        <div className="page_copyright">
                             <strong>해당 페이지는 상업적 용도가 아닌 개인 포트폴리오용으로 제작되었습니다.</strong>    
                         </div>                
                         {/* <div className='contect_me_form'>

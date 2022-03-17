@@ -37,6 +37,9 @@
     /* content_04 */
     #section_04 .cont_box .sc_tit {font-size:2.7rem; font-weight:800;}
     #section_04 .cont_box .sub_tit {margin-top:3rem; margin-bottom:2rem; font-size:1.4rem;}
+    #section_04 .cont_box .txt_box ul li.pc_view {display:none;}
+    #section_04 .cont_box .txt_box ul li.mo_view {display:flex; flex-wrap:wrap; text-align:center;}
+    #section_04 .cont_box .txt_box ul li.mo_view div {flex-basis:100%;}
 
     /* portfolii_info */
     .portfolio_info .link_box .target_move {flex-basis:100%;}
