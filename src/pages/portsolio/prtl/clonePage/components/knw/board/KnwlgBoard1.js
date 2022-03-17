@@ -6,6 +6,7 @@ import knw from '../../../resource/css/knw.module.css';
 import KnwHeader from '../header_knw';
 import KnwlgLeftMenu from '../knwlg_menu';
 import KnwlgType1 from './list/knwlg_type1';
+import Footer from '../../footer';
 
 const KnwlgBoard1 = () => {
     return(
@@ -15,6 +16,7 @@ const KnwlgBoard1 = () => {
                 <KnwlgLeftMenu/>
                 <KnwlgType1/>
             </div>
+            <Footer/>
         </div>
     )
 }

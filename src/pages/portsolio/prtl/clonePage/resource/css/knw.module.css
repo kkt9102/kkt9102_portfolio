@@ -22,17 +22,23 @@
 .knw_section .exceldown_btn i {font-size:18px; color:#b7b7b7;}
 .knw_section .list_check_box > input[type="checkbox"] {}
 
+.knw_section .list_btn_box {margin-bottom:20px;}
 .knw_section .list_btn_box .create_btn {display:flex; justify-content:center; align-items:center; width:80px; height:36px; border:1px solid #dddddd; background:#f8f8f8; font-size:14px;}
 .knw_section .list_btn_box .slt_dt_btn, .knw_section .list_btn_box .all_move_btn {display:flex; justify-content:center; align-items:center; width:80px; height:36px; border:1px solid #dddddd; background:#ffffff; font-size:14px; cursor:pointer;}
 .knw_section .list_btn_box .move_btn {display:flex; justify-content:center; align-items:center; width:60px; height:36px; margin:0 10px; border:1px solid #dddddd; background:#ffffff; font-size:14px; cursor:pointer;}
 .knw_section .list_btn_box .slt_dt_btn i, .knw_section .list_btn_box .all_move_btn i, .knw_section .list_btn_box .move_btn i {font-size:16px; color:#999999;}
 
+.knw_section .paging {margin-bottom: 30px;}
 .knw_section .paging div,.knw_section .paging ul li span {display:flex; justify-content:center; align-items:center; width:30px; height:30px; border:1px solid #dddddd; font-size:14px; cursor: pointer;}
 .knw_section .paging div i {font-size:18px;}
 .knw_section .paging .first_page, .knw_section .paging .last_page {letter-spacing: -15px;}
 .knw_section .paging .first_page i {transform:translateX(-7px);}
 .knw_section .paging .last_page i {transform:translateX(-7px);}
 .knw_section .paging ul .current_page span {border:1px solid #0064a2; background:#0064a2; color:#ffffff;}
+
+.knw_section .knw_bullet {position:relative; padding-left:12px;}
+.knw_section .knw_bullet::before {content:''; position: absolute; width:4px; height:8px; left:0; top:50%; background:#0064a2;}
+.knw_section .knw_bullet::after {content:''; position: absolute; width:4px; height:8px; left:0; bottom:50%; background:#b7b7b7;}
 
 /* header */
 .knw_section .header {height:60px; padding:0 20px; background:#2d8fd5;}
@@ -108,16 +114,16 @@
 .knw_section .body_section .section_4 .main_cont_box_header .tit {font-size:15px; color:#0054a2;}
 .knw_section .body_section .section_4 .main_cont_box_header i {font-size:18px; color:#b7b7b7;}
 .knw_section .body_section .section_4 > div {flex-basis:590px;}
-.knw_section .body_section .section_4 .knw_brige {border-top:1px solid #4b5462;}
-.knw_section .body_section .section_4 .knw_brige ul li {flex-basis:190px; border:1px solid #dddddd; cursor: pointer;}
-.knw_section .body_section .section_4 .knw_brige ul li .cont_box {padding:20px;}
-.knw_section .body_section .section_4 .knw_brige ul li .cont_box .cate {width:64px; height:20px; font-size:13px; color:#ffffff; background:#606e79;}
-.knw_section .body_section .section_4 .knw_brige ul li .cont_box .contents {min-height:4rem; max-height:4rem; margin:10px 0; font-size:14px; color:#333333; white-space: normal; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;}
-.knw_section .body_section .section_4 .knw_brige ul li .cont_box .reg_dt {font-size:14px; color:#999999;}
-.knw_section .body_section .section_4 .knw_brige ul li .icon_box {height: 30px; padding:0 20px; border-top:1px solid #dddddd; background: #f8f8f8;}
-.knw_section .body_section .section_4 .knw_brige ul li .icon_box i {margin-right:3px; font-size:14px;}
-.knw_section .body_section .section_4 .knw_brige ul li .icon_box > div:not(:last-child) {margin-right:10px;}
-.knw_section .body_section .section_4 .knw_brige ul li .icon_box .count {font-size:12px; color:#999999;}
+.knw_section .body_section .section_4 .knw_join {border-top:1px solid #4b5462;}
+.knw_section .body_section .section_4 .knw_join ul li {flex-basis:190px; border:1px solid #dddddd; cursor: pointer;}
+.knw_section .body_section .section_4 .knw_join ul li .cont_box {padding:20px;}
+.knw_section .body_section .section_4 .knw_join ul li .cont_box .cate {width:64px; height:20px; font-size:13px; color:#ffffff; background:#606e79;}
+.knw_section .body_section .section_4 .knw_join ul li .cont_box .contents {min-height:4rem; max-height:4rem; margin:10px 0; font-size:14px; color:#333333; white-space: normal; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;}
+.knw_section .body_section .section_4 .knw_join ul li .cont_box .reg_dt {font-size:14px; color:#999999;}
+.knw_section .body_section .section_4 .knw_join ul li .icon_box {height: 30px; padding:0 20px; border-top:1px solid #dddddd; background: #f8f8f8;}
+.knw_section .body_section .section_4 .knw_join ul li .icon_box i {margin-right:3px; font-size:14px;}
+.knw_section .body_section .section_4 .knw_join ul li .icon_box > div:not(:last-child) {margin-right:10px;}
+.knw_section .body_section .section_4 .knw_join ul li .icon_box .count {font-size:12px; color:#999999;}
 .knw_section .body_section .section_4 .right_cont_box > div {flex-basis:285px; max-width: 285px; border:1px solid #dddddd; border-top:1px solid #4b5462;}
 .knw_section .body_section .section_4 .right_cont_box .main_cont_box_header {height:50px; background:#f8f8f8;}
 .knw_section .body_section .section_4 .right_cont_box .knw_sam nav {flex-basis:100%;}
@@ -130,6 +136,14 @@
 
 /* 게시판 목록 공통 */
 .knw_section .knwlg_board_list {margin-top:20px;}
+.knw_section .board_list_section {margin-bottom:20px;}
+.knw_section .board_list_section .list_header {margin-bottom:10px;}
+.knw_section .board_list_section .list_header .count {align-self:flex-end; font-size:14px; color:#999999;}
+.knw_section .board_list_section .list_header .count span {font-size:14px; color:#333333;}
+.knw_section .board_list .table_type_01 {width:100%; border-top:2px solid #606e79; table-layout: fixed; border-collapse: collapse;}
+.knw_section .board_list .table_type_01 th,
+.knw_section .board_list .table_type_01 td {padding:5px 0; font-size:14px; text-align: center;}
+.knw_section .board_list .table_type_01 th {padding:5px 0; border-bottom:1px solid #b7b7b7;}
 
 /* 지식마당 */
 .knw_section .knwlg_left {flex-basis:234px;}
@@ -151,8 +165,8 @@
 .knw_section .knwlg_right .knwlg_board_header {margin-bottom:20px;}
 .knw_section .knwlg_right .search_form {flex-basis:100%; margin-bottom:30px; border-top:2px solid #4b5462;}
 .knw_section .knwlg_right .search_form table {table-layout: fixed; border-collapse:collapse;}
-.knw_section .knwlg_right .search_form table tr {border-bottom:1px solid #999999;}
-.knw_section .knwlg_right .search_form table tr th {padding:0 20px; border-right:1px solid #999999; background:#f8f8f8; font-size:14px; font-weight:600; color:#333333; text-align:left;}
+.knw_section .knwlg_right .search_form table tr {border-bottom:1px solid #dddddd;}
+.knw_section .knwlg_right .search_form table tr th {padding:0 20px; border-right:1px solid #dddddd; background:#f8f8f8; font-size:14px; font-weight:600; color:#333333; text-align:left;}
 .knw_section .knwlg_right .search_form table tr td {height:45px; padding:0 12px;}
 .knw_section .knwlg_right .search_form table tr td input.type_1 {width:450px; height: 36px; padding:0 10px; border:1px inset #dddddd; border-radius: 0; font-size:14px;}
 .knw_section .knwlg_right .search_form table tr td input.type_1::placeholder {font-size:14px; color:#dddddd;}
@@ -165,7 +179,7 @@
 .knw_section .knwlg_right .search_form table tr td .search_btn {display:inline-block; width:80px; height:36px; margin-left:4px; font-size:14px; color:#ffffff; background:#0064a2;}
 .knw_section .knwlg_right .search_form table tr td .reset_btn {display:inline-block; width:80px; height:36px; margin-left:4px; font-size:14px; color:#ffffff; background:#606e79;}
 
-.knw_section .knwlg_right .board_list_section {margin-bottom:10px;}
+.knw_section .knwlg_right .board_list_section {margin-bottom:20px;}
 .knw_section .knwlg_right .board_list_section .list_header {margin-bottom:10px;}
 .knw_section .knwlg_right .board_list_section .list_header .count {align-self:flex-end; font-size:14px; color:#999999;}
 .knw_section .knwlg_right .board_list_section .list_header .count span {font-size:14px; color:#333333;}
@@ -184,3 +198,59 @@
 .knw_section .knwlg_right .board_list_section .table_type_01 tbody tr .file i {font-size:14px; color:#999999; transform:rotate(45deg);}
 
 .knw_section .knwlg_right .board_list_section .table_type_01 tbody tr:hover > .list_tit {font-weight: 600;}
+
+/* 권익지식 이음터 */
+.knw_section .knw_top_list {margin-bottom:30px;}
+.knw_section .knw_top_list .top_list_tit {margin-bottom:10px; font-size:15px;}
+.knw_section .knw_top_list .knw_join_list li {flex-basis:380px; max-width:380px; max-height: 140px; padding:20px 25px; border:1px solid #dddddd; cursor:pointer;}
+.knw_section .knw_top_list .knw_join_list li::before {content:''; position:absolute; width:32px; height:32px; top:-1px; right:20px; background:#0064a2; color:#ffffff; text-align: center;}
+.knw_section .knw_top_list .knw_join_list .top_1::before {content:'1';}
+.knw_section .knw_top_list .knw_join_list .top_2::before {content:'2';}
+.knw_section .knw_top_list .knw_join_list .top_3::before {content:'3';}
+.knw_section .knw_top_list .knw_join_list li::after {content:''; position: absolute; top:21px; right:20px; border-top:5px solid rgba(0,0,0,0); border-left:16px solid rgba(0,0,0,0); border-right:16px solid rgba(0,0,0,0); border-bottom:5px solid #ffffff;}
+.knw_section .knw_top_list .knw_join_list li .cate {flex-basis:64px; width:64px; height:20px; margin-bottom:10px; background:#606e79; font-size:13px; color:#ffffff;}
+.knw_section .knw_top_list .knw_join_list li .tit {width:100%; margin-bottom:10px; font-size:14px; font-weight: 500; white-space:nowrap; overflow: hidden; text-overflow: ellipsis;}
+.knw_section .knw_top_list .knw_join_list li .contents {display:-webkit-box; width:100%; height:3em; min-height:3em; font-size:14px; font-weight: 300; color:#999999; white-space:normal; overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 2;}
+.knw_section.knw_join_section .search_form {margin-bottom:30px;}
+.knw_section.knw_join_section .search_form input[type="radio"] {width: 16px; height:16px;}
+.knw_section.knw_join_section .search_form input[type="radio"] + label {position:relative; padding-left:5px; margin-right:20px; font-size:14px; cursor:pointer;}
+.knw_section.knw_join_section .search_form input[type="checkbox"] {width: 16px; height:16px;}
+.knw_section.knw_join_section .search_form input[type="checkbox"] + label {padding-left:5px; margin-right:20px; font-size:14px; cursor:pointer;}
+.knw_section.knw_join_section .knw_join_board_list li {flex-basis:100%; margin-bottom:10px; border:1px solid #dddddd;  cursor:pointer;}
+.knw_section.knw_join_section .knw_join_board_list li:last-child {margin-bottom:30px;}
+.knw_section.knw_join_section .knw_join_board_list li .cont_box {flex-basis:100%; max-width:1200px; padding:23px 25px 25px;}
+.knw_section.knw_join_section .knw_join_board_list li .cont_box .cate {display:flex; justify-content:center; align-items:center; width:64px; height:20px; margin-bottom:10px; background:#606e79; font-size:13px; color:#ffffff;}
+.knw_section.knw_join_section .knw_join_board_list li .cont_box .tit {flex-basis:100%; margin-bottom:10px; font-size:14px; font-weight: 600; white-space:nowrap; overflow: hidden; text-overflow: ellipsis;}
+.knw_section.knw_join_section .knw_join_board_list li .cont_box .contents {font-size:14px; font-weight: 300; color:#999999; white-space:nowrap; overflow: hidden; text-overflow: ellipsis;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info {flex-basis:100%; height:40px; padding:0 25px; border-top:1px solid #dddddd; background:#f8f8f8;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info > div {flex-basis:50%;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info .writer {flex-basis:85px; font-size:14px; color:#666666;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info .reg_dt {font-size:14px; font-weight: 300; color:#999999;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info .right i {margin-right:5px; font-size:14px;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info .right div:not(:last-child) {margin-right:15px;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info .right div > p {font-size:12px; color:#999999;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info .right div p span {font-size:14px; font-weight:500; color:#666666;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info .right .like i {color:#3ca2ae;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info .right .cmt i {color:#0064a2;}
+.knw_section.knw_join_section .knw_join_board_list li .board_info .right .select i {color:#d9582b;}
+
+/* 권익샘 */
+.knw_section .knwlg_tit {font-size:20px; font-weight: 800;}
+.knw_section .print {display:flex; justify-content:center; align-items:center; width: 40px; height:40px; border:1px solid #dddddd; background:#f8f8f8; cursor:pointer;}
+.knw_section .print i {font-size:20px; color:#999999;}
+.knw_section .knwlg_board_header {margin-bottom:20px;}
+.knw_section .search_form {flex-basis:100%; margin-bottom:30px; border-top:2px solid #4b5462;}
+.knw_section .search_form table {table-layout: fixed; border-collapse:collapse;}
+.knw_section .search_form table tr {border-bottom:1px solid #dddddd;}
+.knw_section .search_form table tr th {padding:0 20px; border-right:1px solid #dddddd; background:#f8f8f8; font-size:14px; font-weight:600; color:#333333; text-align:left;}
+.knw_section .search_form table tr td {height:45px; padding:0 12px;}
+.knw_section .search_form table tr td input.type_1 {width:620px; height: 36px; padding:0 10px; border:1px inset #dddddd; border-radius: 0; font-size:14px;}
+.knw_section .search_form table tr td input.type_1::placeholder {font-size:14px; color:#dddddd;}
+.knw_section .search_form table tr td input.type_1:focus,
+.knw_section .search_form table tr td input.type_1:active {outline:none;}
+.knw_section .search_form table tr td .dept_popup {margin-left:12px;}
+.knw_section .search_form table tr td .select_type {width:140px; height: 36px; margin-right:4px; border:1px inset #dddddd; border-radius: 0; font-size:14px;}
+.knw_section .search_form table tr td .select_type option {font-size:14px;}
+/* .knw_section .knwlg_right .search_form table tr td button {} */
+.knw_section .search_form table tr td .search_btn {display:inline-block; width:80px; height:36px; margin-left:4px; font-size:14px; color:#ffffff; background:#0064a2;}
+.knw_section .search_form table tr td .reset_btn {display:inline-block; width:80px; height:36px; margin-left:4px; font-size:14px; color:#ffffff; background:#606e79;}

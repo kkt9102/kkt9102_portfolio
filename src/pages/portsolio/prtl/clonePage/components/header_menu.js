@@ -123,7 +123,11 @@ const PrtlHeader = () => {
                     </Link>
                     <div className={`${prtl.drop_menu} absolute`}>
                         <ul className={`flex flex_wrap_wrap`}>
-                            <li><span>지식마당<i className="xi-documents-o"></i></span></li>
+                            <li>
+                                <Link to="/clonePage/components/knw/KnwlgBoard1" target="_blank">
+                                    <span>지식마당<i className="xi-documents-o"></i></span>
+                                </Link>
+                            </li>
                             <li><span>권익지식 이음터<i className="xi-documents-o"></i></span></li>
                             <li><span>권익샘<i className="xi-documents-o"></i></span></li>
                             <li><span>공지사항<i className="xi-documents-o"></i></span></li>

@@ -12,6 +12,7 @@ import PayDoc from "./components/payment_doc";
 import ShareDoc from "./components/share_doc";
 import Memos from "./components/memos";
 import FooterMenu from "./components/footer_menu";
+import Footer from "./components/footer";
 
 import Smaple from './resource/img/sample.gif';
 
@@ -24,7 +25,7 @@ import prtl from '../clonePage/resource/css/prtl_clone.module.css';
 const CloneMain = () => {
 
     return(
-        <div className={`${prtl.section} flex`}>
+        <div className={`${prtl.section} flex flex_wrap_wrap`}>
             <div className={`${prtl.cont_body} flex`}>
                 {/* left_menu */}
                 <div className={prtl.left_menu}>
@@ -103,6 +104,7 @@ const CloneMain = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

@@ -3,13 +3,14 @@ import React from 'react';
 import knw from '../../../resource/css/knw.module.css';
 
 import KnwHeader from '../header_knw';
+
 import Paging from '../paging_sample';
 
 const KnwSamType = () => {
     return(
         <div className={knw.knw_section}>
             <KnwHeader/>
-            <div className={`${knw.knwlg_board_header} flex flex_jc_sb flex_ai_c`}>
+            <div className={`${knw.knwlg_board_header} flex flex_jc_sb flex_ai_c mar_top_20`}>
                 <div className={knw.knwlg_tit}>권익샘</div>
                 <div className={knw.print}><i className="xi-print"></i></div>
             </div>
@@ -58,6 +59,9 @@ const KnwSamType = () => {
                             <th>조회</th>
                         </tr>
                     </thead>
+                    <tbody>
+                        
+                    </tbody>
                 </table>    
             </div>
             {/* btn_box */}

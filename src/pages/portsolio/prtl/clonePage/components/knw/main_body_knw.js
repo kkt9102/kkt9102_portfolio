@@ -8,7 +8,7 @@ import knw from '../../resource/css/knw.module.css';
 import RolSlide from './rol_slide';
 import NewKnwlg from './new_knwlg';
 import Pupknwlg from './pup_knw';
-import KnwBrige from './knw_brige';
+import KnwBrige from './knw_join';
 import KnwSam from './knw_sam';
 import ExcStaff from './exc_staff';
 
@@ -158,7 +158,7 @@ const KnwMainBody = () => {
                 </div>
 
                 <div className={`${knw.section_4} flex flex_jc_sb`}>
-                    <div className={`${knw.knw_brige}`}>
+                    <div className={`${knw.knw_join}`}>
                         <div className={`${knw.main_cont_box_header} flex flex_jc_sb flex_ai_c`}>
                             <div className={knw.tit}>권익지식 이음터</div>
                             <button><i className='xi-plus'></i></button>

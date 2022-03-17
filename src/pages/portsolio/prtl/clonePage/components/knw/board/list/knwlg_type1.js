@@ -107,10 +107,10 @@ const KnwlgType1 = () => {
                     </table>    
                 </div>    
             </div>
-            {/* btn_box */}
-            <BoardListBtn/>
             {/* paging */}
             <Paging/>
+            {/* btn_box */}
+            <BoardListBtn/>
         </div>
     )
 }

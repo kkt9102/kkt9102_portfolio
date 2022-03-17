@@ -30,6 +30,30 @@ export const KnwList = ({list}) => {
     );
 }
 
+// export const KnwList2 = ({list2}) => {
+//     const [isFile,setFile] = useState(false);
+
+//     const FileAdd = () => {
+//         isFile = !isFile;
+//     }
+//     return(
+//         <tr>
+//             <td className={knw.list_check_box}>
+//                 <input type="checkbox" name="list_check_all" id="list_check_all"></input>
+//                 <label htmlFor="list_check_all"></label>
+//             </td>
+//             <td>{list2.numbers}</td>
+//             <td className={knw.list_tit}>{list2.tit}</td>
+//             <td></td>
+//             <td>{list2.writer}</td>
+//             <td>{list2.reg_dt}</td>
+//             <td>{list2.comment}</td>
+//             <td>{list2.like}</td>
+//             <td>{list2.view}</td>
+//         </tr>
+//     );
+// }
+
 const KnwLists = () => {
     const items = [
         {
