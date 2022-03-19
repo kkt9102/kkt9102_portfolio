@@ -291,7 +291,7 @@
 .knw_section .act_info_form .create_form table tbody tr td input[name="act_type"],
 .knw_section .act_info_form .create_form table tbody tr td input[name="date_slt"],
 .knw_section .act_info_form .create_form table tbody tr td input[name="act_master"] {width:135px; vertical-align: bottom;}
-.knw_section .act_info_form .create_form table tbody tr td input[name="fact_file"] {width:100%;}
+.knw_section .act_info_form .create_form table tbody tr td input[name="fact_file"] {width:100%; height:15rem; margin-bottom:10px;} 
 .knw_section .act_info_form .create_form table tbody tr td button {width: 80px; height: 36px; margin-left:4px; background: #606e79; font-size:14px; color:#ffffff;}
 .knw_section .act_info_form .create_form table tbody .fact_file_add td label[for="fact_file"] {display: inline-block; text-align: center; line-height: 36px;}
 .knw_section .act_info_form .create_form table tbody .fact_file_add td input[name="fact_file"] + label {display:inline-flex; justify-content:center; align-items:center; width:80px; flex-basis:80px; height:36px; background:#606e79; font-size:14px; color:#ffffff; cursor:pointer;}
@@ -315,3 +315,4 @@
 .knw_section .off_act_btn_box .center_btn {display:flex; justify-content:center; flex-grow:1; margin-left:40px;}
 .knw_section .off_act_btn_box .insert_btn,
 .knw_section .off_act_btn_box .go_list_btn {flex-basis:80px; height:36px; border:1px solid #bbbbbb; background: #f8f8f8; font-size:14px; color:#333333;}
+.knw_section .off_act_btn_box .go_list_btn i {font-size:14px; color:#b7b7b7}

@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
+import $ from 'jquery';
 
 import KnwHeader from '../../header_knw';
 
@@ -9,7 +10,17 @@ import knw from '../../../../resource/css/knw.module.css';
 
 // img
 import custom_btm from '../../../../resource/img/custom_icon_bottom.png';
-const OffActCreateForm = (state) => {
+
+$(function() {
+    $("#excel_list_add").change(function(e){
+        var $Name =$('#excel_list_add')[0].files[0].name;
+        var $File_name = $('#file_name');
+        $File_name.val($Name);
+      });
+  });
+
+
+const OffActCreateForm = () => {
 
     return(
         <div className={knw.knw_section}>
@@ -86,7 +97,7 @@ const OffActCreateForm = (state) => {
                                         <input type="file" id="excel_list_add" name="excel_list_add"></input>
                                         <label htmlFor="excel_list_add"></label>
                                         <button className={knw.exceldown_btn}><i className='xi-file-download'></i>엑셀 양식 다운로드</button>
-                                        <input id="file_name" className={knw.file_name} placeholder="선택된 파일이 없습니다."></input>
+                                        <input id="file_name" className={knw.file_name} defaultValue="" placeholder='선택된 파일이 없습니다.' readOnly></input>
                                     </td>
                                 </tr>
                             </tbody>

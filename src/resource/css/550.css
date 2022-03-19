@@ -32,3 +32,13 @@
     .main_footer {padding:1rem 2.5rem;}
     
 }
+
+@media all and (max-width:512px) and (max-height:717px) {
+    #section_02::after {display:none;}
+    #section_02 .page_tit {flex-wrap:wrap; right:10%;}
+    #section_02 .cont_box .img_box {width:0;}
+    #section_02 .cont_box .txt_box.intro {margin-left:0;}
+    #section_02 .cont_box .txt_box.intro ul:last-child {margin-left:0;}
+    #section_02 .cont_box .txt_box.intro ul:last-child li {margin-left:0 !important;}
+    #section_02 .cont_box .txt_box.intro ul li {font-size:1.5rem;}
+}

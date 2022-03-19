@@ -110,6 +110,7 @@
 #section_04 .link_list ul .github a:hover {background:#ffffff;}
 #section_04 .link_list ul .github a:hover svg {fill:#3C1E1E;}
 #section_04 .cont_box .txt_box ul li.mo_view {display:none;}
+#section_04 .cont_box .page_copyright {font-size:2rem; margin:0 auto;}
 
 /* #section_04 #send_and_text {display:none; flex-direction:column; justify-content:center; flex-basis:70%; height:31rem; margin:3rem 1rem; border:0.1rem solid #222222; border-radius:0.8rem; font-size:3rem;}
 #section_04 #send_and_text span {display:flex; justify-content:center;}
