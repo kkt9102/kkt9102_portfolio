@@ -1,15 +1,15 @@
 import React from 'react';
-import { HelmetProvider, Helmet } from 'react-helmet-async';
+import { HelmetProvider,Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
 import knw from '../../../resource/css/knw.module.css';
 
 import KnwHeader from '../header_knw';
-import KnwSamLists from './list/knw_List/sam_list_array';
+import KnwNoticeLists from './list/knw_List/notice_list_array';
 import Paging from '../paging_sample';
 import Footer from '../../footer';
 
-const KnwSamType = () => {
+const KnwNoticeType = () => {
     return(
         <div className={knw.knw_section}>
             <HelmetProvider>
@@ -21,7 +21,7 @@ const KnwSamType = () => {
             </HelmetProvider>
             <KnwHeader/>
             <div className={`${knw.knwlg_board_header} flex flex_jc_sb flex_ai_c mar_top_20`}>
-                <div className={knw.knwlg_tit}>권익샘</div>
+                <div className={knw.knwlg_tit}>공지사항</div>
                 <div className={knw.print}><i className="xi-print"></i></div>
             </div>
 
@@ -70,8 +70,6 @@ const KnwSamType = () => {
                         <col width="80"></col>
                         <col width="120"></col>
                         <col width="50"></col>
-                        <col width="50"></col>
-                        <col width="50"></col>
                     </colgroup>
                     <thead>
                         <tr>
@@ -84,25 +82,21 @@ const KnwSamType = () => {
                             <th>첨부</th>
                             <th>작성자</th>
                             <th>등록일</th>
-                            <th>의견</th>
-                            <th>추천</th>
                             <th>조회</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <KnwSamLists/>
+                        <KnwNoticeLists/>
                     </tbody>
                 </table>    
             </div>
             {/* btn_box */}
-
+            {/* paging */}
             <div className={`${knw.knw_create_btn_box} absolute_right`}>
                 <Link to="" className={knw.create_btn}>
                     등록
                 </Link>
             </div>
-
-            {/* paging */}
             <Paging/>
 
             <Footer/>
@@ -110,4 +104,4 @@ const KnwSamType = () => {
     )
 }
 
-export default KnwSamType;
+export default KnwNoticeType;

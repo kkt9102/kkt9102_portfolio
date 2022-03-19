@@ -30,7 +30,7 @@ const KnwHeader = () => {
                         <Link to="/clonePage/components/knw/KnwSamType"><span>권익샘</span></Link>
                     </li>
                     <li>
-                        <Link to=""><span>공지사항</span></Link>
+                        <Link to="/clonePage/components/knw/KnwNoticeType"><span>공지사항</span></Link>
                     </li>
                     <li>
                         <Link to=""><span>담당자/관리자전용</span></Link>

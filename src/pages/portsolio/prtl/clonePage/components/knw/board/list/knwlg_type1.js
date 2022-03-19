@@ -1,4 +1,5 @@
 import React from 'react';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 
 import knw from '../../../../resource/css/knw.module.css';
 
@@ -11,6 +12,13 @@ import Icon from '../../../../resource/img/knw/search_icon.png';
 const KnwlgType1 = () => {
     return(
         <div className={knw.knwlg_right}>
+            <HelmetProvider>
+                <Helmet>
+                    <title>kkt9102 Portfolio | 국민권익위원회 업무포털 혁신게시판 클론페이지</title>
+                    <meta charSet="utf-8" />
+                    <meta name="description" content="kkt9102 Portfolio | 국민권익위원회 업무포털 혁신게시판 클론페이지" />
+                </Helmet>
+            </HelmetProvider>
             <div className={`${knw.knwlg_board_header} flex flex_jc_sb flex_ai_c`}>
                 <div className={knw.knwlg_tit}>지식목록</div>
                 <div className={knw.print}><i className="xi-print"></i></div>

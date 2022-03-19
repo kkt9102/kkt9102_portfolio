@@ -1,3 +1,5 @@
+import { HelmetProvider, Helmet } from "react-helmet-async";
+
 import PrtlHeader from "./components/header_menu";
 import PrtlLeftMenu from "./components/left_menu";
 
@@ -26,6 +28,13 @@ const CloneMain = () => {
 
     return(
         <div className={`${prtl.section} flex flex_wrap_wrap`}>
+            <HelmetProvider>
+                <Helmet>
+                    <title>kkt9102 Portfolio | 국민권익위원회 업무포털 클론페이지</title>
+                    <meta charSet="utf-8" />
+                    <meta name="description" content="kkt9102 Portfolio | 국민권익위원회 업무포털 클론페이지" />
+                </Helmet>
+            </HelmetProvider>
             <div className={`${prtl.cont_body} flex`}>
                 {/* left_menu */}
                 <div className={prtl.left_menu}>

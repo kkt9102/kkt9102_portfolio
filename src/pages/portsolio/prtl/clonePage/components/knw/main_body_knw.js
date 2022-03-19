@@ -104,7 +104,9 @@ const KnwMainBody = () => {
                         <li className={`flex flex_jc_sb`}>
                             <div className={`${knw.left} flex flex_dir_c flex_jc_sb`}>
                                 <div className={knw.tit}>오프라인 활동</div>
-                                <button>활동등록</button>
+                                <button>
+                                    <Link to="/clonePage/components/knw/OffActCreateForm">활동등록</Link>
+                                </button>
                             </div>
                             <ul className={`${knw.right} flex`}>
                                 <li className={`flex flex_dir_c flex_ai_fe`}>

@@ -1,15 +1,25 @@
 import React from 'react';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 import knw from '../../../resource/css/knw.module.css';
 
 import KnwHeader from '../header_knw';
 import KnwJoinLists from './list/knw_List/join_list_array';
 import Paging from '../paging_sample';
+import Footer from '../../footer';
 
 
 const KnwJoinType = () => {
     return(
         <div className={`${knw.knw_section} ${knw.knw_join_section}`}>
+            <HelmetProvider>
+                <Helmet>
+                    <title>kkt9102 Portfolio | 국민권익위원회 업무포털 혁신게시판 클론페이지</title>
+                    <meta charSet="utf-8" />
+                    <meta name="description" content="kkt9102 Portfolio | 국민권익위원회 업무포털 혁신게시판 클론페이지" />
+                </Helmet>
+            </HelmetProvider>
             <KnwHeader/>
             <div className={`${knw.knwlg_board_header} flex flex_jc_sb flex_ai_c mar_top_20`}>
                 <div className={knw.knwlg_tit}>권익지식 이음터</div>
@@ -132,8 +142,16 @@ const KnwJoinType = () => {
             <ul className={`${knw.knw_join_board_list} flex flex_wrap_wrap`}>
                 <KnwJoinLists/>
             </ul>
-            
+
+            <div className={`${knw.knw_create_btn_box} absolute_right`}>
+                <Link to="" className={knw.create_btn}>
+                    등록
+                </Link>
+            </div>
+
             <Paging/>
+
+            <Footer/>
         </div>
     )
 }

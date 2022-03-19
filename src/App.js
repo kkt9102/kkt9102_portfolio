@@ -15,6 +15,8 @@ import KnwMain from './pages/portsolio/prtl/clonePage/knwMain';
 import KnwlgBoard1 from './pages/portsolio/prtl/clonePage/components/knw/board/KnwlgBoard1';
 import KnwJoinType from './pages/portsolio/prtl/clonePage/components/knw/board/knw_join_type';
 import KnwSamType from './pages/portsolio/prtl/clonePage/components/knw/board/knw_sam_type';
+import KnwNoticeType from './pages/portsolio/prtl/clonePage/components/knw/board/knw_notice_type';
+import OffActCreateForm from './pages/portsolio/prtl/clonePage/components/knw/board/form/off_act_create';
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -44,6 +46,8 @@ function App() {
           <Route path="/clonePage/components/knw/KnwlgBoard1" element={<KnwlgBoard1/>}/>
           <Route path="/clonePage/components/knw/KnwJoinType" element={<KnwJoinType/>}/>
           <Route path="/clonePage/components/knw/KnwSamType" element={<KnwSamType/>}/>
+          <Route path="/clonePage/components/knw/KnwNoticeType" element={<KnwNoticeType/>}/>
+          <Route path="/clonePage/components/knw/OffActCreateForm" element={<OffActCreateForm/>}/>
           <Route path="/Resume" element={<Resume/>}/>
         </Routes>
       </BrowserRouter>

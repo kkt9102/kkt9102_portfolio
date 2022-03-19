@@ -128,9 +128,21 @@ const PrtlHeader = () => {
                                     <span>지식마당<i className="xi-documents-o"></i></span>
                                 </Link>
                             </li>
-                            <li><span>권익지식 이음터<i className="xi-documents-o"></i></span></li>
-                            <li><span>권익샘<i className="xi-documents-o"></i></span></li>
-                            <li><span>공지사항<i className="xi-documents-o"></i></span></li>
+                            <li>
+                                <Link to="/clonePage/components/knw/KnwJoinType" target="_blank">
+                                    <span>권익지식 이음터<i className="xi-documents-o"></i></span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/clonePage/components/knw/KnwSamType" target="_blank">
+                                    <span>권익샘<i className="xi-documents-o"></i></span>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/clonePage/components/knw/KnwNoticeType" target="_blank">
+                                    <span>공지사항<i className="xi-documents-o"></i></span>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </li> 
