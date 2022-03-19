@@ -64,22 +64,22 @@ const KnwJoinType = () => {
                                 <td>
                                     <span>
                                         <input className={knw.radio_type} type="radio" id="all_ck" name="search_sort_1" checked></input>
-                                        <label for="all_ck">전체</label>
+                                        <label htmlFor="all_ck">전체</label>
                                     </span>
                                     <span>
                                         <input className={knw.radio_type} type="radio" id="answer_ck" name="search_sort_1"></input>
-                                        <label for="answer_ck">답변을 기다리는 질문</label>
+                                        <label htmlFor="answer_ck">답변을 기다리는 질문</label>
                                     </span>
                                 </td>
                                 <th>정렬</th>
                                 <td>
                                     <span>
                                         <input className={knw.radio_type} type="radio" id="red_dt_ck" name="search_sort_2" checked></input>
-                                        <label for="red_dt_ck">등록 최근일 순</label>
+                                        <label htmlFor="red_dt_ck">등록 최근일 순</label>
                                     </span>
                                     <span>
                                         <input className={knw.radio_type} type="radio" id="cmt_count_ck" name="search_sort_2"></input>
-                                        <label for="cmt_count_ck">답변 높은 순</label>
+                                        <label htmlFor="cmt_count_ck">답변 높은 순</label>
                                     </span>
                                 </td>
                             </tr>
@@ -88,27 +88,27 @@ const KnwJoinType = () => {
                                 <td colSpan="3" className={knw.part_ck_box}>
                                     <span>
                                         <input className={knw.check_type} type="checkbox" id="part_all_slt" name="part_slt"></input>
-                                        <label for="part_all_slt">전체</label>
+                                        <label htmlFor="part_all_slt">전체</label>
                                     </span>
                                     <span>
                                         <input className={knw.check_type} type="checkbox" id="prtl_1" name="part_slt"></input>
-                                        <label for="prtl_1">분야1</label>
+                                        <label htmlFor="prtl_1">분야1</label>
                                     </span>
                                     <span>
                                         <input className={knw.check_type} type="checkbox" id="prtl_2" name="part_slt"></input>
-                                        <label for="prtl_2">분야2</label>
+                                        <label htmlFor="prtl_2">분야2</label>
                                     </span>
                                     <span>
                                         <input className={knw.check_type} type="checkbox" id="prtl_3" name="part_slt"></input>
-                                        <label for="prtl_3">분야3</label>
+                                        <label htmlFor="prtl_3">분야3</label>
                                     </span>
                                     <span>
                                         <input className={knw.check_type} type="checkbox" id="prtl_4" name="part_slt"></input>
-                                        <label for="prtl_4">분야목록</label>
+                                        <label htmlFor="prtl_4">분야목록</label>
                                     </span>
                                     <span>
                                         <input className={knw.check_type} type="checkbox" id="prtl_5" name="part_slt"></input>
-                                        <label for="prtl_5">분야4</label>
+                                        <label htmlFor="prtl_5">분야4</label>
                                     </span>
                                 </td>
                             </tr>
@@ -122,7 +122,7 @@ const KnwJoinType = () => {
                                     </select>
                                     <input className={knw.type_1} type="text" placeholder='검색어를 입력해 주세요.' title="검색어를 입력해 주세요."></input>
                                     <input className={knw.search_option} type="checkbox" id="del_view" name="del_view"></input>
-                                    <label for="del_view">삭제글 보기</label>
+                                    <label htmlFor="del_view">삭제글 보기</label>
                                     <button className={knw.search_btn}>검색</button>
                                     <button className={knw.reset_btn}>초기화</button>
                                 </td>
