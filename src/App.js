@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import $ from 'jquery';
 
 import Loding from './utils/loding';
 import Css from './css';
@@ -18,6 +19,13 @@ import KnwSamType from './pages/portsolio/prtl/clonePage/components/knw/board/kn
 import KnwNoticeType from './pages/portsolio/prtl/clonePage/components/knw/board/knw_notice_type';
 import OffActCreateForm from './pages/portsolio/prtl/clonePage/components/knw/board/form/off_act_create';
 
+$(document).ready(function(){
+  setTimeout(function(){
+    $('.loding_page').fadeOut();
+  },1000);
+})
+
+
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
   const openModal = () => {
@@ -26,12 +34,11 @@ function App() {
   const closeModal = () => {
     setModalOpen(false);
   };
-
-  
+ 
 
   return (
     <>
-    {/* <Loding/> */}
+    <Loding/>
     <Css/>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
