@@ -79,12 +79,12 @@ function Reserve(){
                         <div className='sub_tit'>컬러 배치</div>
                         <div className='sub_txt'>
                             <ul>
-                                <li>기존의 스타벅스 로고와 같은 색상을 사용하지 않고 스타벅스 안의 또다른 스타벅스이면서 조금 더 고급스러운 느낌을 주기 위해</li>
-                                <li>리저브 로고 색상을 포인트컬러로, 바탕색을 블랙 계열로 배치하였습니다.</li>
-                                <li>리저브 매장을 방문했을 때 다른 스타벅스 안에 또다른 스타벅스라는 느낌을 받았습니다.</li>
+                                <li>리저브 매장을 직접 방문했을 때 일반적인 스타벅스 매장과는 다른 스타벅스 안의 또다른 스타벅스라는 느낌을 받았었습니다.</li>
+                                <li>만약에 리저브 홈페이지를 만든다고 했을 때 기존의 스타벅스 로고와 같은 색상을 사용하지 않고 스타벅스 안의 또다른 스타벅스이면서 조금 더 고급스러운 느낌을 주기 위해
+                                리저브 로고 색상을 포인트컬러로, 바탕색을 블랙 계열로 배치하였습니다.</li>
                                 <li>이를 활용하여 기존의 홈페이지에 사용된 색을 배제하고 리저브만을 위한 독자적인 컬러를 사용하였습니다.</li>
-                                <li>기존 홈페이지에는 <span className="color_box c_f6f6ef"></span>#F6F5EF 와 <span className="color_box c_2c2a29"></span>#2C2A29 색을 사용하고 포인트 컬러로 시즌에 따른 색을 사용하였다면 </li>
-                                <li>리저브 홈페이지의 배경색은 완전한 검은색 보다는 묵직한 느낌을 주는 <span className="color_box c_222222"></span>#222222 색상을 사용하고</li>
+                                <li>기존 홈페이지에는 <span className="color_box c_f6f6ef"></span>#F6F5EF 와 <span className="color_box c_2c2a29"></span>#2C2A29 색을 사용하고 포인트 컬러로 시즌에 따른 색을 사용하였다면
+                                리저브 홈페이지의 배경색은 완전한 검은색 보다는 묵직한 느낌을 주는 <span className="color_box c_222222"></span>#222222 색상을 사용하고</li>
                                 <li>포인트 컬러응 시즌에 따른 다양한 컬러 보다는 리저브 로고에 쓰인 컬러 <span className="color_box c_976d3f"></span>#976D3F 를 포인트 컬러로 배치했습니다.</li>
                             </ul>
                             <ul className='use_colors flex'>
@@ -123,7 +123,7 @@ function Reserve(){
                                 <li>#React</li>
                                 <li>#KAKAO Map</li>
                                 <li>#React-router-dom</li>
-                                <li>#react-icons</li>
+                                <li>#React-icons</li>
                             </ul>    
                         </div>
                     </div>

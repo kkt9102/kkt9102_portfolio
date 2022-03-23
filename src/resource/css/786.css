@@ -29,7 +29,7 @@
     #section_03 .cont_box .web_work li .link_txt,
     #section_03 .cont_box .web_work li .link_txt span {font-size:1.2rem;}
     #section_03 .cont_box .web_work li .link_btn {position:relative; width:8rem; height:100%; border-radius:1rem; background: url('../img/mockup_mo.png'); background-size: cover; overflow: hidden;}
-    #section_03 .cont_box .web_work li .link_btn.reserve::after {}
+    #section_03 .cont_box .web_work li .link_btn.reserve::after {background: url('../img/reserve/reserve_main_mo.gif'); background-size: cover; height: 75%; top:14%;}
     #section_03 .cont_box .web_work li .link_btn.clean::after {background:url('../img/clean/clean_main_mo.png'); background-size:cover; height:100%; top:14%;}
     #section_03 .cont_box .web_work li .link_btn.acrc::after {background:url('../img/acrc/acrc_main_mo.gif'); background-size:cover; height:100%; top:14%;}
     #section_03 .cont_box .web_work li .link_btn.acrc_child::after {background:url('../img/child/acrc_child_main_mo.png'); background-size:cover; height:100%; top:14%;}
@@ -63,6 +63,7 @@
 }
 
 @media all and (max-width:717px) and (max-height:512px) {
+    .section {max-width: 100%;}
     #section_02 {height:100%;}
     #section_02 .cont_box .img_box {width:32%;}
     #section_02 .page_tit {right:4%;}
@@ -70,4 +71,8 @@
     #section_02 .cont_box .txt_box.intro {padding-top:15rem; margin-left:25%;}
     #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(5) {margin-left:-6%;}
     #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(6) {margin-left: -5%;}
+
+    /* reserve */
+    .reserve .cont_box ul li {line-height: 1.4;}
+    .reserve .cont_3 .sub_txt ul:not(.use_colors) li .color_box {width: 1.4rem; height:1.4rem; letter-spacing: -0.1rem;}
 }
