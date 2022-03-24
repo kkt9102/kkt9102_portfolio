@@ -35,6 +35,7 @@ function App() {
     setModalOpen(false);
   };
  
+  const PageWidth = document.documentElement.scrollWidth;
 
   return (
     <>

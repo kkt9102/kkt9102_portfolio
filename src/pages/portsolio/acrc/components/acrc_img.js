@@ -1,5 +1,8 @@
 import React, {useState} from "react";
 import { useScroll } from "../../../../utils/scrollMove";
+
+import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
+
 // img
 import acrc_main from "../../../../resource/img/acrc_main.png";
 import acrc_main_mo from "../../../../resource/img/acrc/acrc_main_mo.gif";
@@ -81,7 +84,7 @@ const AcrcImg = () => {
             <div className='img_box'>
                 <ul className='img_list'>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg1()}>국문 메인화면</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg1()}><span>국문 메인화면</span>{isImg1 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg1 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={acrc_main_mo} alt="국민권익위원회 국문 홈페이지 메인"></img>
                         </div>
@@ -90,7 +93,7 @@ const AcrcImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg2()}>국문 일반게시판 목록</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg2()}><span>국문 일반게시판 목록</span>{isImg2 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg2 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_board_img_1_mo} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                         </div>
@@ -99,7 +102,7 @@ const AcrcImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg3()}>국문 기능게시판 목록</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg3()}><span>국문 기능게시판 목록</span>{isImg3 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg3 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_board_img_2_mo} alt="국민권익위원회 청탁금지법 질의응답 게시판"></img>
                         </div>
@@ -108,7 +111,7 @@ const AcrcImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg4()}>국문 카드뉴스형 게시판 목록</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg4()}><span>국문 카드뉴스형 게시판 목록</span>{isImg4 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg4 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_cdns_img_mo} alt="국민권익위원회 카드뉴스)자료실"></img>
                         </div>

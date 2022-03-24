@@ -2,6 +2,8 @@ import { parseHTML } from "jquery";
 import React from "react";
 import { Link } from "react-router-dom";
 
+import { AiOutlineHome } from 'react-icons/ai';
+
 import {useScroll} from './scrollMove';
 
 function HomeMV() {
@@ -31,14 +33,15 @@ function HomeMV() {
         top: 0,
         background: '#' + 141414
     }
-        
+    
+    const PageWidth = document.documentElement.scrollWidth;
     
     return (
         <>
             <div className="go_home" style={btn_style}>
-            <div style={progressBar}></div>
+                <div style={progressBar}></div>
                 <Link to="/" style={btn_link}>
-                    <div>홈으로</div>
+                    { PageWidth < 420 ? <AiOutlineHome/> : <div>홈으로</div>}  
                 </Link>
             </div>
         </>

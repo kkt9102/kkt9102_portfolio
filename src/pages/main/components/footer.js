@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
             <footer className='main_footer section flex flex_jc_c flex_dir_c'>
-                <div classname='creater_message'></div>
+                <div className='creater_message'></div>
                 <div className='copyright flex_1_0_0 flex_jc_c'>Copyright © kkt9102.com - Powered by kkt9102</div>
                 {/* <div className="link_box">
                     <ul className="flex flex_jc_c">

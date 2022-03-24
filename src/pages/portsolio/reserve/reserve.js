@@ -59,7 +59,7 @@ function Reserve(){
                                 <li>
                                     <div className="img_box">
                                         <img src={reserve_kr} alt="스타벅스 코리아 리저브 소개페이지"></img>
-                                        <div className="sub_txt">출처:스타벅스 코리아 리저브 소개 페이지&nbsp;(https://www.starbucks.co.kr/store/store_reserve.do)</div>
+                                        <div className="sub_txt">출처:스타벅스 코리아 리저브 소개 페이지&nbsp;<span>(https://www.starbucks.co.kr/store/store_reserve.do)</span></div>
                                     </div>
                                 </li>
                                 <li>위의 사진과 같이 기본적인 스타벅스 홈페이지의 서브 페이지로 간략하게 리저브를 소개하고 있습니다.</li>
@@ -67,7 +67,7 @@ function Reserve(){
                                 <li>
                                     <div className="img_box">
                                         <img src={reserve_us} alt="미국 스타벅스 리저브 홈페이지 메인"></img>    
-                                        <div className="sub_txt">출처:스타벅스 리저브 메인페이지&nbsp;(https://www.starbucksreserve.com/en-us)</div>
+                                        <div className="sub_txt">출처:스타벅스 리저브 메인페이지&nbsp;<span>(https://www.starbucksreserve.com/en-us)</span></div>
                                     </div>
                                 </li>
                                 <li>이러한 이유로 스타벅스 코리아에서 리저브만을 위한 홈페이지를 따로 리:디자인을 진행해봤습니다.</li>
@@ -117,7 +117,7 @@ function Reserve(){
                     </div>
 
                     <div className='cont_box cont_4'>
-                        <div className="sub_tit">사용한 언어, 모듈, API</div>
+                        <div className="sub_tit">사용된 언어, 모듈, API</div>
                         <div className="sub_txt">
                             <ul className="flex flex_wrap_wrap">
                                 <li>#React</li>

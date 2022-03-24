@@ -1,6 +1,7 @@
 import React, {useState} from "react";
-
 import { useScroll } from "../../../../utils/scrollMove";
+
+import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 // img
 import child_main from "../../../../resource/img/acrc_child_main.png";
 import child_main_mo from "../../../../resource/img/child/acrc_child_main_mo.png";
@@ -93,7 +94,7 @@ const ChildImg = () => {
             <div className='img_box'>
                 <ul className='img_list'>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg1()}>어린이 메인화면</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg1()}><span>어린이 메인화면</span>{isImg1 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg1 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={child_main_mo} alt="국민권익위원회 국문 홈페이지 메인"></img>
                         </div>
@@ -102,7 +103,7 @@ const ChildImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg2()}>어린이 컨텐츠 화면1</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg2()}><span>어린이 컨텐츠 화면1</span>{isImg2 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg2 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={cont_1_mo} alt="국민권익위원회 부패방지(통합자료실,일반형)자료실"></img>
                         </div>
@@ -111,7 +112,7 @@ const ChildImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg3()}>어린이 컨텐츠 화면1</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg3()}><span>어린이 컨텐츠 화면1</span>{isImg3 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg3 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={cont_2_mo} alt="국민권익위원회 청탁금지법 질의응답 게시판"></img>
                         </div>
@@ -120,7 +121,7 @@ const ChildImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg4()}>어린이 퀴즈로 배워요 화면</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg4()}><span>어린이 퀴즈로 배워요 화면</span>{isImg4 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg4 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={child_quiz_mo} alt="국민권익위원회 카드뉴스)자료실"></img>
                         </div>
@@ -129,7 +130,7 @@ const ChildImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg5()}>어린이 사이트맵 화면</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg5()}><span>어린이 사이트맵 화면</span>{isImg5 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg5 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={child_sitemap_mo} alt="국민권익위원회 카드뉴스)자료실"></img>
                         </div>

@@ -1,9 +1,10 @@
 @media all and (max-width:420px) {
     /* common */
-    
+    .go_home svg {font-size:2rem;}
 
     /* header */
     .main_header ul li {margin: 0 auto;}
+    .main_header ul li svg {font-size:2rem;}
 
     /* section_01 */
     #section_01 {padding-top:5rem;}
@@ -23,12 +24,17 @@
     #section_03 .cont_box .web_work li {flex-basis:calc(100%/3);}
 
     /* portfoliio_info */
-    .portfolio_info .con2 .page_tit {font-size:2.8rem; word-break:keep-all;}
-    .portfolio_info .cont_1 .sub_tit {font-size:2.1rem;}
+    .portfolio_info .con2 .page_tit {font-size:2.7rem; word-break:keep-all;}
+    .portfolio_info .cont_1 .sub_tit {font-size:2rem; word-break: keep-all;}
+    .portfolio_info .cont_1 .sub_txt p {font-size:1.5rem; line-height: 2rem;}
     .portfolio_info .cont_1 .sub_txt ul li {font-size:1.3rem; word-break:keep-all;}
-    .portfolio_info .cont_1 .sub_txt ul li {}
     .portfolio_info .cont_2 .txt_box .percent li {font-size:1.4rem; line-height:1.5; word-break:keep-all;}
     .portfolio_info .link_box .target_move a {font-size:1.4rem;}
+
+    /* reserve */
+    .reserve .cont_box ul li {font-size:1.5rem; line-height: 1.4;}
+    .reserve .cont_2 .sub_txt ul li span {font-weight:900; line-height: 1.2rem;}
+    .reserve .cont_2 .sub_txt ul li .img_box img {width: 100%;}
     
     
 }

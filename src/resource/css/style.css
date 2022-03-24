@@ -133,6 +133,7 @@
 
 /* portfolio_info */
 .con2 {max-width: 100rem;}
+.portfolio_info .cont_box ul li {letter-spacing: -0.14rem;}
 .con2 .page_tit {margin-bottom:2rem; padding-top:5rem; font-size:3.5rem; font-weight:800;}
 .portfolio_info .cont_1 .sub_tit {margin-bottom:2rem; font-size: 2.4rem; font-weight:600;}
 .portfolio_info .cont_1 .sub_txt {border:0.1rem solid #dddddd; padding:1rem; margin-bottom:3rem;}
@@ -174,6 +175,7 @@
 .reserve .cont_2 .sub_txt ul li .img_box {position:relative; width: 100%; margin-top:2rem; margin-bottom:2rem; text-align: center;}
 .reserve .cont_2 .sub_txt ul li .img_box img {width:70%;}
 .reserve .cont_2 .img_box .sub_txt {font-size: 1.4rem; font-weight: 600;}
+.reserve .cont_2 .img_box .sub_txt span {width:100%;}
 
 .reserve .cont_3 .sub_txt ul:not(.use_colors) li .color_box {display:inline-block; width: 2rem; height:2rem; margin-right:0.8rem; border:0.1rem solid #efefef; background: #ffffff;}
 .reserve .cont_3 .use_colors {justify-content: space-around;}

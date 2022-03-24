@@ -1,0 +1,38 @@
+@media all and (max-width:280px) {
+    /* common */
+
+    /* header */
+
+    /* section_01 */
+    #section_01 .main_deco > div {font-size:5rem;}
+
+    /* section_02 */
+    #section_02 .page_tit {width: 90%; left:5%;}
+    #section_02 .cont_box .txt_box.intro ul li {font-size:1.3rem;}
+
+    /* section_03 */
+
+    /* section_04 */
+    #section_04 .cont_box .txt_box ul li.mo_view div:first-child {font-size:2.3rem;}
+    #section_04 .link_list ul li a {height: 10rem;}
+    #section_04 .link_list ul .send_mail a .svg_box,
+    #section_04 .link_list ul .send_mail a:hover .svg_box {background-size: 6rem 6rem;}
+    #section_04 .link_list ul li a svg {width:6rem; height:6rem;}
+    
+    /* footer */
+    .main_footer .copyright {font-size:1rem;}
+
+
+    /* portfolio_info */
+    .portfolio_info .con2 .page_tit {font-size: 2rem;}
+    .portfolio_info .cont_1 .sub_tit {font-size:1.6rem;}
+    .clean .cont_1 .sub_txt p {font-size:1.2rem;}
+
+    /* reserve */
+    .reserve.portfolio_info .con2 .page_tit {text-align: center;}
+    .reserve .cont_1 {padding-top:3rem; padding-bottom:3rem; margin-bottom:0;}
+    .reserve .page_alert {font-size:1.6rem; font-weight: 600;}
+    .portfolio_info .link_box .target_move a {padding:0.5rem; font-size:1.2rem;}
+    .reserve .cont_box ul li {font-size:1.3rem; line-height: 1.6;}
+    .reserve .cont_2 .sub_txt ul li span {font-size:1.1rem; font-weight: 900; word-break: break-all;}
+}

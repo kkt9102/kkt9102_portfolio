@@ -1,7 +1,9 @@
 @media all and (max-width:320px) {
     /* common */
+    .go_home svg {font-size:2rem;}
 
     /* header */
+    .main_header ul li svg {font-size:2rem;}
 
     /* section_01 */
 

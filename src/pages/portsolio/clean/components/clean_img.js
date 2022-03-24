@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useScroll } from "../../../../utils/scrollMove";
+
+import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 //img
 import main_img from "../../../../resource/img/clean/clean_main.png";
 import main_img_mo from "../../../../resource/img/clean/clean_main_mo.png";
@@ -78,7 +80,7 @@ const CleanImg = () => {
             <div className='img_box'>
                 <ul className='img_list'>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg1()}>청렴포털 메인화면</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg1()}><span>청렴포털 메인화면</span>{isImg1 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg1 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_img_mo} alt="청렴포털 홈페이지 메인"></img>
                         </div>
@@ -87,7 +89,7 @@ const CleanImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg2()}>청렴포털 상담사례 목록 화면</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg2()}><span>청렴포털 상담사례 목록 화면</span>{isImg2 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg2 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_board_mo} alt="청렴포털 상담사례 목록"></img>
                         </div>
@@ -96,7 +98,7 @@ const CleanImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg3()}>청렴포털 청렴마당 기관별 목록 화면</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg3()}><span>청렴포털 청렴마당 기관별 목록 화면</span>{isImg3 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg3 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_sub_mo} alt="청렴포털 청렴마당 기관별 목록판"></img>
                         </div>
@@ -105,7 +107,7 @@ const CleanImg = () => {
                         </div>
                     </li>
                     <li>
-                        <div className="mo_img_btn" onClick={() => toggleImg4()}>청렴마당 화면</div>
+                        <div className="mo_img_btn" onClick={() => toggleImg4()}><span>청렴마당 화면</span>{isImg4 ? <AiOutlineMinus/> : <AiOutlinePlus/>}</div>
                         <div className={`${isImg4 ? "show" : "hide"} img_box flex flex_jc_c`}>
                             <img src={main_pop_mo} alt="청렴마당"></img>
                         </div>

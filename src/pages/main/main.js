@@ -3,6 +3,10 @@ import React from "react";
 import { Link } from "react-scroll";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
+import { AiOutlineHome, AiOutlineFundProjectionScreen } from 'react-icons/ai';
+import { RiProfileLine } from 'react-icons/ri';
+import { MdOutlineContactMail } from 'react-icons/md';
+
 import { useMousePosition } from "../../utils/mosuePosition";
 import { useScroll } from "../../utils/scrollMove";
 
@@ -26,6 +30,8 @@ function Main() {
 
     const {scrollY} = useScroll();
 
+    const PageWidth = document.documentElement.scrollWidth;
+
     return (
         <div id='main_page'>
             <HelmetProvider>
@@ -37,27 +43,32 @@ function Main() {
                 </Helmet>
             </HelmetProvider>
 
-            <header className={`${scrollY < 500 ? 'y_Top' : 'y_move'}  main_header fixed`}>
+            <header className=
+                { PageWidth < 780 ? 
+                    (`${scrollY < 100 ? 'y_Top' : 'y_move'}  main_header fixed`) : (`${scrollY < 500 ? 'y_Top' : 'y_move'}  main_header fixed`)
+                }
+            >
                 <nav>
                     <ul className="flex flex_jc_e">
                         <li className="flex flex_ai_c">
                             <Link to="main_sc_1" spy={true} smooth={true} title="Home 영역으로 이동" tabIndex="0">
-                                <span>Home</span>
+                                { PageWidth < 420 ? <AiOutlineHome/> : <span>Home</span>}
                             </Link>
                         </li>
                         <li className="flex flex_ai_c">
                             <Link to="main_sc_2" spy={true} smooth={true} title="Profile 영역으로 이동" tabIndex="0">
-                                <span>Profil</span>
+                                { PageWidth < 420 ? <RiProfileLine/> : <span>Profil</span>}
+                                
                             </Link>
                         </li>
                         <li className="flex flex_ai_c">
                             <Link to="main_sc_3" spy={true} smooth={true} title="Web Work 영역으로 이동" tabIndex="0">
-                                <span>Web Work</span>
+                                { PageWidth < 420 ? <AiOutlineFundProjectionScreen/> : <span>Web Work</span>}
                             </Link>    
                         </li>
                         <li className="flex flex_ai_c">
                             <Link to="main_sc_4" spy={true} smooth={true} title="Contact 영역으로 이동" tabIndex="0">
-                                <span>Contact</span>
+                                { PageWidth < 420 ? <MdOutlineContactMail/> : <span>Contact</span>}
                             </Link>
                         </li>
                     </ul>

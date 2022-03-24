@@ -6,6 +6,7 @@ import './resource/css/550.css';
 import './resource/css/420.css';
 import './resource/css/375.css';
 import './resource/css/320.css';
+import './resource/css/280.css';
 
 
 const Css = () => {
