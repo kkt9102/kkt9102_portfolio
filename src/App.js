@@ -21,8 +21,18 @@ import OffActCreateForm from './pages/portsolio/prtl/clonePage/components/knw/bo
 
 $(document).ready(function(){
   setTimeout(function(){
-    $('.loding_page').fadeOut();
+    $('.lds-ripple').fadeOut();
+  },100);
+  setTimeout(function(){
+    $('.lodigng_txt').fadeIn();
+    setTimeout(function(){
+      $('.lodigng_txt').fadeOut();
+    },1500);
   },1000);
+  setTimeout(function(){
+    $('.loding_page').fadeOut();
+  },3000);
+  
 })
 
 
