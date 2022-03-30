@@ -12,13 +12,13 @@ function HomeMV() {
         display: 'flex',
         justifyContent: 'flex-end',
         width: 100 + '%',
-        background: '#eeeeee',
+        background: '#fefefe',
         zIndex: 2
     }
     const btn_link = {
         padding:1 + 'rem',
         border: 0.1 + 'rem solid' + '#eeeeee',
-        background: '#eeeeee',
+        background: '#fefefe',
         fontSize: 1.5 + 'rem',
         fontWeight: 600,
         color: '#' + 111111

@@ -68,6 +68,25 @@
     .reserve .cont_box.cont_2 ul li,.reserve .cont_box.cont_3 ul:not(.use_colors) li {display: inline; margin-right:0.8rem;}
 }
 
+@media all and (max-width:768px) {
+
+    /* section_02 */
+    #section_02::after {width:20rem; left:25%;}
+    #section_02 .cont_box .img_box {width:35%;}
+    #section_02 .cont_box .txt_box.intro {margin-left:25%;}
+    #section_02 .page_tit span {font-size: 2rem;}
+
+    #section_02 .cont_box .txt_box.intro ul li {font-size:1.6rem;}
+    #section_02 .cont_box .txt_box.intro ul:last-child {margin-left:10%;}
+    #section_02 .cont_box .txt_box.intro ul:last-child li:first-child {margin-left:-10%;}
+    #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(2) {margin-left:-9%;}
+    #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(3) {margin-left:-8%;}
+    #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(4) {margin-left:-7%;}
+    #section_02 .cont_box .txt_box.intro ul:last-child li:nth-child(5) {margin-left:-6%;}
+    #section_02 .cont_box .txt_box.intro ul:last-child li:last-child {margin-left:-5%;}
+
+}
+
 @media all and (max-width:717px) and (max-height:512px) {
     .section {max-width: 100%;}
     #section_02 {height:100%;}

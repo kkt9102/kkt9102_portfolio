@@ -42,7 +42,7 @@ function Reserve(){
                         </div>
                         <ul className='link_box flex_jc_c'>
                             <li className='target_move'>
-                                <a href="https://starbucksreserve.co.kr" target="_blank" rel="noreferrer noopener">스타벅스 리저브 리:디자인 페이지 바로가기</a>
+                                <a href="https://kkt9102.github.io/starbucksreserve/" target="_blank" rel="noreferrer noopener">스타벅스 리저브 리:디자인 페이지 바로가기</a>
                             </li>
                         </ul>
                     </div>
