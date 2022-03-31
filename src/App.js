@@ -19,23 +19,6 @@ import KnwSamType from './pages/portsolio/prtl/clonePage/components/knw/board/kn
 import KnwNoticeType from './pages/portsolio/prtl/clonePage/components/knw/board/knw_notice_type';
 import OffActCreateForm from './pages/portsolio/prtl/clonePage/components/knw/board/form/off_act_create';
 
-$(document).ready(function(){
-  setTimeout(function(){
-    $('.lds-ripple').fadeOut();
-  },100);
-  setTimeout(function(){
-    $('.lodigng_txt').fadeIn();
-    setTimeout(function(){
-      $('.lodigng_txt').fadeOut();
-    },1500);
-  },1000);
-  setTimeout(function(){
-    $('.loding_page').fadeOut();
-  },3000);
-  
-})
-
-
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
   const openModal = () => {
@@ -49,7 +32,6 @@ function App() {
 
   return (
     <>
-    <Loding/>
     <Css/>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>

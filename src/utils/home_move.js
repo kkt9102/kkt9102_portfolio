@@ -23,6 +23,7 @@ function HomeMV() {
         fontWeight: 600,
         color: '#' + 111111
     }
+
     const {scrollY} = useScroll();
     const PageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     const progressBar = {

@@ -1,4 +1,5 @@
 import React from "react";
+import $ from 'jquery';
 
 import { Link } from "react-scroll";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
@@ -9,6 +10,7 @@ import { MdOutlineContactMail } from 'react-icons/md';
 
 import { useMousePosition } from "../../utils/mosuePosition";
 import { useScroll } from "../../utils/scrollMove";
+import Loding from "../../utils/loding";
 
 import Profil from "./components/profil";
 import WebWork from "./components/web_work";
@@ -20,20 +22,22 @@ import logo from '../../resource/img/favicon.svg';
 
 
 function Main() {
-
-    // const {x} = useMousePosition();
-    // const BgStyle = {
-    //     width: x
-    // }
-
-    // const PageWidth = document.documentElement.clientWidth;
+    $(window).ready(function(){
+        setTimeout(function(){
+          $('.loding_page').fadeOut();
+        },500);
+      })
 
     const {scrollY} = useScroll();
+
+    const PageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPer = (scrollY/PageHeight) * 100;
 
     const PageWidth = document.documentElement.scrollWidth;
 
     return (
         <div id='main_page'>
+            <Loding/>
             <HelmetProvider>
                 <Helmet>
                     <title>kkt9102 Portfolio</title>
@@ -50,6 +54,7 @@ function Main() {
             >
                 <nav>
                     <ul className="flex flex_jc_e">
+                        {/* <div>{scrollPer}</div> */}
                         <li className="flex flex_ai_c">
                             <Link to="main_sc_1" spy={true} smooth={true} title="Home 영역으로 이동" tabIndex="0">
                                 { PageWidth < 420 ? <AiOutlineHome/> : <span>Home</span>}
