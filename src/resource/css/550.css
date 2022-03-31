@@ -32,6 +32,10 @@
 
     /* footer */
     .main_footer {padding:1rem 2.5rem;}
+
+    /* sub_header */
+    .go_home, .go_home .progress {height: 6rem;}
+    .go_home.y_move, .go_home.y_move .progress {height: 4rem;}
     
 }
 
