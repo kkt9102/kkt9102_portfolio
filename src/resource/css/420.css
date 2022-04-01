@@ -14,7 +14,8 @@
 
     /* section_02 */
     #section_02::after {display:none;}
-    #section_02 .page_tit {flex-direction: column;}
+    #section_02 .page_tit {flex-direction: column; margin-top:5rem;}
+    #section_02 .cont_box .txt_box.intro ul:first-child {margin-left:0;}
     #section_02 .cont_box .img_box {width:0;}
     #section_02 .cont_box .txt_box.intro {padding-top:17rem; margin-left:0;}
     #section_02 .cont_box .txt_box.intro .sub_tit {width:100%; padding:0; text-align:center;}
@@ -22,7 +23,10 @@
     #section_02 .cont_box .txt_box.intro ul:last-child li {margin-left:0 !important;}
 
     /* section_03 */
-    #section_03 .cont_box .web_work li {flex-basis:calc(100%/3);}
+    #section_03 {height: 100%;}
+    /* #section_03 .cont_box .web_work {justify-content:space-around;}
+    #section_03 .cont_box .web_work li {flex-basis:calc(100%/3);} */
+    #section_03 .cont_box .web_work li .link_txt, #section_03 .cont_box .web_work li .link_txt span {font-size:1.5rem;}
 
     /* section_04 */
     #section_04 .link_list ul li {flex-basis: 40%;}

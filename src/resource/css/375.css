@@ -2,6 +2,10 @@
     /* common */
     .go_home a svg {font-size:2.5rem;}
     
+    /* section_03 */
+    #section_03 .cont_box .web_work {justify-content:space-around;}
+    #section_03 .cont_box .web_work li {flex-basis:calc(100%/2); margin-bottom:5rem;}
+    
     /* portfolio_info */
     .portfolio_info .cont_2 .txt_box h2 {display:flex; flex-wrap:wrap; flex-basis:100%; justify-content: center;}
     .portfolio_info .cont_2 .txt_box h2 .date {flex-basis:100%; text-align: center; margin-top:0.5rem;}
