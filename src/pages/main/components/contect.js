@@ -1,9 +1,12 @@
-import React,{ useCallback } from "react";
+import React from "react";
 // import useInput from "../../../utils/useInput";
 import { RiKakaoTalkFill, RiGithubFill } from "react-icons/ri";
+import { FaBloggerB } from 'react-icons/fa';
 // import emailjs from '@emailjs/browser';
 
 const Contect = () => {
+
+    const PageWidth = document.documentElement.scrollWidth;
 
     // e-mail
     // const [name, onChangeName] = useInput(''); 
@@ -53,26 +56,36 @@ const Contect = () => {
                     <div className='cont_box flex flex_wrap_wrap'>
                         <div className='sc_tit flex flex_jc_c'>Contact Me</div>
                         <div className="txt_box">
-                            <ul className="flex flex_jc_c">
-                                <li className="pc_view">Email : kkt9102@gmail.com / creater@kakao.com</li>
-                                <li className="mo_view">
-                                    <div>Email</div>
-                                    <div>kkt9102@gmail.com</div> 
-                                    <div>creater@kakao.com</div>
-                                </li>
-                                <li></li>
+                            <ul className="flex flex_jc_c flex_wrap_wrap">
+                                <li className="pc_view flex_jc_c">Email : kkt9102@gmail.com / creater@kakao.com</li>
+                                <li className="pc_view flex_jc_c">KakaoTalk : kkt9102</li>
                             </ul>
                         </div>
                         <div className='link_list'>
                             <ul className='flex flex_jc_c'>
                                 <li className="send_mail">
-                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=creater@kakao.com" target="_blank" rel="noopener noreferrer" title="g-mail 보내기 새창으로 가기"><div className="svg_box"></div></a>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=creater@kakao.com" target="_blank" rel="noopener noreferrer" title="g-mail 보내기 새창으로 가기">
+                                        <div className="svg_box"></div>
+                                        {/* { PageWidth > 550 ? '' : <div>G-Mail 보내기</div>} */}
+                                    </a>
                                 </li>
                                 <li className='opentok'>
-                                    <a href="https://open.kakao.com/o/swDf3n0c" target="_blank" rel="noopener noreferrer" title="카카오톡 오픈채팅"><RiKakaoTalkFill/></a>
+                                    <a href="https://open.kakao.com/o/swDf3n0c" target="_blank" rel="noopener noreferrer" title="카카오톡 오픈채팅">
+                                        <RiKakaoTalkFill/>
+                                        {/* { PageWidth > 550 ? '' : <div>오픈채팅 보내기</div>} */}
+                                    </a>
                                 </li>
                                 <li className="github">
-                                    <a href="https://github.com/kkt9102" target="_blank" rel="noopener noreferrer" title="깃허브 새창으로 가기"><RiGithubFill/></a>
+                                    <a href="https://github.com/kkt9102" target="_blank" rel="noopener noreferrer" title="깃허브 새창으로 가기">
+                                        <RiGithubFill/>
+                                        {/* { PageWidth > 550 ? '' : <div>Github</div>} */}
+                                    </a>
+                                </li>
+                                <li className="git_blog">
+                                    <a href="https://kkt9102.github.io/" target="_blank" rel="noopener noreferrer" title="블로그 새창으로 가기">
+                                        <FaBloggerB/>
+                                        {/* { PageWidth > 550 ? '' : <div>Blog</div>} */}
+                                    </a>
                                 </li>
                             </ul>
                         </div>

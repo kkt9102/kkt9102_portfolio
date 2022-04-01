@@ -87,6 +87,9 @@ function Main() {
                         <div className='main_tit'>kkt9102</div>
                         <div className='main_sub_tit'>Portfolio</div>
                     </div>
+                    <div className="sub_deco">
+                        <p>Web Publisher / Front End</p>
+                    </div>
                 </div>
                 <div className='sc_bg_1 fixed'></div>
             </section>

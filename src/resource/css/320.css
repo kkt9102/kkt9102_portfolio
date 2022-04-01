@@ -6,6 +6,8 @@
     .main_header ul li svg {font-size:2rem;}
 
     /* section_01 */
+    #section_01 .main_deco {margin-top:3rem;}
+    #section_01 .main_deco > div {font-size:4.5rem;}
 
     /* section_02 */
 
@@ -13,5 +15,6 @@
     #section_03 .cont_box .web_work li {flex-basis:calc(100%/2); margin-bottom:5rem;}
 
     /* section_04 */
+    #section_04 .cont_box .page_copyright {line-height: 1.6rem;}
     
 }

@@ -23,9 +23,11 @@
     #section_04 .contect_me_form form .contect_header {flex-wrap:wrap; height:15rem;}
     #section_04 .contect_me_form form .contect_header > div {flex-basis:100%;}
     #section_04 .link_list,#section_04 .contect_me_form {flex-basis:100%;}
-    #section_04 .link_list {padding-bottom:3rem;}
+    #section_04 .link_list {padding-top:1rem; padding-bottom:3rem;}
     #section_04 .link_list ul {flex-wrap:wrap;}
-    #section_04 .link_list ul li {flex-basis:100%;}
+    #section_04 .link_list ul li {flex-basis:45%;}
+    /* #section_04 .link_list ul li a {display: flex; justify-content: space-between;}
+    #section_04 .link_list ul li a > * {flex-basis: 40%;} */
     #section_04 .page_copyright {flex-basis:100%; text-align:center;}
     #section_04 .cont_box .txt_box ul li.mo_view div:first-child {font-size:2.8rem;}
     #section_04 .cont_box .txt_box ul li.mo_view div:not(:first-child) {font-size:2.5rem;}
@@ -40,6 +42,7 @@
 }
 
 @media all and (max-width:512px) and (max-height:717px) {
+    /* section_02 */
     #section_02::after {display:none;}
     #section_02 .page_tit {flex-wrap:wrap; right:10%;}
     #section_02 .cont_box .img_box {width:0;}
@@ -47,6 +50,10 @@
     #section_02 .cont_box .txt_box.intro ul:last-child {margin-left:0;}
     #section_02 .cont_box .txt_box.intro ul:last-child li {margin-left:0 !important;}
     #section_02 .cont_box .txt_box.intro ul li {font-size:1.5rem;}
+
+    /* section_04 */
+    #section_04 .link_list ul .send_mail a .svg_box {background-size: 4.5rem 4.5rem;}
+    #section_04 .link_list ul li a svg {width: 4.5rem; height: 4.5rem;}
 
     /* reserve */
     .reserve .cont_3 .use_colors {flex-direction: column;}

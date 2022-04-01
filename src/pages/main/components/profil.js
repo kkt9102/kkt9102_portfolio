@@ -34,11 +34,12 @@ const Profil = () => {
                         <div className='sub_tit'>주요경력</div>
                             <ul>
                                 <li className={`${ scrollPer > 31 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2021.06 ~ 2022.02</span> 국민권익위원회 홈페이지·업무포털 전면개편 사업 (JAVA개발 초급, 퍼블리셔)</li>
-                                <li className={`${ scrollPer > 32 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2021.03 ~ 2022.03</span> (주)에이블 정보기술 기업부설연구소 근무</li>
-                                <li className={`${ scrollPer > 33 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2020.12 ~ 2021.03</span> 부패방지 종합정보시스템 구축3단계 (퍼블리셔)</li>
-                                <li className={`${ scrollPer > 34 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2020.12 ~ 2021.03</span> (주)에이블 정보기술 프리랜서 계약</li>
-                                <li className={`${ scrollPer > 35 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2020.04 ~ 2020.10</span> 스마트기기 UXUI디자인 양성과정</li>
-                                <li className={`${ scrollPer > 36 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2009.03 ~ 2015.02</span> 배재대학교 칠예과 졸업</li>
+                                <li className={`${ scrollPer > 33 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2021.03 ~ 2021.05</span> 자사 솔루션 AIMS 유지보수 진행 (Ruby on Rails 기반)</li>
+                                <li className={`${ scrollPer > 34 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2021.03 ~ 2022.03</span> (주)에이블 정보기술 기업부설연구소 근무</li>
+                                <li className={`${ scrollPer > 35 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2020.12 ~ 2021.03</span> 부패방지 종합정보시스템 구축3단계 (퍼블리셔)</li>
+                                <li className={`${ scrollPer > 36 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2020.12 ~ 2021.03</span> (주)에이블 정보기술 프리랜서 근무</li>
+                                <li className={`${ scrollPer > 37 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2020.04 ~ 2020.10</span> 스마트기기 UXUI디자인 양성과정</li>
+                                <li className={`${ scrollPer > 38 ? 'show' : 'hide'} dots_w flex`} style={z_first}><span className="date">2009.03 ~ 2015.02</span> 배재대학교 칠예과 졸업</li>
                             </ul>
                         </div>
                     </div>

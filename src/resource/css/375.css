@@ -1,4 +1,6 @@
 @media all and (max-width:375px) {
+    /* common */
+    .go_home a svg {font-size:2.5rem;}
     
     /* portfolio_info */
     .portfolio_info .cont_2 .txt_box h2 {display:flex; flex-wrap:wrap; flex-basis:100%; justify-content: center;}

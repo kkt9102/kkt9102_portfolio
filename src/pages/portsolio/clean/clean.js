@@ -37,10 +37,10 @@ function Clean() {
                     <div className='txt_box flex flex_wrap_wrap'>
                         <h2>프로젝트 참여 기간<span className="date"><span> : </span>2020.12 ~ 2021.02</span></h2>
                         <ul className='percent'>
-                            <li className='dots_b'>사용자 홈페이지 내 민원신청 페이지 퍼블리싱 (10%)</li>
-                            <li className='dots_b'>사용자 홈페이지 내 게시판 페이지 퍼블리싱 (10%)</li>
-                            <li className='dots_b'>사용자 홈페이지 내 청렴마당 페이지 퍼블리싱 (20%)</li>
-                            <li className='dots_b'>사용자 홈페이지 내 마이페이지 페이지 퍼블리싱 (30%)</li>
+                            <li className='dots_b'>사용자 홈페이지 내 민원신청 페이지 퍼블리싱 (40%)</li>
+                            <li className='dots_b'>사용자 홈페이지 내 게시판 페이지 퍼블리싱 (30%)</li>
+                            <li className='dots_b'>사용자 홈페이지 내 청렴마당 페이지 퍼블리싱 (40%)</li>
+                            <li className='dots_b'>사용자 홈페이지 내 마이페이지 페이지 퍼블리싱 (70%)</li>
                         </ul>
                         <ul className="useing_code flex">
                             <li>#CMS</li>

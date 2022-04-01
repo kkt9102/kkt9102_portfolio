@@ -4,7 +4,7 @@
 
 #main_page {background:#FAFAFA; color:#111111; overflow-y: hidden;}
 #main_page * {font-family: 'pretendard';}
-#main_page .sc_tit {font-size:3.5rem; padding:1.5rem 0;}
+#main_page .sc_tit {padding:1.5rem 0; font-size:3.5rem; font-weight: 600; letter-spacing: -0.1rem;}
 .section {position:relative; height:100vh; background:#FAFAFA; z-index:6;}
 .con {max-width:140rem; margin:0 auto;}
 .con2 {max-width:114rem; margin:0 auto;}
@@ -49,17 +49,18 @@
 .y_Top ul {height:7rem; background:transparent; transition:height 0.3s, background 0.3s;}
 .y_move ul {height:6rem; background:#757575; transition:height 0.3s, background 0.3s;}
 .y_move ul li span {color:#eeeeee;}
+.y_move ul li svg {fill:#eeeeee;}
 
 /* section_01 */
 #section_01 {padding-top:8rem; position: relative;}
 #section_01 .sc_01_bg {width:0; height:100%; top:0; left:0; background:#ffffff;}
-#section_01 .main_deco {margin-top:10rem;}
+#section_01 .main_deco {margin-top:8rem;}
 #section_01 .main_deco > div {font-size:10rem; font-family:'ArchivoBlack'; color:#222222; text-shadow:1px 0.1rem #ffffff, 0 0.1rem #ffffff, -0.1rem -0.1rem #ffffff, -0.1rem 0 #ffffff; cursor:default;}
 /* #section_01 .sc_bg_1 {width:100%; height:100%; top:0; right:0; z-index: 4; background:url('../img/000027.JPG'); background-size:cover; z-index: -1;} */
 
 /* section_02 */
 #section_02 {z-index:3;}
-#section_02::after {content:''; position:absolute; width:20rem; height: calc(100% + 10rem); top:0; left:25%; background:#ffffff; z-index: 5; transform:rotate(-10deg) translateY(-5rem);}
+#section_02::after {content:''; position:absolute; width:20rem; height: calc(100% + 10rem); top:0; left:25%; background:#fafafa; z-index: 5; transform:rotate(-10deg) translateY(-5rem);}
 #section_02 .page_tit {display:flex; flex-direction:column; position:absolute; width:30%; right:10%; margin-top: 8rem;}
 #section_02 .page_tit span {justify-content:center; align-items:flex-end; margin-right:3rem; font-weight:400;}
 #section_02 .page_tit > span:not(:first-child) {margin-top:1rem;}
@@ -82,7 +83,7 @@
 #section_03 .cont_box .web_work li {display:flex; justify-content:center; flex-basis:calc(100%/4); margin-bottom:10rem;  transition:flex-basis 0.3s, opacity 0.3s, visible 0.3s;}
 /* #section_03 .cont_box .web_work li:not(:nth-child(4n + 5)) {margin-right:2rem;} */
 #section_03 .cont_box .web_work li a {position:relative;}
-#section_03 .cont_box .web_work li .link_btn {position:relative; width:18rem; height:14.9rem; border-radius:1rem; background: url('../img/mockup_pc.png'); background-size: cover; transition:background 0.3s;}
+#section_03 .cont_box .web_work li .link_btn {position:relative; width:20rem; height:16.5rem; border-radius:1rem; background: url('../img/mockup_pc.png'); background-size: cover; transition:background 0.3s;}
 #section_03 .cont_box .web_work li .link_btn:hover::after {background-position-Y:bottom;}
 #section_03 .cont_box .web_work li .link_btn::after {transition:all 1s;}
 #section_03 .cont_box .web_work li .link_btn.reserve::after {content:''; position:absolute; z-index: -1; background:url('../img/reserve_main.png'); width:93%; height: 67%; top:5%; left:4%; background-size:cover; background-repeat: no-repeat;}
@@ -95,14 +96,14 @@
 #section_03 .cont_box .web_work li .link_btn.acrc_child:hover::after {background-position-Y:bottom;}
 #section_03 .cont_box .web_work li .link_btn.prtl::after {content:''; position:absolute; z-index: -1; background:url('../img/prtl_main.gif'); width:95%; height: 65%; top:5%; left:1%; background-size:cover; background-repeat: no-repeat;}
 #section_03 .cont_box .web_work li .link_btn.prtl:hover::after {background-position-Y:bottom;}
-#section_03 .cont_box .web_work li .link_txt {position:absolute; width: 100%; text-align:center; word-break: break-word;}
+#section_03 .cont_box .web_work li .link_txt {position:absolute; width: 100%; margin-top:0.8rem; text-align:center; word-break: break-word;}
  
 /* section_04 */
 #section_04 {height: auto;}
 #section_04 .sc_tit {flex-basis:100%;}
 #section_04 .cont_box .sub_tit {display:flex; justify-content:center; margin-bottom:3rem;}
 #section_04 .cont_box .txt_box {width:100%; margin-bottom:2rem;}
-#section_04 .cont_box .txt_box ul li {font-size:2rem;}
+#section_04 .cont_box .txt_box ul li {flex-basis:100%; font-size:2rem;}
 #section_04 .contect_me_form {flex-basis:70%;}
 #section_04 .contect_me_form form {display:flex; flex-wrap: wrap;}
 #section_04 .contect_me_form form > div {flex-basis:100%;}
@@ -119,23 +120,33 @@
 #section_04 .contect_me_form form .contect_header  {height:8rem;}
 #section_04 .contect_me_form form .email_contents_box {height:27rem;}
 
-#section_04 .link_list {flex-basis:100%; padding-top:5rem; padding-bottom:5rem;}
-#section_04 .link_list ul li {flex-basis:20%; margin:1rem; position:relative;}
+#section_04 .link_list {flex-basis:100%; padding-top:3rem; padding-bottom:5rem;}
+#section_04 .link_list ul li {flex-basis:15rem; margin:1rem; position:relative;}
 /* #section_04 .link_list ul .send_mail {margin-top:3rem;} */
 #section_04 .link_list ul li:hover {justify-content: center;}
-#section_04 .link_list ul li a {display:flex; justify-content:center; align-items:center; width:100%; height:14.5rem; border:0.1rem solid #222222; border-radius:1rem; background:none; transition:background 0.2s, width 0.2s 0.3s, height 0.2s 0.5s;}
-/* #section_04 .link_list ul li:hover a {width:80rem; height:20rem; margin-bottom:2rem;} */
-#section_04 .link_list ul li a svg {width:8rem; height:8rem;}
-#section_04 .link_list ul .send_mail a .svg_box {background:url('../img/icon/gmail.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%; transition: background 0.3s;}
-#section_04 .link_list ul .send_mail a:hover .svg_box {background:url('../img/icon/gmail_color.svg') center center no-repeat; background-size: 8rem 8rem; width: 100%; height: 100%;}
+#section_04 .link_list ul li a {position:relative; display:flex; justify-content:center; align-items:center; width:100%; height:14rem; border:0.1rem solid #222222; border-radius:1rem; background:#ffffff; transition:background 0.2s, width 0.2s 0.3s, height 0.2s 0.5s; z-index: 2;}
+#section_04 .link_list ul li a::after {position:absolute; display: flex; justify-content: center; align-items: flex-end; width:100%;  height:100%; top:0; left:0; font-size:1.8rem; color:#2c2a29; letter-spacing: -0.1rem; opacity:0; transition: opacity 0.3s, top 0.3s; z-index: -1;}
+#section_04 .link_list ul li a svg {width:7.5rem; height:7.5rem;}
+#section_04 .link_list ul .send_mail a::after {content:'메일 보내기';}
+#section_04 .link_list ul .send_mail a .svg_box {background:url('../img/icon/gmail.svg') center center no-repeat; background-size: 7.5rem 7.5rem; width: 7.5rem; height: 7.5rem; transition: background 0.3s;}
+#section_04 .link_list ul .send_mail a:hover .svg_box {background:url('../img/icon/gmail_color.svg') center center no-repeat; background-size: 7.5rem 7.5rem; width: 7.5rem; height: 7.5rem;}
+#section_04 .link_list ul .send_mail a:hover::after {top:20%; opacity: 1;}
+#section_04 .link_list ul .git_blog a svg {width: 55px;}
 #section_04 .link_list ul .send_mail:hover::after {opacity:1;}
+#section_04 .link_list ul .opentok a::after {content:'오픈톡 보내기';}
 #section_04 .link_list ul .opentok:hover::after {opacity:1;}
 #section_04 .link_list ul .opentok a:hover {background:#FAE100;}
 #section_04 .link_list ul .opentok a:hover svg {fill:#3C1E1E;}
-#section_04 .link_list ul .github a:hover {background:#ffffff;}
-#section_04 .link_list ul .github a:hover svg {fill:#3C1E1E;}
-#section_04 .cont_box .txt_box ul li.mo_view {display:none;}
-#section_04 .cont_box .page_copyright {font-size:2rem; margin:0 auto;}
+#section_04 .link_list ul .opentok a:hover::after {top:20%; opacity: 1;}
+#section_04 .link_list ul .github a::after {content:'Github';}
+#section_04 .link_list ul .github a:hover {background:#222222;}
+#section_04 .link_list ul .github a:hover svg {fill:#ffffff;}
+#section_04 .link_list ul .github a:hover::after {top:20%; opacity: 1;}
+#section_04 .link_list ul .git_blog a::after {content:'Jekyll Blog';}
+#section_04 .link_list ul .git_blog a:hover {background: #2b2b2b;}
+#section_04 .link_list ul .git_blog a:hover svg {fill:#ffffff;}
+#section_04 .link_list ul .git_blog a:hover::after {top:20%; opacity: 1;}
+#section_04 .cont_box .page_copyright {font-size:2rem; margin:0 auto 1rem auto;}
 
 /* #section_04 #send_and_text {display:none; flex-direction:column; justify-content:center; flex-basis:70%; height:31rem; margin:3rem 1rem; border:0.1rem solid #222222; border-radius:0.8rem; font-size:3rem;}
 #section_04 #send_and_text span {display:flex; justify-content:center;}
@@ -145,7 +156,7 @@
 
 
 /* footer */
-.main_footer {position:relative; height:auto; padding:2rem 0 3rem; background:#ffffff; border-top:0.1rem solid #eeeeee;}
+.main_footer {position:relative; height:auto; padding:2rem 0 0rem; background:#ffffff; border-top:0.1rem solid #eeeeee;}
 .main_footer .copyright {font-size:1.3rem; font-family:'NotoKr' !important; font-weight: 300; margin-bottom:2rem;}
 .main_footer .link_box ul li {margin:0 0.5rem; border-radius:0.3rem; border:0.1rem solid #222222;}
 .main_footer .link_box ul li a {display: flex; justify-content:center; align-items:center; width:3rem; height:3rem;}
@@ -158,8 +169,10 @@
 /* sub_header */
 .go_home {position: fixed; display: flex; justify-content: flex-start; align-items: center; width: 100%; height: 8rem; background: #fefefe; z-index: 2; transition: all 0.3s;}
 .go_home a {padding: 1rem; font-size: 1.5rem; font-weight: 600; color:#222222; z-index: 10;}
-.go_home.y_move {height: 6rem; background: #9E9E9E; filter: invert(100%);}
-.go_home.y_move a * {color:#ffffff;}
+.go_home a svg {font-size: 4rem;}
+.go_home.y_move {height: 6rem; background: #9E9E9E;}
+.go_home.y_move a { z-index: 20;}
+.go_home.y_move a svg {fill:#ffffff;}
 
 .go_home .progress {height: 8rem; background: #BDBDBD; transition: height 0.3s;}
 .go_home.y_move .progress {height: 6rem; background: #757575;}
@@ -178,11 +191,11 @@
 .portfolio_info .cont_2 .txt_box .dots_b {position:relative; margin-left: 1rem; line-height: 2rem;}
 .portfolio_info .cont_2 .txt_box .dots_b::before {content:''; position: absolute; width: 0.4rem; height: 0.4rem; left:-1rem; top:1rem; background-color: #222222;}
 .portfolio_info .cont_2 .txt_box ul li:not('.target_move') {flex-basis:100%;}
-.portfolio_info .cont_2 .txt_box .useing_code {flex-wrap: wrap;}
-.portfolio_info .cont_2 .txt_box .useing_code li {margin:0 10px;}
+.portfolio_info .cont_2 .txt_box .useing_code {flex-wrap: wrap; margin-top:1rem;}
+.portfolio_info .cont_2 .txt_box .useing_code li {margin:0 10px; font-size:2.1rem;}
 .portfolio_info .link_box {display:flex; margin:2rem 0 3rem;}
 .portfolio_info .link_box .target_move a {background:#ffffff; border:0.1rem solid #dddddd; border-radius:0.5rem; font-weight: 900; padding:1rem; color:#222222; transition: all 0.2s;}
-.portfolio_info .link_box .target_move a:hover {background:#222222; border-color:#222222; color:#eeeeee;}
+.portfolio_info .link_box .target_move a:hover {background:#757575; border-color:#757575; color:#eeeeee;}
 .portfolio_info .link_box .target_move a span {transition: all 0.2s;}
 .portfolio_info .link_box .target_move a:hover span {color:#eeeeee;}
 .portfolio_info .img_box.hide {opacity: 0; transform:translateY(-1rem); transition: opacity 0.2s, transform 0.2s;}
