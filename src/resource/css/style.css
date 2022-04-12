@@ -156,7 +156,7 @@
 
 
 /* footer */
-.main_footer {position:relative; height:auto; padding:2rem 0 0rem; background:#ffffff; border-top:0.1rem solid #eeeeee;}
+.main_footer {position:relative; height:auto; padding:2rem 0 0rem; background:#fafafa; border-top:0.1rem solid #757575;}
 .main_footer .copyright {font-size:1.3rem; font-family:'NotoKr' !important; font-weight: 300; margin-bottom:2rem;}
 .main_footer .link_box ul li {margin:0 0.5rem; border-radius:0.3rem; border:0.1rem solid #222222;}
 .main_footer .link_box ul li a {display: flex; justify-content:center; align-items:center; width:3rem; height:3rem;}

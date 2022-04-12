@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import $ from 'jquery';
 
 import Loding from './utils/loding';
@@ -35,7 +35,7 @@ function App() {
     <Css/>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/" element={<Main/>} />
+          <Route path="/" element={<Main/>}/>
           <Route path="/Reserve/" element={<Reserve/>}/>
           <Route path="/Clean" element={<Clean/>}/>
           <Route path="/Acrc" element={<Acrc/>}/>

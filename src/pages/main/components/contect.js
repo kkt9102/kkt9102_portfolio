@@ -65,7 +65,7 @@ const Contect = () => {
                             <ul className='flex flex_jc_c'>
                                 <li className="send_mail">
                                     {/* <a href="https://mail.google.com/mail/?view=cm&fs=1&to=creater@kakao.com" target="_blank" rel="noopener noreferrer" title="g-mail 보내기 새창으로 가기"> */}
-                                    <a href= {PageWidth > 786 ? "https://mail.google.com/mail/?view=cm&fs=1&to=creater@kakao.com" : "mailto:creater@kakao.com"} target="_blank" rel="noopener noreferrer" title="g-mail 보내기 새창으로 가기">
+                                    <a href={PageWidth > 786 ? "https://mail.google.com/mail/?view=cm&fs=1&to=creater@kakao.com" : "mailto:creater@kakao.com"} target="_blank" rel="noopener noreferrer" title="g-mail 보내기 새창으로 가기">
                                         <div className="svg_box"></div>
                                         {/* { PageWidth > 550 ? '' : <div>G-Mail 보내기</div>} */}
                                     </a>
