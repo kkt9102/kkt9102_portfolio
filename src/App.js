@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes, Link } from 'react-router-dom';
 import $ from 'jquery';
 
 import Loding from './utils/loding';
@@ -33,7 +33,7 @@ function App() {
   return (
     <>
     <Css/>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Main/>}/>
           <Route path="/Reserve/" element={<Reserve/>}/>
@@ -50,7 +50,7 @@ function App() {
           <Route path="/clonePage/components/knw/OffActCreateForm" element={<OffActCreateForm/>}/>
           <Route path="/Resume" element={<Resume/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
