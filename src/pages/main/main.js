@@ -88,7 +88,7 @@ function Main() {
                         <div className='main_sub_tit'>Portfolio</div>
                     </div>
                     <div className="sub_deco">
-                        <p>Web Publisher / Front-end</p>
+                        <p>Web Publisher /  Front-end</p>
                     </div>
                 </div>
                 <div className='sc_bg_1 fixed'></div>
